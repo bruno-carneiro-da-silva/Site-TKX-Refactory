@@ -41,11 +41,10 @@
             </a>
             <ul class="submenu">
                 <li><a href="{{ route('appoinment') }}">Serviço Personalizado</a></li>
-                <li><a href="{{ route('projects-details-2') }}">Detalhes do Projeto v2</a></li>
-                <li><a href="{{ route('team') }}">Equipe</a></li>
+                <li><a href="{{ route('projects-details-2') }}">Projetos Realizados</a></li>
                 <li><a href="{{ route('team-details') }}">Detalhes da Equipe</a></li>
-                <li><a href="{{ route('pricing') }}">Preços</a></li>
-                <li><a href="{{ route('faq') }}">Faq</a></li>
+                {{-- <li><a href="{{ route('pricing') }}">Preços</a></li> --}}
+                <li><a href="{{ route('faq') }}">FAQ</a></li>
             </ul>
         </li>
     </ul>

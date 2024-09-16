@@ -8,7 +8,7 @@
 
 @section('content')
 
-<div class="tmp-services-area services-style--1 background-image-services bg_image tmp-section-gap">
+<div class="tmp-services-area services-style--1 background-image-services tmp-section-gap">
         <div class="container">
 
             <div class="row">
@@ -32,7 +32,7 @@
                             </div>
                             <div class="services-content">
                                 <a href="{{ route('service-details') }}">
-                                    <h5 class="title">Investment Advisory</h5>
+                                    <h5 class="title">Lorem ipsum dolor sit amet</h5>
                                 </a>
                                 <p class="desctiption">
                                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste alias corrupti beatae perferendis! Distinctio consequuntur quo quasi tenetur! Esse delectus, tempore doloremque architecto possimus accusantium consequatur a vero quibusdam reiciendis!.
@@ -58,7 +58,7 @@
                             </div>
                             <div class="services-content">
                                 <a href="{{ route('service-details') }}">
-                                    <h5 class="title">Financial Planning</h5>
+                                    <h5 class="title">Lorem ipsum dolor sit </h5>
                                 </a>
                                 <p class="desctiption">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, aliquid. Incidunt, officia veniam debitis quo, commodi libero dolore eos odit harum consequuntur architecto obcaecati doloribus eveniet excepturi minus quod aliquam.
@@ -86,7 +86,7 @@
                             </div>
                             <div class="services-content">
                                 <a href="{{ route('service-details') }}">
-                                    <h5 class="title">Business Consulting</h5>
+                                    <h5 class="title"> Quisquam, aliquid. Incidunt</h5>
                                 </a>
                                 <p class="desctiption">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, aliquid. Incidunt, officia veniam debitis quo, commodi libero dolore eos odit harum consequuntur architecto obcaecati doloribus eveniet excepturi minus quod aliquam.
@@ -113,9 +113,9 @@
                     <div class="services-bottom">
                         <div class="services-bottom-inner">
                             <p class="description">
-                                Our success as consultants will depend on the essential rightness of the advice.
+                                veniam debitis quo, commodi libero dolore eos odit harum consequuntur.
                             </p>
-                            <p class="description">Want to learn more About us?<button class="btn-simple">Clique aqui</button></p>
+                            <p class="description">Quer saber mais?<button class="btn-simple">Clique aqui</button></p>
                         </div>
                     </div>
                 </div>
@@ -133,9 +133,9 @@
                     <div class="section-head">
                         <div class="section-sub-title center-title">
                             <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service" style="filter: grayscale(100%) brightness(0%);">
-                            <span class="subtitle">OUR work process</span>
+                            <span class="subtitle">Processo de atendimento</span>
                         </div>
-                        <h2 class="title split-collab">How our services work</h2>
+                        <h2 class="title split-collab">Como funciona nossos serviços</h2>
                     </div>
                 </div>
             </div>
@@ -145,15 +145,15 @@
                     <div class="single-services">
                         <div class="services-inner">
                             <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/services-round-1.png') }}" alt="Business consulting services"></a>
+                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services"></a>
                                 <div class="number-bg-round">
                                     <span>01</span>
                                 </div>
                             </div>
                             <div class="services-content services-content-style-1 text-center">
-                                <h5 class="title">Meeting Client</h5>
+                                <h5 class="title">Veniam debitis quo</h5>
                                 <p class="description">
-                                    Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates ducimus possimus aperiam, vitae provident quae maxime aut cum ullam repellat reiciendis molestias porro laborum odit perspiciatis! Doloribus, totam eum. Odit!.
                                 </p>
                             </div>
                         </div>
@@ -165,15 +165,15 @@
                     <div class="single-services">
                         <div class="services-inner">
                             <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/services-round-2.png') }}" alt="Business consulting services"></a>
+                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services"></a>
                                 <div class="number-bg-round">
                                     <span>02</span>
                                 </div>
                             </div>
                             <div class="services-content services-content-style-1 text-center">
-                                <h5 class="title">Meeting Client</h5>
+                                <h5 class="title">Quae maxime aut</h5>
                                 <p class="description">
-                                    Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo tempore cupiditate culpa commodi impedit et laborum recusandae minima quaerat dolore, fugit sequi illum fugiat ea, obcaecati voluptates facilis, quidem aspernatur.
                                 </p>
                             </div>
                         </div>
@@ -185,15 +185,15 @@
                     <div class="single-services">
                         <div class="services-inner">
                             <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/services-round-3.png') }}" alt="Business consulting services"></a>
+                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services"></a>
                                 <div class="number-bg-round">
                                     <span>03</span>
                                 </div>
                             </div>
                             <div class="services-content services-content-style-1 text-center">
-                                <h5 class="title">Meeting Client</h5>
+                                <h5 class="title">Explicabo tempore </h5>
                                 <p class="description">
-                                    Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla alias distinctio dignissimos dicta quaerat voluptate culpa rerum facilis. Reiciendis, dolore deserunt fuga obcaecati libero maxime mollitia minima natus velit?.
                                 </p>
                             </div>
                         </div>
@@ -213,14 +213,14 @@
                 <div class="work-top-inner">
                     <div class="section-head pb-0 section-head-one-side text-align-left">
                         <div class="section-sub-title color-white ">
-                            <span class="subtitle">WHY CHOOSE US</span>
+                            <span class="subtitle">NOSSO DIFERENCIAL</span>
                         </div>
-                        <h2 class="title color-white split-collab">We working for you to build <br> your business fast</h2>
+                        <h2 class="title color-white split-collab">Consectetur adipisicing elit <br> dolore deserunt fuga</h2>
                     </div>
 
                     <div class="single-work-top">
-                        <h2 class="title">4M +</h2>
-                        <div class="sub-title">Business Using Stripe</div>
+                        <h2 class="title">400 +</h2>
+                        <div class="sub-title">Viagens</div>
                     </div>
 
                     <div class="scater-line">
@@ -250,7 +250,7 @@
                                 <div class="thumbnail">
                                     <img src="{{ asset('assets/images/work/consultation.png') }}" alt="Business Consulting">
                                 </div>
-                                <h3 class="title animated fadeIn">Business Consulting</h3>
+                                <h3 class="title animated fadeIn">Eiusmod tempor Incididunt</h3>
                                 <p class="description">
                                     Lorem ipsum dolor sit amet,
                                     consectetur adipiscing elit, sed
@@ -270,7 +270,7 @@
                                 <div class="thumbnail">
                                     <img src="{{ asset('assets/images/work/consultation.png') }}" alt="Business Consulting">
                                 </div>
-                                <h3 class="title animated fadeIn">Strategic Planning</h3>
+                                <h3 class="title animated fadeIn">Eusmod tempor incididunt</h3>
                             </div>
 
                         </a>
@@ -283,7 +283,7 @@
                                 <div class="thumbnail">
                                     <img src="{{ asset('assets/images/work/consultation.png') }}" alt="Business Consulting">
                                 </div>
-                                <h3 class="title animated fadeIn">IT Management</h3>
+                                <h3 class="title animated fadeIn">eiusmod tempor incididunt</h3>
                             </div>
                         </a>
 
@@ -295,7 +295,7 @@
 
 
     <!-- Tmp FAQ area Start  -->
-    <div class="faq-area faq-bg-image bg_image tmp-section-gap">
+    <div class="faq-area faq-bg-image tmp-section-gap">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -304,7 +304,7 @@
                             <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service" style="filter: grayscale(100%) brightness(0%);">
                             <span class="subtitle">QUESTION AND ANSWERS</span>
                         </div>
-                        <h2 class="title split-collab">Frequency asked questions</h2>
+                        <h2 class="title split-collab">Perguntas Frequentes</h2>
                     </div>
                 </div>
             </div>
@@ -323,7 +323,7 @@
 
                                         <div class="accordion-button-left">
                                             <i class="fa-regular fa-question"></i>
-                                            <span>Why is collaborative learning so important</span>
+                                            <span>Eiusmod tempor incididunt</span>
                                         </div>
                                         <div class="accordion-button-right">
                                             <i class="fa-sharp fa-light fa-arrow-right"></i>
@@ -332,7 +332,7 @@
                                 </div>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Companions shy had solicitude favorable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium odio excepturi totam, assumenda tenetur ea error sit fuga at voluptate adipisci animi consequatur deleniti delectus dolor. Expedita repellat exercitationem unde.
                                     </div>
                                 </div>
                             </div>
@@ -341,7 +341,7 @@
                                     <div class="accordion-button collapsed" data-bs-toggle="collapse" role="button" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <div class="accordion-button-left">
                                             <i class="fa-regular fa-question"></i>
-                                            <span>Do you offer free trials</span>
+                                            <span>Esmod tempor incididunt?</span>
                                         </div>
                                         <div class="accordion-button-right">
                                             <i class="fa-sharp fa-light fa-arrow-right"></i>
@@ -350,7 +350,7 @@
                                 </div>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Companions shy had solicitude favorable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam totam nemo ullam quia tempora sit animi inventore, nulla facere ipsum assumenda cupiditate optio quae! Nemo officia ullam laboriosam omnis aspernatur.
                                     </div>
                                 </div>
                             </div>
@@ -359,7 +359,7 @@
                                     <div class="accordion-button collapsed" data-bs-toggle="collapse" role="button" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         <div class="accordion-button-left">
                                             <i class="fa-regular fa-question"></i>
-                                            <span>Can I share my courses with non-registered users</span>
+                                            <span>Eiusmod tempor incididunt omnis aspernatur</span>
                                         </div>
                                         <div class="accordion-button-right">
                                             <i class="fa-sharp fa-light fa-arrow-right"></i>
@@ -368,16 +368,16 @@
                                 </div>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Companions shy had solicitude favorable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam incidunt aliquid eaque sit nisi eos obcaecati! Illum distinctio sit enim at iste laudantium ad tempora molestias nulla, sed id eius.
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="faq-buttom">
-                            <h4 class="title">Still Have More Questions?
+                            <h4 class="title">Ainda com dúvidas?
                             </h4>
-                            <p>Contact Our <a href="#">Expert Support Team</a></p>
+                            <p>Fale com <a href="#">Nossa Equipe</a></p>
                         </div>
 
                     </div>

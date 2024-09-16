@@ -1,8 +1,8 @@
 @extends('layouts.layout1')
 
 @php
-    $title = 'Blog Details';
-    $subtitle = 'Blog Details';
+    $title = 'Detalhes do Blog';
+    $subtitle = 'Detalhes do Blog';
 @endphp
 
 
@@ -19,9 +19,9 @@
                         </div>
                         <div class="blog-details-discription">
                             <div class="category-area">
-                                Sultan Ahmed / Consulting
+                                Sultan Ahmed / TKX Mobilidade
                             </div>
-                            <h3 class="title split-collab">Earn good money and make you very successful</h3>
+                            <h3 class="title split-collab">Como se estruturou a idéia e nosso diferencial</h3>
                             <p class="disc">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin.
                             </p>
@@ -32,22 +32,20 @@
                         <div class="quote-area-blog-details">
                             <i class="fa-sharp fa-regular fa-quote-left fa-lg"></i>
                             <p class="disc">
-                                Rockling Devario deep sea bonefish cutthroat trout streamer fish
-                                kaluga sailback scorpionfish sand dab, turkeyfish golden loach sand
-                                diver. Leopard danio píntano bonnet mouth.
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim doloremque ex adipisci necessitatibus quaerat, tempora ipsam quidem iusto dolor sed reprehenderit nam neque suscipit blanditiis quam ratione quod quis aliquid.
                             </p>
-                            <span class="author">David Miller</span>
+                            <span class="author">Davi</span>
                         </div>
                         <div class="blog-details-discription">
                             <p class="disc">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin.
                             </p>
                             <div class="short-feature-blog-details">
-                                <div class="single-feature">How will digital activities impact traditional manufacturing.</div>
-                                <div class="single-feature">I monitor my staff with software that takes screen.</div>
-                                <div class="single-feature">Minim veniam quis niacin sodium nostrud exer.</div>
-                                <div class="single-feature">Laoreet dolore magna niacin sodium glutimate.</div>
-                                <div class="single-feature">Narrow formal length my highly</div>
+                                <div class="single-feature">Ut enim ad minim veniam, quis.</div>
+                                <div class="single-feature">Ut enim ad minim veniam, quis asrt.</div>
+                                <div class="single-feature">ipsum dolor sit amet, consectetur .</div>
+                                <div class="single-feature">dolore eu fugiat nulla pariatur.Lorem.</div>
+                                <div class="single-feature"> tempor incididunt ut labore et dolore </div>
                             </div>
                             <p class="disc">
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed.
@@ -77,15 +75,15 @@
                                 <span>Tag:</span>
                                 <div class="tag-wrapper">
                                     <div class="signle-wrapper">
-                                        Algoritham
+                                        Tecnologia
                                     </div>
                                     <div class="signle-wrapper">
-                                        Data Science
+                                        Ciência de Dados
                                     </div>
                                 </div>
                             </div>
                             <div class="social-blog-tag-area">
-                                <span>Search:</span>
+                                <span>Pesquisar:</span>
                                 <ul>
                                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
@@ -99,7 +97,7 @@
                                 <img src="{{ asset('assets/images/blog/details/04.jpg') }}" alt="Corporate_Business">
                             </div>
                             <div class="main-information-of-autonr">
-                                <h6 class="name">Md Jonny</h6>
+                                <h6 class="name">Jonny</h6>
                                 <p class="disc">
                                     Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.
                                 </p>
@@ -115,7 +113,7 @@
                         </div>
                         <div class="comment-area-main-wrapper mt--30">
 
-                            <h3 class="title">Comments (3)</h3>
+                            <h3 class="title">Comentários (3)</h3>
                             <div class="single-comment-audience border-bottom pb--30">
                                 <div class="author-image">
                                     <img src="{{ asset('assets/images/blog/details/05.png') }}" alt="Corporate_business">
@@ -126,7 +124,7 @@
                                             <h6 class="title">James Smith</h6>
                                             <span>March  20, 2024</span>
                                         </div>
-                                        <button><i class="fa-solid fa-share fa-flip-both fa-lg"></i>Reply</button>
+                                        <button><i class="fa-solid fa-share fa-flip-both fa-lg"></i>Responder</button>
                                     </div>
                                     <p class="disc mt--15">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate .
@@ -141,9 +139,9 @@
                                     <div class="top-area-comment">
                                         <div class="left">
                                             <h6 class="title">Adom Smith</h6>
-                                            <span>February  20, 2024</span>
+                                            <span>Fevereiro  20, 2024</span>
                                         </div>
-                                        <button><i class="fa-solid fa-share fa-flip-both fa-lg"></i>Reply</button>
+                                        <button><i class="fa-solid fa-share fa-flip-both fa-lg"></i>Responder</button>
                                     </div>
                                     <p class="disc mt--15">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.
@@ -157,10 +155,10 @@
                                 <div class="right-area-commnet">
                                     <div class="top-area-comment">
                                         <div class="left">
-                                            <h6 class="title">Mr Lee Smith</h6>
-                                            <span>February  28, 2023</span>
+                                            <h6 class="title">Mr Smith</h6>
+                                            <span>Fevereiro  28, 2023</span>
                                         </div>
-                                        <button><i class="fa-solid fa-share fa-flip-both fa-lg"></i>Reply</button>
+                                        <button><i class="fa-solid fa-share fa-flip-both fa-lg"></i>Responder</button>
                                     </div>
                                     <p class="disc mt--15">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate .
@@ -169,8 +167,8 @@
                             </div>
                         </div>
                         <div class="blog-details-form-wrapper">
-                            <h4 class="title">Leave A Comments</h4>
-                            <span>Your email address will not be published. Required fields are marked *</span>
+                            <h4 class="title">Deixe um comentário</h4>
+                            <span>Seu email não vai ser exposto. Campos obrigatórios são marcados com *</span>
                             <form action="#" class="blog-details-form">
                                 <div class="single-input">
                                     <input type="text" placeholder="Name">
@@ -187,7 +185,7 @@
                                     </div>
                                 </div>
                                 <textarea placeholder="Write a Message"></textarea>
-                                <button class="tmp-btn btn-primary">Submit Comment</button>
+                                <button class="tmp-btn btn-primary">Enviar comentário</button>
                             </form>
                         </div>
 
@@ -208,36 +206,36 @@
                         <!-- single bar -->
                         <div class="signle-side-bar category-area">
                             <div class="header">
-                                <h3 class="title">Category List</h3>
+                                <h3 class="title">Lista de Categorias</h3>
                             </div>
                             <div class="body">
                                 <!-- single category -->
                                 <a href="#" class="single-category">
-                                    <p>Business Solution</p>
+                                    <p>Logistica</p>
                                     <i class="fa-light fa-arrow-right"></i>
                                 </a>
                                 <!-- single category end -->
                                 <!-- single category -->
                                 <a href="#" class="single-category">
-                                    <p>Strategy Growth</p>
+                                    <p>Fretes</p>
                                     <i class="fa-light fa-arrow-right"></i>
                                 </a>
                                 <!-- single category end -->
                                 <!-- single category -->
                                 <a href="#" class="single-category">
-                                    <p>Finance Solution</p>
+                                    <p>Tecnologia</p>
                                     <i class="fa-light fa-arrow-right"></i>
                                 </a>
                                 <!-- single category end -->
                                 <!-- single category -->
                                 <a href="#" class="single-category">
-                                    <p>Investment Policy</p>
+                                    <p>Gerenciamento</p>
                                     <i class="fa-light fa-arrow-right"></i>
                                 </a>
                                 <!-- single category end -->
                                 <!-- single category -->
                                 <a href="#" class="single-category">
-                                    <p>Tax Manegment</p>
+                                    <p>Mobilidade</p>
                                     <i class="fa-light fa-arrow-right"></i>
                                 </a>
                                 <!-- single category end -->
@@ -246,7 +244,7 @@
                         <!-- single bar end -->
                         <div class="signle-side-bar recent-post">
                             <div class="header">
-                                <h3 class="title">Recent Post</h3>
+                                <h3 class="title">Posts Recentes</h3>
                             </div>
                             <div class="body mt--50">
                                 <!-- single blog-post sidevar -->
@@ -305,43 +303,43 @@
                         <!-- single bar end -->
                         <div class="signle-side-bar tags">
                             <div class="header">
-                                <h3 class="title">Popular Tags</h3>
+                                <h3 class="title">Tags</h3>
                             </div>
                             <div class="body mt--50">
                                 <div class="tags-wrapper-side-bar">
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Fashion</button>
+                                        <button>Viagem</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Education</button>
+                                        <button>Logistica</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Nation</button>
+                                        <button>Passageiros</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Studyt</button>
+                                        <button>Mulheres</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Health</button>
+                                        <button>Motoristas</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Food</button>
+                                        <button>Mobilidade</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Travel</button>
+                                        <button>Tecnologia</button>
                                     </div>
                                     <!-- sigle tags end -->
                                 </div>
@@ -353,9 +351,9 @@
                                 <div class="icon-center-call">
                                     <i class="fa-light fa-phone"></i>
                                 </div>
-                                <h3 class="title animated fadeIn">Need any help?</h3>
+                                <h3 class="title animated fadeIn">Precisa de ajuda?</h3>
                                 <p class="disc">
-                                    We are here to help our customer any time. You can call on 24/7 To Answer Your Question.
+                                   Entre em contato com nossa equipe estamos prontos para te responder o mais rápido possível.
                                 </p>
                                 <a href="Tel:1234567890">+(012)3456789</a>
                             </div>
@@ -367,5 +365,5 @@
         </div>
     </div>
     <!-- tmp service section end -->
-    
+
 @endsection

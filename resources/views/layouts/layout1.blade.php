@@ -22,16 +22,17 @@
                                 </div>
                                 <div class="working-time">
                                     <i class="fa-light fa-clock"></i>
-                                    <p>Horário comercial: 9:00 AM – 8:00 PM</p>
+                                    <p>Horários: 9:00 AM – 8:00 PM</p>
                                 </div>
                             </div>
                             <div class="right-header-top">
                                 <div class="social-area-transparent">
-                                    <span>Rede sociais</span>
+                                    <span>Rede Sociais</span>
                                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    {{-- <a href="#"><i class="fa-brands fa-twitter"></i></a> --}}
                                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                    <a href="https://www.instagram.com/tkxmobilidadelavras/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    {{-- <a href="#"><i class="fa-brands fa-pinterest-p"></i></a> --}}
                                 </div>
                             </div>
                         </div>

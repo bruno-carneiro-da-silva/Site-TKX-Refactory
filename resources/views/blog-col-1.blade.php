@@ -2,8 +2,8 @@
 
 @php
     $bodyClass='service-details';
-    $title = 'Latest Blog';
-    $subtitle = 'Latest Blog';
+    $title = 'Último Blog';
+    $subtitle = 'Último Blog';
 @endphp
 
 
@@ -22,16 +22,15 @@
                         <div class="inner-blog-single">
                             <div class="inner">
                                 <div class="category">
-                                    Sultan Ahmed / Consulting
+                                    Sultan Ahmed / Consultoria
                                 </div>
                                 <a href="{{ route('blog-details') }}">
-                                    <h3 class="title">Earn good money and make you very
-                                        successful creative working</h3>
+                                    <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
                                 </a>
                                 <p class="disc">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed, consequat tellus. Quisque ac odio eget ligula gravida.
                                 </p>
-                                <a href="{{ route('blog-details') }}" class="read-more-btn">Read more <i class="fa-regular fa-arrow-right"></i></a>
+                                <a href="{{ route('blog-details') }}" class="read-more-btn">Saiba mais <i class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -44,16 +43,15 @@
                         <div class="inner-blog-single">
                             <div class="inner">
                                 <div class="category">
-                                    Sultan Ahmed / Consulting
+                                    Sultan Ahmed / Consultoria
                                 </div>
                                 <a href="{{ route('blog-details') }}">
-                                    <h3 class="title">Earn good money and make you very
-                                        successful creative working</h3>
+                                    <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
                                 </a>
                                 <p class="disc">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed, consequat tellus. Quisque ac odio eget ligula gravida.
                                 </p>
-                                <a href="{{ route('blog-details') }}" class="read-more-btn">Read more <i class="fa-regular fa-arrow-right"></i></a>
+                                <a href="{{ route('blog-details') }}" class="read-more-btn">Saiba mais <i class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -66,16 +64,15 @@
                         <div class="inner-blog-single">
                             <div class="inner">
                                 <div class="category">
-                                    Sultan Ahmed / Consulting
+                                    Sultan Ahmed / Consultoria
                                 </div>
                                 <a href="{{ route('blog-details') }}">
-                                    <h3 class="title">Earn good money and make you very
-                                        successful creative working</h3>
+                                    <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
                                 </a>
                                 <p class="disc">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed, consequat tellus. Quisque ac odio eget ligula gravida.
                                 </p>
-                                <a href="{{ route('blog-details') }}" class="read-more-btn">Read more <i class="fa-regular fa-arrow-right"></i></a>
+                                <a href="{{ route('blog-details') }}" class="read-more-btn">Saiba mais <i class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -88,16 +85,15 @@
                         <div class="inner-blog-single">
                             <div class="inner">
                                 <div class="category">
-                                    Sultan Ahmed / Consulting
+                                    Sultan Ahmed / Consultoria
                                 </div>
                                 <a href="{{ route('blog-details') }}">
-                                    <h3 class="title">Earn good money and make you very
-                                        successful creative working</h3>
+                                    <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
                                 </a>
                                 <p class="disc">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed, consequat tellus. Quisque ac odio eget ligula gravida.
                                 </p>
-                                <a href="{{ route('blog-details') }}" class="read-more-btn">Read more <i class="fa-regular fa-arrow-right"></i></a>
+                                <a href="{{ route('blog-details') }}" class="read-more-btn">Saiba mais <i class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>
@@ -125,48 +121,9 @@
                             </div>
                         </div>
                         <!-- single bar end -->
-                        <!-- single bar -->
-                        <div class="signle-side-bar category-area">
-                            <div class="header">
-                                <h3 class="title">Category List</h3>
-                            </div>
-                            <div class="body">
-                                <!-- single category -->
-                                <a href="#" class="single-category">
-                                    <p>Business Solution</p>
-                                    <i class="fa-light fa-arrow-right"></i>
-                                </a>
-                                <!-- single category end -->
-                                <!-- single category -->
-                                <a href="#" class="single-category">
-                                    <p>Strategy Growth</p>
-                                    <i class="fa-light fa-arrow-right"></i>
-                                </a>
-                                <!-- single category end -->
-                                <!-- single category -->
-                                <a href="#" class="single-category">
-                                    <p>Finance Solution</p>
-                                    <i class="fa-light fa-arrow-right"></i>
-                                </a>
-                                <!-- single category end -->
-                                <!-- single category -->
-                                <a href="#" class="single-category">
-                                    <p>Investment Policy</p>
-                                    <i class="fa-light fa-arrow-right"></i>
-                                </a>
-                                <!-- single category end -->
-                                <!-- single category -->
-                                <a href="#" class="single-category">
-                                    <p>Tax Manegment</p>
-                                    <i class="fa-light fa-arrow-right"></i>
-                                </a>
-                                <!-- single category end -->
-                            </div>
-                        </div>
-                        <!-- single bar end -->
                         <div class="signle-side-bar recent-post">
                             <div class="header">
-                                <h3 class="title">Recent Post</h3>
+                                <h3 class="title">Posts Recentes</h3>
                             </div>
                             <div class="body mt--50">
                                 <!-- single blog-post sidevar -->
@@ -225,43 +182,43 @@
                         <!-- single bar end -->
                         <div class="signle-side-bar tags">
                             <div class="header">
-                                <h3 class="title">Popular Tags</h3>
+                                <h3 class="title">Tags</h3>
                             </div>
                             <div class="body mt--50">
                                 <div class="tags-wrapper-side-bar">
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Fashion</button>
+                                        <button>Viagem</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Education</button>
+                                        <button>Logistica</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Nation</button>
+                                        <button>Passageiros</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Studyt</button>
+                                        <button>Mulheres</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Health</button>
+                                        <button>Motoristas</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Food</button>
+                                        <button>Mobilidade</button>
                                     </div>
                                     <!-- sigle tags end -->
                                     <!-- sigle tags -->
                                     <div class="signle-tag-side-bar">
-                                        <button>Travel</button>
+                                        <button>Tecnologia</button>
                                     </div>
                                     <!-- sigle tags end -->
                                 </div>
@@ -273,9 +230,9 @@
                                 <div class="icon-center-call">
                                     <i class="fa-light fa-phone"></i>
                                 </div>
-                                <h3 class="title animated fadeIn">Need any help?</h3>
+                                <h3 class="title animated fadeIn">Precisa de ajuda?</h3>
                                 <p class="disc">
-                                    We are here to help our customer any time. You can call on 24/7 To Answer Your Question.
+                                   Entre em contato com nossa equipe estamos prontos para te responder o mais rápido possível.
                                 </p>
                                 <a href="Tel:1234567890">+(012)3456789</a>
                             </div>

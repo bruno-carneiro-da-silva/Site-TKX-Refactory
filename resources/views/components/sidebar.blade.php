@@ -3,7 +3,7 @@
  <div id="side-hide">
         <div class="top-area">
             <a href="{{ route('index') }}" class="logo-area">
-                <img src="{{ asset('assets/images/logo/logo-03.png') }}" alt="logo">
+                <img src="{{ asset('assets/images/logo/logo.png') }}" alt="logo" style="width: 108px; height: 55px;" >
             </a>
             <div class="close-icon-area">
                 <div id="close-slide__main">
@@ -62,10 +62,10 @@
         <div class="mobile-menu-main">
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
-                    <li class="has-droupdown">
-                        <a href="#" class="main">Home</a>
+                    <li>
+                        <a href="{{ url('/') }}" class="main">PÁGINA INICIAL</a>
                         <ul class="submenu mm-collapse">
-                            <li class="has-droupdown third-lvl">
+                            {{-- <li class="has-droupdown third-lvl">
                                 <a class="main" href="#">Multipages</a>
                                 <ul class="submenu-third-lvl mm-collapse">
                                     <li><a href="{{ route('index') }}"></a>Corporate Demo</li>
@@ -77,8 +77,8 @@
                                     <li><a href="{{ route('index-seven') }}"></a>Construction 2 Demo</li>
                                     <li><a href="{{ route('index-eight') }}"></a>Company Demo</li>
                                 </ul>
-                            </li>
-                            <li class="has-droupdown third-lvl">
+                            </li> --}}
+                            {{-- <li class="has-droupdown third-lvl">
                                 <a class="main" href="#">Onepages</a>
                                 <ul class="submenu-third-lvl mm-collapse">
                                     <li><a href="{{ route('onepage-one') }}"></a>One Page Corporate</li>
@@ -90,21 +90,21 @@
                                     <li><a href="{{ route('onepage-seven') }}"></a>One Page Construction 2</li>
                                     <li><a href="{{ route('onepage-eight') }}"></a>One Page Company</li>
                                 </ul>
-                            </li>
+                            </li> --}}
                         </ul>
                     </li>
                     <li>
-                        <a href="{{ route('about') }}" class="main">About Us</a>
+                        <a href="{{ route('about') }}" class="main">SOBRE NÓS</a>
                     </li>
                     <li class="has-droupdown">
-                        <a href="#" class="main">Services</a>
+                        <a href="#" class="main">Serviços</a>
                         <ul class="submenu mm-collapse">
                             <li><a class="mobile-menu-link" href="{{ route('service') }}">Service</a></li>
                             <li><a class="mobile-menu-link" href="{{ route('service-details') }}">Service Details</a></li>
                         </ul>
                     </li>
                     <li class="has-droupdown">
-                        <a href="#" class="main">Blog</a>
+                        <a href="#" class="main">BLOG</a>
                         <ul class="submenu mm-collapse">
                             <li><a class="mobile-menu-link" href="{{ route('blog') }}">Blog</a></li>
                             <li><a class="mobile-menu-link" href="{{ route('blog-col-1') }}">Blog Col 1</a></li>
@@ -113,17 +113,17 @@
                         </ul>
                     </li>
                     <li class="has-droupdown">
-                        <a href="#" class="main">Pages</a>
+                        <a href="#" class="main">ÁREA DO CLIENTE</a>
                         <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="{{ route('appoinment') }}">Appoinment</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('project') }}">Project</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('projects-details') }}">Project Details</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('team') }}">Team</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('team-details') }}">Team Details</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('pricing') }}">Pricing</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('contact') }}">Contact</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('faq') }}">Faq</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('notFound') }}">404 Page</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route('appoinment') }}">Serviço Personalizado</a></li>
+                            {{-- <li><a class="mobile-menu-link" href="{{ route('project-details') }}">Project</a></li> --}}
+                            <li><a class="mobile-menu-link" href="{{ route('projects-details-2') }}">Projetos Realizados</a></li>
+                            {{-- <li><a class="mobile-menu-link" href="{{ route('team') }}">Team</a></li> --}}
+                            <li><a class="mobile-menu-link" href="{{ route('team-details') }}">Detalhes da Equipe</a></li>
+                            {{-- <li><a class="mobile-menu-link" href="{{ route('pricing') }}">Pricing</a></li> --}}
+                            <li><a class="mobile-menu-link" href="{{ route('contact') }}">Contato</a></li>
+                            <li><a class="mobile-menu-link" href="{{ route('faq') }}">FAQ</a></li>
+                            {{-- <li><a class="mobile-menu-link" href="{{ route('notFound') }}">404 Page</a></li> --}}
 
                             <!-- <li class="has-droupdown third-lvl">
                             <a class="main" href="#">Team</a>
@@ -135,9 +135,9 @@
                         </li> -->
                         </ul>
                     </li>
-                    <li>
+                    {{-- <li>
                         <a href="{{ route('contact') }}" class="main">Contact Us</a>
-                    </li>
+                    </li> --}}
                 </ul>
             </nav>
 

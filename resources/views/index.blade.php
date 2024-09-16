@@ -32,9 +32,10 @@
                                 <div class="social-area-transparent">
                                     <span>Rede Sociais</span>
                                     <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    {{-- <a href="#"><i class="fa-brands fa-twitter"></i></a> --}}
                                     <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
+                                    <a href="https://www.instagram.com/tkxmobilidadelavras/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    {{-- <a href="#"><i class="fa-brands fa-pinterest-p"></i></a> --}}
                                 </div>
                             </div>
                         </div>
@@ -112,7 +113,7 @@
                 </div>
                 <div class="swiper-slide">
                     <!-- tmp banner area start -->
-                    <div class="tmp-banner-area banner-style-five inconstruction tmp-section-gap banner-bg-construction bg-two bg_image">
+                    <div class="tmp-banner-area banner-style-five inconstruction tmp-section-gap banner-bg-construction bg-two">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -134,7 +135,7 @@
                 </div>
                 <div class="swiper-slide">
                     <!-- tmp banner area start -->
-                    <div class="tmp-banner-area banner-style-five inconstruction tmp-section-gap banner-bg-construction bg-three bg_image">
+                    <div class="tmp-banner-area banner-style-five inconstruction tmp-section-gap banner-bg-construction bg-three">
                         <div class="container">
                             <div class="row">
                                 <div class="col-lg-12">
@@ -175,7 +176,7 @@
                                 <img src="{{ asset('assets/images/about/03.png') }}" alt="corporate_business">
                             </div>
 
-                            <div class="image-three animated">
+                            <div class="image-three animated rounded">
                                 <img class="" src="{{ asset('assets/images/about/02.png') }}" alt="corporate_business">
                             </div>
 
@@ -409,7 +410,7 @@
                                     <!-- single product area start -->
                                     <div class="signle-product-start" data-tmp-cursor="lg text-secondary transparent fw-bold" data-tmp-cursor-icon="fa-solid fa-arrow-up-right">
                                         <a href="{{ route('projects-details') }}" class="thumbnail">
-                                            <img src="{{ asset('assets/images/portfolio/portfolio-8.png') }}" alt="corporate_business">
+                                            <img src="{{ asset('assets/images/portfolio/portfolio-7.png') }}" alt="corporate_business">
                                         </a>
                                         <div class="inner-content">
                                             <a href="{{ route('projects-details') }}">
@@ -425,7 +426,7 @@
                                     <!-- single product area start -->
                                     <div class="signle-product-start" data-tmp-cursor="lg text-secondary transparent fw-bold" data-tmp-cursor-icon="fa-solid fa-arrow-up-right">
                                         <a href="{{ route('projects-details') }}" class="thumbnail">
-                                            <img src="{{ asset('assets/images/portfolio/portfolio-9.png') }}" alt="corporate_business">
+                                            <img src="{{ asset('assets/images/portfolio/portfolio-7.png') }}" alt="corporate_business">
                                         </a>
                                         <div class="inner-content">
                                             <a href="{{ route('projects-details') }}">
@@ -441,7 +442,7 @@
                                     <!-- single product area start -->
                                     <div class="signle-product-start" data-tmp-cursor="lg text-secondary transparent fw-bold" data-tmp-cursor-icon="fa-solid fa-arrow-up-right">
                                         <a href="{{ route('projects-details') }}" class="thumbnail">
-                                            <img src="{{ asset('assets/images/portfolio/portfolio-10.png') }}" alt="corporate_business">
+                                            <img src="{{ asset('assets/images/portfolio/portfolio-7.png') }}" alt="corporate_business">
                                         </a>
                                         <div class="inner-content">
                                             <a href="{{ route('projects-details') }}">
@@ -457,7 +458,7 @@
                                     <!-- single product area start -->
                                     <div class="signle-product-start" data-tmp-cursor="lg text-secondary transparent fw-bold" data-tmp-cursor-icon="fa-solid fa-arrow-up-right">
                                         <a href="{{ route('projects-details') }}" class="thumbnail">
-                                            <img src="{{ asset('assets/images/portfolio/portfolio-11.png') }}" alt="corporate_business">
+                                            <img src="{{ asset('assets/images/portfolio/portfolio-7.png') }}" alt="corporate_business">
                                         </a>
                                         <div class="inner-content">
                                             <a href="{{ route('projects-details') }}">
@@ -473,7 +474,7 @@
                                     <!-- single product area start -->
                                     <div class="signle-product-start" data-tmp-cursor="lg text-secondary transparent fw-bold" data-tmp-cursor-icon="fa-solid fa-arrow-up-right">
                                         <a href="{{ route('projects-details') }}" class="thumbnail">
-                                            <img src="{{ asset('assets/images/portfolio/portfolio-12.png') }}" alt="corporate_business">
+                                            <img src="{{ asset('assets/images/portfolio/portfolio-7.png') }}" alt="corporate_business">
                                         </a>
                                         <div class="inner-content">
                                             <a href="{{ route('projects-details') }}">
@@ -518,7 +519,7 @@
                     <div class="single-services">
                         <div class="services-inner">
                             <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/services-round-1.png') }}" alt="Business consulting services" ></a>
+                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services" ></a>
                                 <div class="number-bg-round">
                                     <span>01</span>
                                 </div>
@@ -538,7 +539,7 @@
                     <div class="single-services">
                         <div class="services-inner">
                             <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/services-round-2.png') }}" alt="Business consulting services"></a>
+                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services"></a>
                                 <div class="number-bg-round">
                                     <span>02</span>
                                 </div>
@@ -558,7 +559,7 @@
                     <div class="single-services">
                         <div class="services-inner">
                             <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/services-round-3.png') }}" alt="Business consulting services"></a>
+                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services"></a>
                                 <div class="number-bg-round">
                                     <span>03</span>
                                 </div>
@@ -580,7 +581,7 @@
     <!-- Tmp Servisec Processs Area Two End -->
 
     <!-- Start Testimonial with brand  -->
-    <div class="testimonial-with-brand bg-1 bg_image">
+    <div class="testimonial-with-brand bg-1">
         <!-- Start Testimonial Area  -->
         <div class="testimonial-brand-area tmp-section-gapTop">
             <div class="container">
@@ -1052,7 +1053,7 @@
                     <div class="single-blog">
                         <div class="blog-inner">
                             <div class="thumbnail">
-                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-10.png') }}" alt="Consultoria de negocios"></a>
+                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-12.png') }}" alt="Consultoria de negocios"></a>
                                 <div class="pmt-blog-meta">
                                     <ul class="all-meta">
                                         <li class="date"><span>20</span></li>
@@ -1085,7 +1086,7 @@
                     <div class="single-blog">
                         <div class="blog-inner">
                             <div class="thumbnail">
-                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-11.png') }}" alt="Business Consulting Blog"></a>
+                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-12.png') }}" alt="Business Consulting Blog"></a>
                                 <div class="pmt-blog-meta">
                                     <ul class="all-meta">
                                         <li class="date"><span>20</span></li>
@@ -1165,7 +1166,7 @@
                                 <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/tkxmobilidadelavras/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                             </ul>
                         </div>
                     </div>

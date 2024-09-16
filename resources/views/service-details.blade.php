@@ -19,7 +19,7 @@
                     </div>
                     <!-- single service details component -->
                     <div class="single-service-details-component mt--40">
-                        <h2 class="title split-collab">Serviço de finanças e estratégia</h2>
+                        <h2 class="title split-collab">Lorem ipsum dolor sit amet</h2>
                         <p class="disc mb--20">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae rerum officiis debitis modi, aliquid perferendis. Dolore sit nostrum doloribus deserunt suscipit eligendi numquam! Totam laborum, in aliquid illum nisi iusto..
                         </p>

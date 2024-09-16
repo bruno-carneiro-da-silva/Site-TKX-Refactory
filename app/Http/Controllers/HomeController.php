@@ -33,7 +33,7 @@ class HomeController extends Controller
 
     public function blog()
     {
-        return view('blog');
+        return view('blog-col-1');
     }
 
     public function contact()

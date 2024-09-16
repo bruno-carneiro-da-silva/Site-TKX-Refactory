@@ -29,19 +29,18 @@
                             <div class="blog-content">
                                 <div class="blog-head">
                                     <span class="name">Sultan Ahmed</span>
-                                    <span class="designation">Consulting</span>
+                                    <span class="designation">Consultoria</span>
                                 </div>
                                 <div class="blog-body">
                                     <a href="{{ route('blog-details') }}" class="title-area">
-                                        <h4 class="title">Grow your business strategy
-                                            with business consulting.</h4>
+                                        <h4 class="title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ipsum.</h4>
                                     </a>
                                     <p class="description">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ipsum quasi maxime, nobis officiis id.
                                     </p>
                                 </div>
                                 <a class="btn-read-more" href="{{ route('blog-details') }}">
-                                    <span class="read-more-text">Read More</span>
+                                    <span class="read-more-text">Saiba mais</span>
                                     <span class="read-more-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                 </a>
                             </div>
@@ -52,7 +51,7 @@
                     <div class="single-blog">
                         <div class="blog-inner">
                             <div class="thumbnail">
-                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-3.png') }}" alt="Business Consulting Blog"></a>
+                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-2.png') }}" alt="Business Consulting Blog"></a>
                                 <div class="pmt-blog-meta">
                                     <ul class="all-meta">
                                         <li class="date"><span>20</span></li>
@@ -63,18 +62,18 @@
                             <div class="blog-content">
                                 <div class="blog-head">
                                     <span class="name">Sultan Ahmed</span>
-                                    <span class="designation">Consulting</span>
+                                    <span class="designation">Consultoria</span>
                                 </div>
                                 <div class="blog-body">
                                     <a href="{{ route('blog-details') }}" class="title-area">
-                                        <h4 class="title">Professional Theme Portfolio Compilation with Man organaixation.</h4>
+                                        <h4 class="title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ipsum.</h4>
                                     </a>
                                     <p class="description">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ipsum quasi maxime, nobis officiis id.
                                     </p>
                                 </div>
                                 <a class="btn-read-more" href="{{ route('blog-details') }}">
-                                    <span class="read-more-text">Read More</span>
+                                    <span class="read-more-text">Saiba mais</span>
                                     <span class="read-more-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                 </a>
                             </div>
@@ -85,7 +84,7 @@
                     <div class="single-blog">
                         <div class="blog-inner">
                             <div class="thumbnail">
-                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-4.png') }}" alt="Business Consulting Blog"></a>
+                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-2.png') }}" alt="Business Consulting Blog"></a>
                                 <div class="pmt-blog-meta">
                                     <ul class="all-meta">
                                         <li class="date"><span>20</span></li>
@@ -96,18 +95,18 @@
                             <div class="blog-content">
                                 <div class="blog-head">
                                     <span class="name">Sultan Ahmed</span>
-                                    <span class="designation">Consulting</span>
+                                    <span class="designation">Consultoria</span>
                                 </div>
                                 <div class="blog-body">
                                     <a href="{{ route('blog-details') }}" class="title-area">
-                                        <h4 class="title">Moralization Theme Portfolio Compilation with Man organaixation.</h4>
+                                        <h4 class="title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ipsum.</h4>
                                     </a>
                                     <p class="description">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ipsum quasi maxime, nobis officiis id.
                                     </p>
                                 </div>
                                 <a class="btn-read-more" href="{{ route('blog-details') }}">
-                                    <span class="read-more-text">Read More</span>
+                                    <span class="read-more-text">Saiba mais</span>
                                     <span class="read-more-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                 </a>
                             </div>
@@ -118,7 +117,7 @@
                     <div class="single-blog">
                         <div class="blog-inner">
                             <div class="thumbnail">
-                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-5.png') }}" alt="Business Consulting Blog"></a>
+                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-2.png') }}" alt="Business Consulting Blog"></a>
                                 <div class="pmt-blog-meta">
                                     <ul class="all-meta">
                                         <li class="date"><span>20</span></li>
@@ -129,18 +128,18 @@
                             <div class="blog-content">
                                 <div class="blog-head">
                                     <span class="name">Sultan Ahmed</span>
-                                    <span class="designation">Consulting</span>
+                                    <span class="designation">Consultoria</span>
                                 </div>
                                 <div class="blog-body">
                                     <a href="{{ route('blog-details') }}" class="title-area">
-                                        <h4 class="title">Morning Theme Portfolio Compilation with Man organaixation.</h4>
+                                        <h4 class="title">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ipsum.</h4>
                                     </a>
                                     <p class="description">
-                                        There are many variations of passages of Lorem Ipsum available, but the majority have suffered.
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae ipsum quasi maxime, nobis officiis id.
                                     </p>
                                 </div>
                                 <a class="btn-read-more" href="{{ route('blog-details') }}">
-                                    <span class="read-more-text">Read More</span>
+                                    <span class="read-more-text">Saiba mais</span>
                                     <span class="read-more-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                 </a>
                             </div>

@@ -1,8 +1,8 @@
 @extends('layouts.layout1')
 
 @php
-    $title = 'Team Details';
-    $subtitle = 'Team';
+    $title = 'Detalhes do Time';
+    $subtitle = 'Time';
 @endphp
 
 
@@ -20,7 +20,7 @@
                         <div class="content">
                             <div class="author-info">
                                 <h4 class="name">Richerd Joseph</h4>
-                                <span class="designation">CEO & Founder</span>
+                                <span class="designation">CEO & Fundador</span>
                             </div>
                             <p class="description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
@@ -44,26 +44,26 @@
                 <div class="col-lg-7">
                     <div class="team-details-content">
                         <div class="personal-info">
-                            <h3 class="title">Personal Info</h3>
+                            <h3 class="title">Informações Pessoais</h3>
                             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.</p>
 
 
                             <div class="all-info">
                                 <div class="info-left">
                                     <div class="single-info">
-                                        <span>Phone:</span><a href="#">+256 3254 2654</a>
+                                        <span>Telefone: </span><a href="#">+256 3254 2654</a>
                                     </div>
                                     <div class="single-info">
-                                        <span>E-mail:</span><a href="#">supportjony@gmail.com</a>
+                                        <span>E-mail: </span><a href="#">supportjony@gmail.com</a>
                                     </div>
                                 </div>
 
                                 <div class="info-right">
                                     <div class="single-info">
-                                        <span>Experiences:</span><a href="#">25+ years</a>
+                                        <span>Experiencias: </span><a href="#">25+ anos</a>
                                     </div>
                                     <div class="single-info">
-                                        <span>Address:</span><a href="#"> 2972 Westheimer Rd, Illinois 85486</a>
+                                        <span>Endereço: </span><a href="#"> 2972 Westheimer Rd, Illinois 85486</a>
                                     </div>
                                 </div>
 
@@ -73,7 +73,7 @@
 
 
                         <div class="personal-experience">
-                            <h3 class="title">Personal Experience</h3>
+                            <h3 class="title">Experiencias Pessoais</h3>
                             <p class="description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
                             </p>
@@ -98,7 +98,7 @@
                                         <span class="parcent">
                                             90%
                                         </span>
-                                        <p class="name">Consulting</p>
+                                        <p class="name">Vendas</p>
 
                                     </div>
                                     <div class="progress bg-white">
@@ -112,7 +112,7 @@
                                         <span class="parcent">
                                             95%
                                         </span>
-                                        <p class="name">Social Assistant</p>
+                                        <p class="name">Logistica</p>
 
                                     </div>
                                     <div class="progress bg-white">

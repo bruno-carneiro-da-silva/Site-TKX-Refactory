@@ -13168,15 +13168,15 @@ nav ul li.has-dropdown .submenu li::after {
   }
 }
 .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction {
-  background-image: url(../images/banner/truck.jpg);
+  background-image: url(../images/banner/truck.png);
   background-repeat: no-repeat;
 }
 .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-two {
-  background-image: url(../images/banner/construction-02.jpg);
+  background-image: url(../images/banner/trucks-01.jpeg);
   background-repeat: no-repeat;
 }
 .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-three {
-  background-image: url(../images/banner/construction-03.jpg);
+  background-image: url(../images/banner/truck-04.jpeg);
   background-repeat: no-repeat;
 }
 .tmp-banner-area.banner-style-five.inconstruction .banner-startup-main-content-wrapper {
@@ -16944,17 +16944,49 @@ body.service-details {
   }
 }
 .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction {
-  background-image: url(../images/banner/construction-01.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área */
+    background-position: center; /* Centraliza a imagem */
+  }
+
+  .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto com 50% de transparência */
+    z-index: 1; /* Coloca o fundo transparente acima da imagem */
+  }
+
+  .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction .banner-startup-main-content-wrapper {
+    position: relative;
+    z-index: 2; /* Coloca o texto acima do fundo transparente */
+  }
+
+  /* Adicione as classes específicas para cada imagem de fundo */
+  .bg_image {
+    background-image: url(../images/banner/truck.png);
+  }
+
+  .bg-two {
+    background-image: url(../images/banner/truck.png);
+  }
+
+  .bg-three {
+    background-image: url(../images/banner/truck.png);
+  }
+
+/* .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-two {
+  background-image: url(../images/banner/banner-01.png);
   background-repeat: no-repeat;
-}
-.tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-two {
-  background-image: url(../images/banner/construction-02.jpg);
+} */
+/* .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-three {
+  background-image: url(../images/banner/banner-01.png);
   background-repeat: no-repeat;
-}
-.tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-three {
-  background-image: url(../images/banner/construction-03.jpg);
-  background-repeat: no-repeat;
-}
+} */
 .tmp-banner-area.banner-style-five.inconstruction .banner-startup-main-content-wrapper {
   text-align: left;
   margin-left: 0;

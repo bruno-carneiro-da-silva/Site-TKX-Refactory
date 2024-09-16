@@ -1,8 +1,8 @@
 @extends('layouts.layout1')
 
 @php
-    $title = 'About Us';
-    $subtitle = 'About';
+    $title = 'Sobre nós';
+    $subtitle = 'Sobre nós';
 @endphp
 
 
@@ -60,7 +60,7 @@
                         </div>
 
                         <!-- video icon -->
-                        <div class="vedio-icone" data-tmp-cursor="lg" data-tmp-cursor-text="Play Video">
+                        <div class="vedio-icone" data-tmp-cursor="lg" data-tmp-cursor-text="Reproduzir vídeo">
                             <a class="video-play-button play-video" href="#">
                                 <span></span>
                             </a>
@@ -76,10 +76,10 @@
                     <div class="about-inner">
                         <div class="section-head text-align-left section-head-one-side">
                             <div class="section-sub-title">
-                                <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service">
-                                <span class="subtitle">ABOUT US</span>
+                                <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service"  style="filter: grayscale(100%) brightness(0%);">
+                                <span class="subtitle">SOBRE NÓS</span>
                             </div>
-                            <h2 class="title split-collab">Find out more about our <br> business consulting</h2>
+                            <h2 class="title split-collab">Curabitur eget ornare quam <br> Curabitur eget </h2>
                         </div>
 
                         <p class="description">
@@ -88,7 +88,7 @@
                         <!-- Prograss bar Start  -->
                         <div class="single-progress-area progress-stye-one">
                             <div class="progress-top">
-                                <p class="name">Consulting Service</p>
+                                <p class="name">TKX Truck</p>
                                 <span class="parcent">
                                 85%
                             </span>
@@ -99,7 +99,7 @@
                         </div>
                         <div class="single-progress-area progress-stye-one">
                             <div class="progress-top">
-                                <p class="name">Finance Consulting</p>
+                                <p class="name">TKX Mobilidade inteligente</p>
                                 <span class="parcent">
                                 66%
                             </span>
@@ -111,7 +111,7 @@
                         <!-- Prograss bar End  -->
                         <div class="thumbnail-with-title">
                             <div class="thumbnail">
-                                <img src="{{ asset('assets/images/about/about-with-icon.png') }}" alt="">
+                                <img src="{{ asset('assets/images/about/about-with-icon.png') }}" alt="" style="filter: grayscale(100%) brightness(0%);">
                                 <div class="icon">
                                     <i class="fa-regular fa-dollar-sign"></i>
                                 </div>
@@ -133,10 +133,10 @@
                 <div class="col-lg-12">
                     <div class="section-head">
                         <div class="section-sub-title center-title">
-                            <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service">
-                            <span class="subtitle">OUR work process</span>
+                            <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service" style="filter: grayscale(100%) brightness(0%);">
+                            <span class="subtitle">NOSSO processo de serviço</span>
                         </div>
-                        <h2 class="title split-collab">How our services work</h2>
+                        <h2 class="title split-collab">Como funciona</h2>
                     </div>
                 </div>
             </div>
@@ -146,15 +146,15 @@
                     <div class="single-services">
                         <div class="services-inner">
                             <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/services-round-1.png') }}" alt="Business consulting services"></a>
+                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services"></a>
                                 <div class="number-bg-round">
                                     <span>01</span>
                                 </div>
                             </div>
                             <div class="services-content services-content-style-1 text-center">
-                                <h5 class="title">Meeting Client</h5>
+                                <h5 class="title">Lorem ipsum dolor sit amet consectetur</h5>
                                 <p class="description">
-                                    Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto corporis temporibus accusantium veniam sed eveniet error sit, voluptatum non nulla amet dolores eaque recusandae assumenda, itaque magnam soluta rerum dolore.
                                 </p>
                             </div>
                         </div>
@@ -166,15 +166,15 @@
                     <div class="single-services">
                         <div class="services-inner">
                             <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/services-round-2.png') }}" alt="Business consulting services"></a>
+                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services"></a>
                                 <div class="number-bg-round">
                                     <span>02</span>
                                 </div>
                             </div>
                             <div class="services-content services-content-style-1 text-center">
-                                <h5 class="title">Meeting Client</h5>
+                                <h5 class="title">Magnam soluta rerum dolore.</h5>
                                 <p class="description">
-                                    Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero unde possimus, aspernatur inventore quis numquam fuga suscipit architecto, obcaecati perferendis asperiores quod laborum nesciunt maxime quasi dolore hic tenetur enim!.
                                 </p>
                             </div>
                         </div>
@@ -186,15 +186,15 @@
                     <div class="single-services">
                         <div class="services-inner">
                             <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/services-round-3.png') }}" alt="Business consulting services"></a>
+                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services"></a>
                                 <div class="number-bg-round">
                                     <span>03</span>
                                 </div>
                             </div>
                             <div class="services-content services-content-style-1 text-center">
-                                <h5 class="title">Meeting Client</h5>
+                                <h5 class="title">Magnam soluta rerum dolore</h5>
                                 <p class="description">
-                                    Continue indulged speaking the was out horrible for domestic position. Seeing rather her you not esteem men settle genius excuse.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae molestiae harum ipsam magni saepe itaque incidunt! Nostrum maiores ex, tenetur sed aliquam, ad veritatis rerum officia itaque dolor animi illo?.
                                 </p>
                             </div>
                         </div>
@@ -221,7 +221,7 @@
                                 <a href="#" class="name-area">
                                     <h6 class="name">Clade Owen</h6>
                                 </a>
-                                <div class="designation">CEO &amp; Founder</div>
+                                <div class="designation">CEO &amp; Fundadora</div>
                             </div>
                             <div class="share-icon-style-one">
                                 <ul class="social-icons social-icons-with-bg">
@@ -246,7 +246,7 @@
                                 <a href="#" class="name-area">
                                     <h6 class="name">Clade Owen</h6>
                                 </a>
-                                <div class="designation">CEO &amp; Founder</div>
+                                <div class="designation">CEO &amp; Fundador</div>
                             </div>
                             <div class="share-icon-style-one">
                                 <ul class="social-icons social-icons-with-bg">
@@ -271,7 +271,7 @@
                                 <a href="#" class="name-area">
                                     <h6 class="name">Clade Owen</h6>
                                 </a>
-                                <div class="designation">CEO &amp; Founder</div>
+                                <div class="designation">CEO &amp; Fundador</div>
                             </div>
                             <div class="share-icon-style-one">
                                 <ul class="social-icons social-icons-with-bg">
@@ -301,9 +301,9 @@
                             <div class="section-head text-align-left">
                                 <div class="section-sub-title">
                                     <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service">
-                                    <span class="subtitle">Client’s Testimonials</span>
+                                    <span class="subtitle">Feedback dos Clientes</span>
                                 </div>
-                                <h2 class="title split-collab">What people say about <br> our company</h2>
+                                <h2 class="title split-collab">Lorem ipsum, dolor sit ame <br> dolor sit ame</h2>
                             </div>
 
                             <div class="button-next-prev">
@@ -338,11 +338,11 @@
                                                         </div>
                                                     </div>
 
-                                                    <p class="description">Its incredible. its really wonderful. company has completely surpassed our expect. Urna porttitor rhoncus dolor purus non enim praesent at the facilisis lectus. Adipiscing tristique risus.</p>
+                                                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta incidunt, repudiandae nisi, cum eligendi odio facilis sed nam vero facere sit amet optio alias mollitia exercitationem? Laudantium est quam incidunt..</p>
 
                                                     <div class="content content-without-bg">
                                                         <div class="name">Clade Owen</div>
-                                                        <div class="designation">CEO &amp; Founder</div>
+                                                        <div class="designation">CEO &amp; Fundador</div>
                                                     </div>
 
 
@@ -374,11 +374,11 @@
                                                         </div>
                                                     </div>
 
-                                                    <p class="description">Its incredible. its really wonderful. company has completely surpassed our expect. Urna porttitor rhoncus dolor purus non enim praesent at the facilisis lectus. Adipiscing tristique risus.</p>
+                                                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, non ipsa voluptatem dolor illum corporis suscipit facere ea ab? Beatae, iure! Tenetur nobis sequi id minus ullam eveniet, dolorem unde.</p>
 
                                                     <div class="content content-without-bg">
                                                         <div class="name">Nicolas Alvin</div>
-                                                        <div class="designation">Web Developer</div>
+                                                        <div class="designation">Desenvolvedor</div>
                                                     </div>
 
 
@@ -410,7 +410,7 @@
                                                         </div>
                                                     </div>
 
-                                                    <p class="description">Its incredible. its really wonderful. company has completely surpassed our expect. Urna porttitor rhoncus dolor purus non enim praesent at the facilisis lectus. Adipiscing tristique risus.</p>
+                                                    <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio ad soluta dolor magni ipsum aliquid, placeat totam repellat repudiandae, ipsa, architecto accusantium libero provident eos porro aperiam officiis in commodi.</p>
 
                                                     <div class="content content-without-bg">
                                                         <div class="name">Lara Willie</div>
@@ -446,11 +446,11 @@
                                                         </div>
                                                     </div>
 
-                                                    <p class="description">Its incredible. its really wonderful. company has completely surpassed our expect. Urna porttitor rhoncus dolor purus non enim praesent at the facilisis lectus. Adipiscing tristique risus.</p>
+                                                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sint, vitae inventore temporibus hic incidunt minus sunt tempora nisi deserunt ab voluptatem accusamus veniam laborum. Minus iure reprehenderit possimus facere.</p>
 
                                                     <div class="content content-without-bg">
                                                         <div class="name">Clade Herbert</div>
-                                                        <div class="designation">CEO and Founder</div>
+                                                        <div class="designation">CEO e Fundador</div>
                                                     </div>
 
 

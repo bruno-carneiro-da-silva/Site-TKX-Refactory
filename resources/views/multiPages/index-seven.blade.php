@@ -583,7 +583,7 @@
                         <div class="services-inner">
                             <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
                                 <a href="#">
-                                    <img src="{{ asset('assets/images/services/services-round-1.png') }}" alt="Business consulting services">
+                                    <img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services">
                                     <div class="number-bg-round">
                                         <span>01</span>
                                     </div>

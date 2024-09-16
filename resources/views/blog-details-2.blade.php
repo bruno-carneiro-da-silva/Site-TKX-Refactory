@@ -21,10 +21,10 @@
                 </div>
                 <div class="col-lg-8 offset-lg-2 mt--40">
                     <div class="blog-details-left-area border-bottom">
-                        <h2 class="title split-collab mb--10 text-start">How to Choose the Perfect Corporate Business Template for Your Company</h2>
+                        <h2 class="title split-collab mb--10 text-start">aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit</h2>
                         <div class="blog-details-discription">
                             <div class="category-area">
-                                Sultan Ahmed / Consulting
+                                Sultan Ahmed / TKX Mobilidade inteligente
                             </div>
                             <p class="disc">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin.
@@ -36,31 +36,19 @@
                         <div class="quote-area-blog-details">
                             <i class="fa-sharp fa-regular fa-quote-left fa-lg"></i>
                             <p class="disc">
-                                Rockling Devario deep sea bonefish cutthroat trout streamer fish
-                                kaluga sailback scorpionfish sand dab, turkeyfish golden loach sand
-                                diver. Leopard danio píntano bonnet mouth.
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet.
                             </p>
-                            <span class="author">David Miller</span>
+                            <span class="author">Davi Miller</span>
                         </div>
                         <div class="blog-details-discription">
-                            <p class="disc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin.
-                            </p>
-                            <div class="short-feature-blog-details">
-                                <div class="single-feature">How will digital activities impact traditional manufacturing.</div>
-                                <div class="single-feature">I monitor my staff with software that takes screen.</div>
-                                <div class="single-feature">Minim veniam quis niacin sodium nostrud exer.</div>
-                                <div class="single-feature">Laoreet dolore magna niacin sodium glutimate.</div>
-                                <div class="single-feature">Narrow formal length my highly</div>
+                            <div class="category-area">
+                                Sultan Ahmed / TKX Mobilidade inteligente
                             </div>
                             <p class="disc">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin.
+                            </p>
+                            <p class="disc">
                                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed.
-                            </p>
-                            <p class="disc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin.
-                            </p>
-                            <p class="disc">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin.
                             </p>
                         </div>
                         <div class="row g-5">
@@ -76,11 +64,14 @@
                             </div>
                         </div>
                         <div class="blog-details-discription">
-                            <p class="disc">
-                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed.
-                            </p>
+                            <div class="category-area">
+                                Sultan Ahmed / TKX Mobilidade inteligente
+                            </div>
                             <p class="disc">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin.
+                            </p>
+                            <p class="disc">
+                                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed.
                             </p>
                         </div>
                     </div>
@@ -90,15 +81,15 @@
                                 <span>Tag:</span>
                                 <div class="tag-wrapper">
                                     <div class="signle-wrapper">
-                                        Algoritham
+                                        Logistica
                                     </div>
                                     <div class="signle-wrapper">
-                                        Data Science
+                                        Tecnologia
                                     </div>
                                 </div>
                             </div>
                             <div class="social-blog-tag-area">
-                                <span>Search:</span>
+                                <span>Pesquisar:</span>
                                 <ul>
                                     <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
@@ -128,7 +119,7 @@
                         </div>
                         <div class="comment-area-main-wrapper mt--30">
 
-                            <h3 class="title">Comments (3)</h3>
+                            <h3 class="title">Commentários (3)</h3>
                             <div class="single-comment-audience border-bottom pb--30">
                                 <div class="author-image">
                                     <img src="{{ asset('assets/images/blog/details/05.png') }}" alt="Corporate_business">
@@ -139,7 +130,7 @@
                                             <h6 class="title">James Smith</h6>
                                             <span>March  20, 2024</span>
                                         </div>
-                                        <button><i class="fa-solid fa-share fa-flip-both fa-lg"></i>Reply</button>
+                                        <button><i class="fa-solid fa-share fa-flip-both fa-lg"></i>Responder</button>
                                     </div>
                                     <p class="disc mt--15">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate .
@@ -156,7 +147,7 @@
                                             <h6 class="title">Adom Smith</h6>
                                             <span>February  20, 2024</span>
                                         </div>
-                                        <button><i class="fa-solid fa-share fa-flip-both fa-lg"></i>Reply</button>
+                                        <button><i class="fa-solid fa-share fa-flip-both fa-lg"></i>Responder</button>
                                     </div>
                                     <p class="disc mt--15">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure.
@@ -182,11 +173,11 @@
                             </div>
                         </div>
                         <div class="blog-details-form-wrapper">
-                            <h4 class="title">Leave A Comments</h4>
-                            <span>Your email address will not be published. Required fields are marked *</span>
+                            <h4 class="title">Deixar um comentário</h4>
+                            <span>Seu email não vai ser publicado. Campos obrigatórios são marcados com *</span>
                             <form action="#" class="blog-details-form">
                                 <div class="single-input">
-                                    <input type="text" placeholder="Name">
+                                    <input type="text" placeholder="Nome">
                                     <i class="fa-light fa-user"></i>
                                 </div>
                                 <div class="half-input-wrapper">
@@ -195,12 +186,12 @@
                                         <i class="fa-light fa-envelope"></i>
                                     </div>
                                     <div class="single-input">
-                                        <input type="text" placeholder="Website">
+                                        <input type="text" placeholder="Site">
                                         <i class="fa-light fa-globe"></i>
                                     </div>
                                 </div>
-                                <textarea placeholder="Write a Message"></textarea>
-                                <button class="tmp-btn btn-primary">Submit Comment</button>
+                                <textarea placeholder="Escreva a mensagem"></textarea>
+                                <button class="tmp-btn btn-primary">Enviar comentário</button>
                             </form>
                         </div>
 
@@ -210,5 +201,5 @@
         </div>
     </div>
     <!-- tmp service section end -->
-    
+
 @endsection

@@ -1,8 +1,8 @@
 @extends('layouts.layout1')
 
 @php
-    $title = 'Our Pricing';
-    $subtitle = 'Pricing';
+    $title = 'Nossos Planos';
+    $subtitle = 'Planos';
 @endphp
 
 
@@ -16,9 +16,9 @@
                 <div class="col-lg-12">
                     <div class="section-head pb-40">
                         <div class="section-sub-title color-secondary  center-title">
-                            <span>BEST PRICING</span>
+                            <span>MELHORES PREÇOS</span>
                         </div>
-                        <h2 class="section-title">Flexible plans for small to fast- <br/>growing business</h2>
+                        <h2 class="section-title">Planos flexíveis para pequenos e rápidos - <br/>negócio em crescimento</h2>
                     </div>
                 </div>
             </div>
@@ -29,11 +29,11 @@
                     <div class="pricing-table pricing-style-one">
                         <div class="pricing-header">
                             <div class="pricing-header-inner">
-                                <h3 class="title">Basic Plan</h3>
+                                <h3 class="title">Plano básico</h3>
                                 <div class="price-wrap">
                                     <div class="monthly-pricing">
-                                        <div class="amount"><span class="dolour">$</span>29.<span class="zero">00</span></div>
-                                        <span class="duration">Per Monthly</span>
+                                        <div class="amount"><span class="dolour">R$ </span>29.<span class="zero">00</span></div>
+                                        <span class="duration">Por Mês</span>
                                     </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@
                         </div>
                         <div class="pricing-bottom">
                             <div class="pricing-btn">
-                                <a href="#" class="tmp-btn">Purchase Plan</a>
+                                <a href="#" class="tmp-btn">Contratar Plano</a>
                             </div>
                         </div>
                     </div>
@@ -77,11 +77,11 @@
                     <div class="pricing-table pricing-style-one">
                         <div class="pricing-header">
                             <div class="pricing-header-inner">
-                                <h3 class="title">Premium Plan</h3>
+                                <h3 class="title">Plano Premium</h3>
                                 <div class="price-wrap">
                                     <div class="monthly-pricing">
-                                        <div class="amount"><span class="dolour">$</span>59.<span class="zero">00</span></div>
-                                        <span class="duration">Per Monthly</span>
+                                        <div class="amount"><span class="dolour">R$ </span>59.<span class="zero">00</span></div>
+                                        <span class="duration">Por Mês</span>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@
                         </div>
                         <div class="pricing-bottom">
                             <div class="pricing-btn">
-                                <a href="#" class="tmp-btn">Purchase Plan</a>
+                                <a href="#" class="tmp-btn">Contratar Plano</a>
                             </div>
                         </div>
                     </div>
@@ -122,11 +122,11 @@
                     <div class="pricing-table pricing-style-one">
                         <div class="pricing-header">
                             <div class="pricing-header-inner">
-                                <h3 class="title">Advanced Plan</h3>
+                                <h3 class="title">Plano Expert</h3>
                                 <div class="price-wrap">
                                     <div class="monthly-pricing">
-                                        <div class="amount"><span class="dolour">$</span>89.<span class="zero">00</span></div>
-                                        <span class="duration">Per Monthly</span>
+                                        <div class="amount"><span class="dolour">R$ </span>89.<span class="zero">00</span></div>
+                                        <span class="duration">Por Mês</span>
                                     </div>
                                 </div>
                             </div>
@@ -156,7 +156,7 @@
                         </div>
                         <div class="pricing-bottom">
                             <div class="pricing-btn">
-                                <a href="#" class="tmp-btn">Purchase Plan</a>
+                                <a href="#" class="tmp-btn">Contratar Plano</a>
                             </div>
                         </div>
                     </div>

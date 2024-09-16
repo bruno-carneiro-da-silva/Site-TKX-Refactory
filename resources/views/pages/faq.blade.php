@@ -2,7 +2,7 @@
 
 @php
     $bodyClass='faq';
-    $title = 'Ask Question';
+    $title = 'Perguntas Frequentes';
     $subtitle = 'FAQs';
 @endphp
 
@@ -21,7 +21,7 @@
 
                                         <div class="accordion-button-left">
                                             <i class="fa-regular fa-question"></i>
-                                            <span>Why is collaborative learning so important</span>
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit?</span>
                                         </div>
                                         <div class="accordion-button-right">
                                             <i class="fa-sharp fa-light fa-arrow-right"></i>
@@ -30,8 +30,7 @@
                                 </div>
                                 <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Companions shy had solicitude favorable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she.
-                                        Companions shy had solicitude favorable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro expedita dolorum nemo quam odit laudantium unde laborum, explicabo eveniet amet debitis alias velit eum error quo reprehenderit quaerat quae dicta.
                                     </div>
                                 </div>
                             </div>
@@ -40,7 +39,7 @@
                                     <div class="accordion-button collapsed" data-bs-toggle="collapse" role="button" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <div class="accordion-button-left">
                                             <i class="fa-regular fa-question"></i>
-                                            <span>Do you offer free trials</span>
+                                            <span>Lorem ipsum dolor sit amet?</span>
                                         </div>
                                         <div class="accordion-button-right">
                                             <i class="fa-sharp fa-light fa-arrow-right"></i>
@@ -49,8 +48,7 @@
                                 </div>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Companions shy had solicitude favorable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she.
-                                        Companions shy had solicitude favorable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro expedita dolorum nemo quam odit laudantium unde laborum, explicabo eveniet amet debitis alias velit eum error quo reprehenderit quaerat quae dicta.
                                     </div>
                                 </div>
                             </div>
@@ -59,7 +57,7 @@
                                     <div class="accordion-button collapsed" data-bs-toggle="collapse" role="button" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         <div class="accordion-button-left">
                                             <i class="fa-regular fa-question"></i>
-                                            <span>Can I share my courses with non-registered users</span>
+                                            <span>Lorem ipsum dolor sit amet consectetur adipisicing?</span>
                                         </div>
                                         <div class="accordion-button-right">
                                             <i class="fa-sharp fa-light fa-arrow-right"></i>
@@ -68,17 +66,16 @@
                                 </div>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                     <div class="accordion-body">
-                                        Companions shy had solicitude favorable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she.
-                                        Companions shy had solicitude favorable own. Which could saw guest man now heard but. Lasted my coming uneasy marked so should. Gravity letters it amongst herself dearest an windows by. Wooded ladies she.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, dicta! A nulla iste debitis repudiandae deleniti. Reiciendis aspernatur facere veritatis saepe, ab voluptatum, dolor aut, in quas corrupti inventore deserunt!.
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="faq-buttom">
-                            <h4 class="title">Still Have More Questions?
+                            <h4 class="title">Ainda tem dúvidas?
                             </h4>
-                            <p>Contact Our <a href="#">Expert Support Team</a></p>
+                            <p>Fale com nosso <a href="#">Time</a></p>
                         </div>
 
                 </div>

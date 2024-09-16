@@ -182,9 +182,9 @@
                     <div class="section-head">
                         <div class="section-sub-title center-title">
                             <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service">
-                            <span class="subtitle">Recent Blog</span>
+                            <span class="subtitle">Blogs Recentes</span>
                         </div>
-                        <h2 class="title split-collab">Latest Project We Have Done Before</h2>
+                        <h2 class="title split-collab">Últimos projetos realizdos</h2>
                     </div>
                 </div>
             </div>
@@ -200,12 +200,12 @@
                                         </a>
                                         <div class="tmp-inner-content">
                                             <div class="top-item">
-                                                <span class="left">Mobile App Design</span>
+                                                <span class="left">Lorem ipsum dolor, sit amet</span>
                                                 <span class="left">25 likes</span>
                                             </div>
                                             <a href="{{ route('projects-details') }}">
-                                                <h2 class="title">Mobile App Design UI/UX <br>
-                                                In Figma</h2>
+                                                <h2 class="title">Lorem ipsum, dolor sit amet<br>
+                                                No Google</h2>
                                             </a>
                                         </div>
                                     </div>
@@ -217,12 +217,12 @@
                                         </a>
                                         <div class="tmp-inner-content">
                                             <div class="top-item">
-                                                <span class="left">Mobile App Design</span>
+                                                <span class="left">Lorem ipsum dolor, sit amet</span>
                                                 <span class="left">25 likes</span>
                                             </div>
                                             <a href="{{ route('projects-details') }}">
-                                                <h2 class="title">Mobile App Design UI/UX <br>
-                                                In Figma</h2>
+                                                <h2 class="title">Lorem ipsum, dolor sit amet<br>
+                                                No Google</h2>
                                             </a>
                                         </div>
                                     </div>
@@ -234,12 +234,12 @@
                                         </a>
                                         <div class="tmp-inner-content">
                                             <div class="top-item">
-                                                <span class="left">Mobile App Design</span>
+                                                <span class="left">Lorem ipsum dolor, sit amet</span>
                                                 <span class="left">25 likes</span>
                                             </div>
                                             <a href="{{ route('projects-details') }}">
-                                                <h2 class="title">Mobile App Design UI/UX <br>
-                                                In Figma</h2>
+                                                <h2 class="title">Lorem ipsum, dolor sit amet<br>
+                                                No Google</h2>
                                             </a>
                                         </div>
                                     </div>
@@ -251,12 +251,12 @@
                                         </a>
                                         <div class="tmp-inner-content">
                                             <div class="top-item">
-                                                <span class="left">Mobile App Design</span>
+                                                <span class="left">Lorem ipsum dolor, sit amet</span>
                                                 <span class="left">25 likes</span>
                                             </div>
                                             <a href="{{ route('projects-details') }}">
-                                                <h2 class="title">Mobile App Design UI/UX <br>
-                                                In Figma</h2>
+                                                <h2 class="title">Lorem ipsum, dolor sit amet<br>
+                                                No Google</h2>
                                             </a>
                                         </div>
                                     </div>
@@ -268,12 +268,12 @@
                                         </a>
                                         <div class="tmp-inner-content">
                                             <div class="top-item">
-                                                <span class="left">Mobile App Design</span>
+                                                <span class="left">Lorem ipsum dolor, sit amet</span>
                                                 <span class="left">25 likes</span>
                                             </div>
                                             <a href="{{ route('projects-details') }}">
-                                                <h2 class="title">Mobile App Design UI/UX <br>
-                                                In Figma</h2>
+                                                <h2 class="title">Lorem ipsum, dolor sit amet<br>
+                                                No Google</h2>
                                             </a>
                                         </div>
                                     </div>
@@ -285,12 +285,12 @@
                                         </a>
                                         <div class="tmp-inner-content">
                                             <div class="top-item">
-                                                <span class="left">Mobile App Design</span>
+                                                <span class="left">Lorem ipsum dolor, sit amet</span>
                                                 <span class="left">25 likes</span>
                                             </div>
                                             <a href="{{ route('projects-details') }}">
-                                                <h2 class="title">Mobile App Design UI/UX <br>
-                                                In Figma</h2>
+                                                <h2 class="title">Lorem ipsum, dolor sit amet<br>
+                                                No Google</h2>
                                             </a>
                                         </div>
                                     </div>
