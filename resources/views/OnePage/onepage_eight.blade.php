@@ -24,17 +24,17 @@
                                 <ul class="parent-nav">
                                     <li>
                                         <a class="nav-link " href="#home">
-                                            <span class="rolling-text">HOME</span>
+                                            <span class="rolling-text">PÁGINA INICIAL</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="nav-link" href="#service">
-                                            <span class="rolling-text">SERVICES</span>
+                                            <span class="rolling-text">SERVICOS</span>
                                         </a>
                                     </li>
                                     <li>
                                         <a class="nav-link" href="#about">
-                                            <span class="rolling-text">ABOUT</span>
+                                            <span class="rolling-text">SOBRE NÓS</span>
                                         </a>
                                     </li>
                                     <li>
@@ -44,7 +44,7 @@
                                     </li>
                                     <li>
                                         <a class="nav-link" href="#contact">
-                                            <span class="rolling-text">CONTACT</span>
+                                            <span class="rolling-text">CONTATO</span>
                                         </a>
                                     </li>
                                 </ul>
@@ -52,7 +52,7 @@
                         </div>
                         <div class="actions-area">
 
-                            <a href="#" class="tmp-btn btn-primary">Buy Now</a>
+                            <a href="#" class="tmp-btn btn-primary">Comprar</a>
                             <div class="tmp-side-collups-area" id="side-collups">
                                 <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect y="14" width="20" height="2" fill="#fff"></rect>
@@ -78,13 +78,13 @@
                         <span class="pre-title">
                             Our Corporate Business Agency
                         </span>
-                        <h1 class="title">Bizper Company.</h1>
+                        <h1 class="title">TKX Conexão Logistica.</h1>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, quis. Ullam
                             accusantium dignissimos repellendus nemo fugiat numquam, nisi odio adipisci. Veniam neque
                             itaque expedita officiis rem ipsa! Ratione, rem reiciendis?</p>
                         <div class="button-area-wrapper">
-                            <a href="#" class="tmp-btn btn-primary">Purchase Now</a>
-                            <a href="{{ route('contact') }}" class="tmp-btn btn-primary">Contact Us</a>
+                            <a href="#" class="tmp-btn btn-primary">Comprar Agora</a>
+                            <a href="{{ route('contact') }}" class="tmp-btn btn-primary">Entre em Contato</a>
                         </div>
                     </div>
                 </div>
@@ -215,21 +215,16 @@
                 <div class="split-inner">
                     <h2 class="title sal-animate mb--40" data-sal="slide-up" data-sal-duration="700" data-sal-delay="100">
                         What is Bizper?</h2>
-                    <p class="description sal-animate mb--25" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Randomised words which don't look even slightly
-                        believable. If you are to use a passage of Lorem Ipsum. You need to be
-                        sure there isn't anything embarrassing hidden in the middle of text. in
-                        some form, by injectedeed bedhumour, or randomised even.</p>
-                    <p class="description sal-animate" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">You need to be
-                        sure there isn't anything embarrassing hidden in the middle of text. in
-                        some form, by injectedeed bedhumour, or randomised even.</p>
+                    <p class="description sal-animate mb--25" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni consequatur ipsum doloremque harum totam tempore voluptatibus sequi! Quam dolor, minima saepe veritatis minus neque cumque enim et in molestias aut.</p>
+                    <p class="description sal-animate" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum nostrum quisquam a alias unde at vero maiores, aspernatur quibusdam, molestias ea quam enim repudiandae eos porro, dignissimos dolor. Optio, illum!.</p>
                     <ul class="split-list sal-animate" data-sal="slide-up" data-sal-duration="700" data-sal-delay="20">
-                        <li>- Doug DeMarco, Design Prototyping Manager</li>
-                        <li>- 108 million paying subscribers</li>
-                        <li>- Over 1.7 billion hours of music played monthly</li>
-                        <li>- 4,000+ employees working across 16 offices</li>
+                        <li>- Earum nostrum quisquam a alias</li>
+                        <li>- uam enim repudiandae eos porro</li>
+                        <li>- consectetur adipisicing elit. Earum nostrum quisquam </li>
+                        <li>- consectetur adipisicing elit. Earum nostrum quisquam </li>
                     </ul>
                     <div class="view-more-button mt--35 sal-animate d-flex" data-sal="slide-up" data-sal-duration="700" data-sal-delay="300">
-                        <a class="tmp-btn btn-primary" href="{{ route('contact') }}">Contact With Us</a>
+                        <a class="tmp-btn btn-primary" href="{{ route('contact') }}">Entre em Contato</a>
                     </div>
                 </div>
             </div>
@@ -255,7 +250,7 @@
                         <div class="information">
                             <div class="counter-details">
                                 <h2 class="title"><span class="counter animated fadeInDownBig">858</span>+</h2>
-                                <p class="disc">Successful Projects</p>
+                                <p class="disc">Projetos Concluídos</p>
                             </div>
                         </div>
                     </div>
@@ -268,7 +263,7 @@
                         <div class="information">
                             <div class="counter-details">
                                 <h2 class="title"><span class="counter animated fadeInDownBig">858</span>k+</h2>
-                                <p class="disc">Happy Clients</p>
+                                <p class="disc">Clientes Satisfeitos</p>
                             </div>
                         </div>
                     </div>
@@ -281,7 +276,7 @@
                         <div class="information">
                             <div class="counter-details">
                                 <h2 class="title"><span class="counter animated fadeInDownBig">758</span>+</h2>
-                                <p class="disc">Media Active</p>
+                                <p class="disc">Medias ativas</p>
                             </div>
                         </div>
                     </div>
@@ -294,7 +289,7 @@
                         <div class="information">
                             <div class="counter-details">
                                 <h2 class="title"><span class="counter animated fadeInDownBig">258</span>+</h2>
-                                <p class="disc">Skill Experience</p>
+                                <p class="disc">Experiencia & habilidades</p>
                             </div>
                         </div>
                     </div>
@@ -312,9 +307,9 @@
                     <div class="section-head">
                         <div class="section-sub-title center-title">
                             <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}"src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Business_Consulting_services">
-                            <span>OUR PORTFOLIO</span>
+                            <span>NOSSO PORTFOLIO</span>
                         </div>
-                        <h2 class="title split-collab">Let's Check Our Best Works</h2>
+                        <h2 class="title split-collab">Veja nossos melhores trabalhos</h2>
                     </div>
                 </div>
             </div>
@@ -322,7 +317,7 @@
                 <div class="col-lg-12">
                     <div class="tmp-mesonary-area-main main-isotop">
                         <div class="tmp-button-group mb--50 filters-button-group">
-                            <button class="button is-checked" data-filter="*">All Product</button>
+                            <button class="button is-checked" data-filter="*">Todos Produtos</button>
                             <button class="button" data-filter=".creative">Dashboard</button>
                             <button class="button" data-filter=".design">Website</button>
                             <button class="button" data-filter=".photo">HTML/CSS</button>
@@ -338,11 +333,11 @@
                                         </a>
                                         <div class="tmp-inner-content">
                                             <div class="top-item">
-                                                <span class="left">Mobile App Design</span>
+                                                <span class="left">Consectetur adipisicing elit</span>
                                                 <span class="left">25 likes</span>
                                             </div>
                                             <a href="{{ route('projects-details') }}">
-                                                <h2 class="title">Its Our Igniting Innovation</h2>
+                                                <h2 class="title">consectetur adipisicing elit. Earum nostrum quisquam </h2>
                                             </a>
                                         </div>
                                     </div>
@@ -357,11 +352,11 @@
                                         </a>
                                         <div class="tmp-inner-content">
                                             <div class="top-item">
-                                                <span class="left">Mobile App Design</span>
+                                                <span class="left">Earum nostrum quisquam </span>
                                                 <span class="left">25 likes</span>
                                             </div>
                                             <a href="{{ route('projects-details') }}">
-                                                <h2 class="title">Showcasing Startup Ventures</h2>
+                                                <h2 class="title">consectetur adipisicing elit. Earum nostrum quisquam </h2>
                                             </a>
                                         </div>
                                     </div>
@@ -376,11 +371,11 @@
                                         </a>
                                         <div class="tmp-inner-content">
                                             <div class="top-item">
-                                                <span class="left">Mobile App Design</span>
+                                                <span class="left">Earum nostrum quisquam </span>
                                                 <span class="left">25 likes</span>
                                             </div>
                                             <a href="{{ route('projects-details') }}">
-                                                <h2 class="title">Navigating Startup Success</h2>
+                                                <h2 class="title">consectetur adipisicing elit. Earum nostrum quisquam </h2>
                                             </a>
                                         </div>
                                     </div>
@@ -433,7 +428,7 @@
                                         <a href="{{ route('projects-details') }}" class="thumbnail">
                                             <img src="{{ asset('assets/images/product/06.jpg') }}"src="{{ asset('assets/images/product/06.jpg') }}" alt="personal_portfolio">
                                         </a>
-                                        <div class="tmp-inner-content">
+                                         <div class="tmp-inner-content">
                                             <div class="top-item">
                                                 <span class="left">Mobile App Design</span>
                                                 <span class="left">25 likes</span>
@@ -455,7 +450,7 @@
         </div>
     </div>
     <!-- rmp portfolio mesonary area end -->
-     
+
     <!-- tmp brand section start -->
     <div class="tmp-brand-section tmp-section-gapBottom">
         <div class="container">
@@ -502,7 +497,7 @@
             </div>
         </div>
     </div>
-    <!-- tmp brand section end --> 
+    <!-- tmp brand section end -->
 
     <!-- tmp contact area -->
     <div class="contact-area tmp-section-gapBottom" id="contact">
@@ -511,7 +506,7 @@
                 <div class="col-lg-5">
                     <div class="contact-inner">
                         <div class="section-head section-head-one-side text-align-left">
-                            <span class="title">Contact Us</span>
+                            <span class="title">Entre em Contato</span>
                             <p class="description">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magnaaliqua.
                             </p>
@@ -654,7 +649,7 @@
                             <div class="day-time">
                                 <div class="icon"><i class="fa-solid fa-alarm-clock"></i></div>
                                 <div class="content">
-                                    <div class="day">Sunday - Friday:</div>
+                                    <div class="day">Segunda - Sexta:</div>
                                     <div class="time">9:00 AM – 8:00 PM</div>
                                 </div>
                             </div>
@@ -669,22 +664,50 @@
                     </div>
                     <div class="col-lg-2 col-md-6">
                         <div class="single-footer-wrapper pl-50 pl_md--0 pl_sm--0">
-                            <h5 class="ft-title">Services</h5>
+                            <h5 class="ft-title">Servicos</h5>
                             <ul class="ft-link">
                                 <li>
-                                    <a href="{{ route('about') }}">About Company</a>
+                                    <a href="{{ route('about') }}">Sobre a Empresa</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('team') }}">Meet Our Team</a>
+                                    <a href="{{ route('team') }}">Conheça nossa Equipe</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('service') }}">Our Services</a>
+                                    <a href="{{ route('service') }}">Nossos Serviços</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('blog') }}">News & Media</a>
+                                    <a href="{{ route('blog') }}">Noticias & Media</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('contact') }}">Contact Us</a>
+                                    <a href="{{ route('contact') }}">Entre em Contato</a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('faq') }}">Suporte</a>
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6">
+                        <div class="single-footer-wrapper pl-50 pl_md--0 pl_sm--0">
+                            <h5 class="ft-title">Soluções</h5>
+                            <ul class="ft-link">
+                                <li>
+                                    <a href="#">Marca</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contador</a>
+                                </li>
+                                <li>
+                                    <a href="#">Servicos</a>
+                                </li>
+                                <li>
+                                    <a href="#">Noticias</a>
+                                </li>
+                                <li>
+                                    <a href="#">Entre em Contato </a>
                                 </li>
 
                                 <li>
@@ -697,26 +720,26 @@
                     </div>
                     <div class="col-lg-2 col-md-6">
                         <div class="single-footer-wrapper pl-50 pl_md--0 pl_sm--0">
-                            <h5 class="ft-title">Solutions</h5>
+                            <h5 class="ft-title">Empresa</h5>
                             <ul class="ft-link">
                                 <li>
-                                    <a href="#">Brand</a>
+                                    <a href="{{ route('about') }}">Nossa Empresa</a>
                                 </li>
                                 <li>
-                                    <a href="#">Counter</a>
+                                    <a href="{{ route('team') }}"> Nossa Equipe</a>
                                 </li>
                                 <li>
-                                    <a href="#">Services</a>
+                                    <a href="{{ route('service') }}">Servicos</a>
                                 </li>
                                 <li>
-                                    <a href="#">News</a>
+                                    <a href="{{ route('blog') }}">Noticias & Media</a>
                                 </li>
                                 <li>
-                                    <a href="#">Contact Us</a>
+                                    <a href="{{ route('contact') }}">Entre em Contato</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('faq') }}">Support</a>
+                                    <a href="{{ route('faq') }}">Suporte</a>
                                 </li>
 
                             </ul>
@@ -725,54 +748,26 @@
                     </div>
                     <div class="col-lg-2 col-md-6">
                         <div class="single-footer-wrapper pl-50 pl_md--0 pl_sm--0">
-                            <h5 class="ft-title">Company</h5>
+                            <h5 class="ft-title">Links Rápidos</h5>
                             <ul class="ft-link">
                                 <li>
-                                    <a href="{{ route('pricing') }}">Pricing</a>
+                                    <a href="{{ route('about') }}">Nossa Empresa</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('team') }}">Our Team</a>
+                                    <a href="{{ route('team') }}"> Nossa Equipe</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('service') }}">Our Services</a>
+                                    <a href="{{ route('service') }}">Servicos</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('blog') }}">News & Media</a>
+                                    <a href="{{ route('blog') }}">Noticias & Media</a>
                                 </li>
                                 <li>
-                                    <a href="{{ route('contact') }}">Contact Us</a>
-                                </li>
-
-                                <li>
-                                    <a href="{{ route('faq') }}">Support</a>
-                                </li>
-
-                            </ul>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-2 col-md-6">
-                        <div class="single-footer-wrapper pl-50 pl_md--0 pl_sm--0">
-                            <h5 class="ft-title">Quick Link</h5>
-                            <ul class="ft-link">
-                                <li>
-                                    <a href="{{ route('about') }}">Company</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('team') }}"> Our Team</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('service') }}">Services</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('blog') }}">News & Media</a>
-                                </li>
-                                <li>
-                                    <a href="{{ route('contact') }}">Contact Us</a>
+                                    <a href="{{ route('contact') }}">Entre em Contato</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('faq') }}">Support</a>
+                                    <a href="{{ route('faq') }}">Suporte</a>
                                 </li>
 
                             </ul>
@@ -791,7 +786,7 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="main-wrapper">
-                        <p>© Copyright 2024. All Rights Reserved by <a href="#">Bizper</a></p> 
+                        <p>© Copyright 2024. All Rights Reserved by <a href="#">TKX Conexão Logística</a></p>
                     </div>
                 </div>
             </div>

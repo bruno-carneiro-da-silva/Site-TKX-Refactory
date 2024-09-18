@@ -84,7 +84,6 @@
     <x-sidebar/>
     <!-- tpm-header-area end -->
 
-
     <!-- start startup banner swiper main wrapper -->
     <div class="startup-banner-swiper-wrapper construction-banner-top-wrapper">
         <div class="swiper swiper-startup-banner-construction">

@@ -19,3 +19,4 @@
 <script src="{{ asset('assets/js/vendor/contact-form.js') }}"></script>
 <!-- custom Js -->
 <script src="{{ asset('assets/js/main.js') }}"></script>
+<script src="{{ asset('assets/js/supportChat.js') }}"></script>

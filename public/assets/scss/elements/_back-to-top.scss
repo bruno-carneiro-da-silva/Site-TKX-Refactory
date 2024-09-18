@@ -75,15 +75,108 @@
 .progress-wrap:hover::before {
 	opacity: 0;
 }
-.progress-wrap svg path { 
-	fill: none; 
+.progress-wrap svg path {
+	fill: none;
 }
-.progress-wrap svg { 
+.progress-wrap svg {
     color: var(--color-primary);
 	border-radius: 50%;
 	background: #fff;
 }
 .progress-wrap svg.progress-circle path {
+    stroke: var(--color-primary);
+    stroke-width: 0px;
+	box-sizing:border-box;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    padding: 2px;
+}
+
+.support-btn {
+  position: fixed;
+  left: 30px; /* Alterado de right: 300px para left: 30px */
+  bottom: 30px;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  display: block;
+  border-radius: 50px;
+  z-index: 10000;
+  opacity: 1;
+  visibility: hidden;
+  transform: translateY(15px);
+  -webkit-transition: all 200ms linear;
+  transition: all 200ms linear;
+}
+
+.support-btn.active-progress {
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0);
+}
+.support-btn::after {
+	position: absolute;
+	font-family: var(--font-three);
+	content: '\f062';
+	text-align: center;
+	line-height: 46px;
+	font-size: 16px;
+	color: var(--color-primary);
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 1;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    border: 0px solid var(--color-primary);
+    box-shadow: none;
+	border-radius: 50% !important;
+	border-radius: 5px;
+    font-weight: 300;
+}
+.support-btn:hover::after {
+	opacity: 1;
+    content: '\f062';
+    border: 0px solid var(--color-primary);
+    font-weight: 300;
+}
+.support-btn::before {
+	position: absolute;
+	font-family: var(--font-three);
+	content: '\f062';
+	text-align: center;
+	line-height: 46px;
+	font-size: 16px;
+	opacity: 0;
+	background: var(--color-primary);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	left: 0;
+	top: 0;
+	height: 46px;
+	width: 46px;
+	cursor: pointer;
+	display: block;
+	z-index: 2;
+	-webkit-transition: all 200ms linear;
+    transition: all 200ms linear;
+    font-weight: 300;
+}
+.support-btn:hover::before {
+	opacity: 0;
+}
+.support-btn svg path {
+	fill: none;
+}
+.support-btn svg {
+    color: var(--color-primary);
+	border-radius: 50%;
+	background: #fff;
+}
+.support-btn svg.progress-circle path {
     stroke: var(--color-primary);
     stroke-width: 0px;
 	box-sizing:border-box;

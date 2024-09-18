@@ -16,7 +16,7 @@
             <div class="image-area-feature">
                 <img src="{{ asset('assets/images/sidebar/01.jpg') }}" alt="sidebar">
             </div>
-            <h5 class="title mt--30">Transforming your ideas into digital reality</h5>
+            <h5 class="title mt--30">Transformando suas ideias em reality</h5>
             <p class="disc">
                 Sed ut perspiciatis unde omnis natus error voluptatem santium doloremque laudantium, totam rem aperiam, eaque.
             </p>
@@ -25,7 +25,7 @@
                 <div class="single-contact-information-side">
                     <i class="fa-solid fa-phone"></i>
                     <div class="information">
-                        <span>Call Now</span>
+                        <span>Ligar agora</span>
                         <a href="#" class="number">+92 (8800) - 98670</a>
                     </div>
                 </div>
@@ -34,7 +34,7 @@
                 <div class="single-contact-information-side">
                     <i class="fa-light fa-envelope"></i>
                     <div class="information">
-                        <span>Mail Us</span>
+                        <span>Nos envie um e-mail</span>
                         <a href="#" class="number">example@info.com</a>
                     </div>
                 </div>
@@ -43,8 +43,8 @@
                 <div class="single-contact-information-side">
                     <i class="fa-sharp fa-light fa-location-dot"></i>
                     <div class="information">
-                        <span>Our Address</span>
-                        <a href="#" class="number">66 Broklyant, New York 3269</a>
+                        <span>Nosso Endereço</span>
+                        <a href="#" class="number">Lavras, Minas Gerais</a>
                     </div>
                 </div>
                 <!-- single contact information end -->
