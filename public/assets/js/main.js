@@ -59,6 +59,19 @@
             tmPk.supportChat();
         },
 
+        smoothScroll: function () {
+            $(document).on("click", ".click-scroll", function (event) {
+                event.preventDefault();
+                var target = $(this).attr("href");
+                $("html, body").animate(
+                    {
+                        scrollTop: $(target).offset().top - 94,
+                    },
+                    300
+                );
+            });
+        },
+
         swiperJs: function () {
             $(document).ready(function () {
                 var swiper = new Swiper(".mySwiper-banner-one", {
@@ -537,18 +550,18 @@
             // );
         },
 
-        smoothScroll: function (e) {
-            $(document).on("click", '.onepage a[href^="#"]', function (event) {
-                event.preventDefault();
+        // smoothScroll: function (e) {
+        //     $(document).on("click", '.onepage a[href^="#"]', function (event) {
+        //         event.preventDefault();
 
-                $("html, body").animate(
-                    {
-                        scrollTop: $($.attr(this, "href")).offset().top,
-                    },
-                    2000
-                );
-            });
-        },
+        //         $("html, body").animate(
+        //             {
+        //                 scrollTop: $($.attr(this, "href")).offset().top,
+        //             },
+        //             2000
+        //         );
+        //     });
+        // },
 
         title_animation: function () {
             if (device_width > 991) {

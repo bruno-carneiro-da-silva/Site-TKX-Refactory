@@ -6,32 +6,22 @@
             </a>
         </li>
         <li>
-            <a class="nav-link" href="{{ route('about') }}">
+            <a class="nav-link click-scroll" href="{{ url('/') }}#section_2">
                 <span class="rolling-text">SOBRE NÓS</span>
             </a>
         </li>
-        <li class="has-dropdown">
-            <a class="nav-link" href="#">
+        <li>
+            <a class="nav-link click-scroll" href="{{ url('/') }}#section_3">
                 <span class="rolling-text">NOSSAS SOLUÇÕES</span>
             </a>
-            <ul class="submenu">
-                <li><a href="{{ route('service') }}">Serviço</a></li>
-                <li><a href="{{ route('service-details') }}">Detalhes do serviço</a></li>
-            </ul>
-        </li>
-        <li class="has-dropdown">
-            <a class="nav-link" href="#">
-                <span class="rolling-text">BLOG</span>
-            </a>
-            <ul class="submenu">
-                <li><a href="{{ route('blog-col-1') }}">Blog Col 1</a></li>
-                <li><a href="{{ route('blog-col-2') }}">Blog Col 2</a></li>
-                <li><a href="{{ route('blog-details') }}">Blog </a></li>
-                <li><a href="{{ route('blog-details-2') }}">Blog v2</a></li>
-            </ul>
         </li>
         <li>
-            <a class="nav-link" href="{{ route('contact') }}">
+            <a class="nav-link click-scroll" href="{{ url('/') }}#section_10">
+                <span class="rolling-text">BLOG</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav-link click-scroll" href="{{ url('/') }}#section_8">
                 <span class="rolling-text">CONTATO</span>
             </a>
         </li>
@@ -46,6 +36,11 @@
                 {{-- <li><a href="{{ route('pricing') }}">Preços</a></li> --}}
                 <li><a href="{{ route('faq') }}">FAQ</a></li>
             </ul>
+        </li>
+          <li>
+            <a class="nav-link click-scroll" href="{{ url('/') }}#section_7">
+                <span class="rolling-text">LOGIN</span>
+            </a>
         </li>
     </ul>
 </nav>

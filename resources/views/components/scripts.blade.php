@@ -20,3 +20,5 @@
 <!-- custom Js -->
 <script src="{{ asset('assets/js/main.js') }}"></script>
 <script src="{{ asset('assets/js/supportChat.js') }}"></script>
+<script src="{{ asset('assets/js/click-scroll.js') }}"></script>
+

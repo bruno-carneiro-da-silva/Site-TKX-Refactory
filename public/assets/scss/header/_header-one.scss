@@ -151,7 +151,7 @@
                     }
                 }
             }
-            
+
         }
     }
 
@@ -182,13 +182,13 @@
             }
            }
         }
-    }  
+    }
 }
 
 
 .header-mida-area {
     &.style-two {
-        // Start  mainmenu-nav style 
+        // Start  mainmenu-nav style
             .mainmenu-nav {
                 .mainmenu {
                     display: flex;
@@ -217,7 +217,7 @@
                                     left: 2px;
                                     transform: none;
                                 }
-                                
+
                             }
                             &:hover {
                                 a {
@@ -225,7 +225,7 @@
                                         transform: rotate(180deg);
                                     }
                                 }
-                                
+
                             }
                             .submenu {
                                 min-width: 230px;
@@ -258,7 +258,7 @@
                                             color: var(--color-secondary);
                                         }
                                     }
-                                } 
+                                }
                             }
 
 
@@ -479,7 +479,7 @@ header.header-three{
     }
     nav ul li a.nav-link:hover {
         color: var(--color-primary) !important;
-    }    
+    }
 }
 
 

@@ -10737,7 +10737,7 @@ body.sal-disabled [data-sal|=flip] {
 .header-top-one .header-top-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: end;
 }
 .header-top-one .header-top-inner .left-information-area {
   display: flex;
@@ -10889,7 +10889,7 @@ body.sal-disabled [data-sal|=flip] {
 .tmp-header-area-start.header-two .header-mida-area.style-two {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 30px 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -11060,7 +11060,7 @@ header.header-three .header-mida-area.style-two .mainmenu-nav .mainmenu > li > a
 }
 
 .header-four.header--sticky.sticky {
-  background: rgba(0, 0, 0, 0.6509803922);
+  background: var(--color-primary);
   display: block;
   transform: none;
   left: 0;
@@ -11070,7 +11070,7 @@ header.header-three .header-mida-area.style-two .mainmenu-nav .mainmenu > li > a
 }
 
 .tmp-header-area-start.header-two.header-three.sticky {
-  background: #0f0f0f;
+  background: var(--color-primary);
 }
 .tmp-header-area-start.header-two.header-three .actions-area {
   display: block;
@@ -11162,14 +11162,14 @@ header.header-three .header-mida-area.style-two .mainmenu-nav .mainmenu > li > a
   top: 0;
 }
 .tmp-header-area-start.header-two.header-four.header-five.header--sticky.sticky {
-  background: rgb(3, 4, 28);
+  background: var(--color-primary);
   backdrop-filter: blur(10px);
 }
 .tmp-header-area-start.header-two.header-four.header-five .header-mida-area.style-two {
   padding: 0;
 }
 .tmp-header-area-start.header-two.header-four.header-five nav ul li a.nav-link:hover {
-  color: var(--color-primary) !important;
+  color: var(--color-white) !important;
 }
 
 .tmp-header-area-start.header-one.construction-radious .tmp-nav-area-one {
@@ -11461,7 +11461,7 @@ nav ul li.mega .submenu li {
   font-weight: 400 !important;
 }
 .tmp-header-area-start.header-four nav ul li a.nav-link.active {
-  color: var(--color-primary) !important;
+  color: var(--color-white) !important;
 }
 .tmp-header-area-start.header-four .tmp-btn.btn-secondary {
   background: var(--color-primary) !important;
@@ -11560,7 +11560,7 @@ nav ul li.has-dropdown .submenu li::after {
 .tmp-header-area-start.header-two.sticky .header-mida-area.style-two {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 0 0;
 }
 
@@ -18041,6 +18041,110 @@ body.service-details {
   transition: 0.3s;
 }
 
+/* teste */
+.timeline{
+    margin: 5em auto;
+    max-width: 34.14em;
+}
+.checkpoint{
+    max-width: 34em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    position: relative;
+}
+
+.checkpoint div{
+    border: 1px solid var(--color-border-white);
+    border-radius: 1em;
+    padding: 1.5em;
+}
+
+.checkpoint p{
+    line-height: 27px;
+    color: var(--color-dark);
+}
+
+.checkpoint:nth-child(odd) {
+    border-left: 3px solid var(--color-primary);
+    padding-left: 3em;
+    transform: translateX(16em)
+}
+
+.checkpoint:nth-child(even) {
+    border-right: 3px solid var(--color-primary);
+    padding-right: 3em;
+    transform: translateX(-17em)
+}
+
+.checkpoint:nth-child(odd)::before,
+.checkpoint:nth-child(even)::before{
+    content: '';
+    background: var(--color-primary);
+    width: 3em;
+    height: 3px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.checkpoint:nth-child(odd)::before{
+    left: 0;
+}
+.checkpoint:nth-child(even)::before{
+    right: 0;
+}
+
+
+.checkpoint:nth-child(odd) div::before,
+.checkpoint:nth-child(even) div::before{
+    content: '';
+    background: #fff;
+    box-shadow: 0 0 0.5em var(--color-primary);
+    width: 0.8em;
+    height: 0.8em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+}
+
+.checkpoint:nth-child(odd) div::before{
+    left: -0.5em;
+}
+
+.checkpoint:nth-child(even) div::before{
+    right: -0.5em;
+}
+
+@media screen and (max-width: 1150px){
+    .timeline{
+        width: 80vw;
+    }
+    .timeline .checkpoint{
+        width: 100%;
+        transform: none;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+
+    .timeline .checkpoint::before{
+        width: 3px;
+        height: 4em;
+        top: -2em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .timeline .checkpoint div::before{
+        top: -0.5em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
+
+
 .work-area.work-style-one {
   background-color: var(--color-heading);
 }
@@ -20335,6 +20439,15 @@ body.loaded {
 .about-area.about-style-one .about-thumbnails .thumbnail {
   position: relative;
 }
+
+.about-area-2.about-style-one-2 .about-thumbnails-2 .thumbnail-2 {
+  position: relative;
+  align-items: center;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-area.about-style-one .about-thumbnails .thumbnail {
     min-width: max-content;
@@ -20561,6 +20674,96 @@ body.loaded {
     padding: 15px;
   }
 }
+
+/* QRCODE AREA */
+
+.download-app-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.download-app-section h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.download-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    width: 500px;
+    height: 250px;
+}
+
+.download-card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.qr-code {
+    width: 220px;
+    height: 220px;
+    margin-right: 15px;
+}
+
+.download-info {
+    text-align: left;
+}
+
+.download-info h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.download-info p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.download-card {
+    position: relative; /* Adiciona um contexto de posicionamento para os elementos filhos */
+    cursor: pointer; /* Indica que o card é clicável */
+}
+
+.download-arrow {
+    position: absolute; /* Posiciona a seta de forma absoluta em relação ao card */
+    bottom: 20px; /* Ajusta a posição da seta */
+    right: 20px; /* Ajusta a posição da seta */
+    font-size: 1.5rem;
+    color: #000;
+    transition: transform 0.3s ease; /* Adiciona uma transição suave para o efeito de hover */
+}
+
+.download-card:hover .download-arrow {
+    transform: translateX(5px); /* Move a seta ligeiramente para a direita ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+    .download-card {
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+
+    .qr-code {
+        margin-bottom: 10px;
+    }
+
+    .download-arrow {
+        display: none;
+    }
+}
+
+
+
 .product-share .profile-share {
   display: flex;
   align-items: center;

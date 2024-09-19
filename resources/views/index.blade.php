@@ -17,7 +17,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="header-top-inner">
-                            <div class="left-information-area">
+                            {{-- <div class="left-information-area">
                                 <p class="left-top"><a href="tel:+553599974660"><i class="fa-regular fa-phone"></i> +55 (35) 99974660</a></p>
                                 <div class="location-area">
                                     <i class="fa-light fa-location-dot"></i>
@@ -27,7 +27,7 @@
                                     <i class="fa-light fa-clock"></i>
                                     <p>Horários: 9:00 AM – 8:00 PM</p>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="right-header-top">
                                 <div class="social-area-transparent">
                                     <span>Rede Sociais</span>
@@ -49,28 +49,25 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="header-mida-area style-two ">
-                        <div class="logo-area-start">
-                            <a href="{{ route('index') }}">
-                                <img style="width: 108px; height: 55px;" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo"></a>
-                        </div>
+
 
                         <div class="header-nav main-nav-one">
-                        <x-menuList/>
+                            <x-menuList/>
                         </div>
                         <!-- <a href="#" class="tmp-btn btn-primary">Consultoria</a> -->
-                        <div class="actions-area">
+                        {{-- <div class="actions-area"> --}}
 
-                            <a href="{{ route('service') }}" class="tmp-btn btn-primary">Comece agora</a>
+                            {{-- <a href="{{ route('service') }}" class="tmp-btn btn-primary">Comece agora</a> --}}
                             <!-- <div class="menu-button" id="search">
                         <i class="fa-light fa-grid-2"></i>
                         </div> -->
-                            <div class="tmp-side-collups-area" id="side-collups">
+                            {{-- <div class="tmp-side-collups-area" id="side-collups">
                                 <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect y="14" width="20" height="2" fill="#fff"></rect>
                                     <rect y="7" width="20" height="2" fill="#fff"></rect>
                                     <rect width="20" height="2" fill="#fff"></rect>
                                 </svg>
-                            </div>
+                            </div> --}}
                         </div>
                     </div>
                 </div>
@@ -95,11 +92,19 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="banner-startup-main-content-wrapper">
-                                        <h1 class="title">Moldando seu <br> Cenário pro Futuro</h1>
-                                        <p class="disc">
-                                            Conectando Soluções Logísticas com Tecnologia de Ponta. Conheça nossas soluções inovadoras para mobilidade urbana, transporte rodoviário e serviços de guincho.
-                                        </p>
-                                        <a href="#" class="tmp-btn btn-primary">Falar com especialista</a>
+                                       <div class="flex-row">
+                                            <div class="logo-area-start">
+                                                <a href="{{ route('index') }}">
+                                                    <img style="width: 208px; height: 105px;" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
+                                                </a>
+                                            </div>
+                                                <h1 class="title"> Conexão Logistica: <br> </h1>
+                                                <h2 class="text-white">Conectando o Futuro da Mobilidade e Logística</h2>
+                                        </div>
+                                            <p class="disc">
+                                                A TKX Conexão Logística é uma empresa inovadora que transforma o setor de logística e mobilidade com soluções tecnológicas inteligentes e intuitivas.
+                                            </p>
+                                        <a href="{{ url('/') }}#section_3" class="click-scroll tmp-btn btn-primary">Conheça nossas soluções</a>
                                     </div>
                                 </div>
                             </div>
@@ -117,11 +122,19 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="banner-startup-main-content-wrapper">
-                                        <h1 class="title">Desenvolvendo seu <br> Ambiente ideal</h1>
+                                         <div class="flex-row">
+                                            <div class="logo-area-start">
+                                                <a href="{{ route('index') }}">
+                                                    <img style="width: 208px; height: 105px;" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
+                                                </a>
+                                            </div>
+                                                <h1 class="title">Desenvolvendo seu <br> Ambiente ideal</h1>
+
+                                        </div>
                                         <p class="disc">
                                             Conectando Soluções Logísticas com Tecnologia de Ponta. Conheça nossas soluções inovadoras para mobilidade urbana, transporte rodoviário e serviços de guincho.
                                         </p>
-                                        <a href="#" class="tmp-btn btn-primary">Fale com um especialista</a>
+                                          <a href="{{ url('/') }}#section_3" class="click-scroll tmp-btn btn-primary">Conheça nossas soluções</a>
                                     </div>
                                 </div>
                             </div>
@@ -139,11 +152,18 @@
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="banner-startup-main-content-wrapper">
-                                        <h1 class="title">Criando seu <br> Destaque no Mercado </h1>
+                                           <div class="flex-row">
+                                            <div class="logo-area-start">
+                                                <a href="{{ route('index') }}">
+                                                    <img style="width: 208px; height: 105px;" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
+                                                </a>
+                                            </div>
+                                        <h1 class="title">Destacando seu <br>  negócio</h1>
+                                        </div>
                                         <p class="disc">
                                             Conectando Soluções Logísticas com Tecnologia de Ponta. Conheça nossas soluções inovadoras para mobilidade urbana, transporte rodoviário e serviços de guincho.
                                         </p>
-                                        <a href="#" class="tmp-btn btn-primary">Fale com um especialista</a>
+                                         <a href="{{ url('/') }}#section_3" class="click-scroll tmp-btn btn-primary">Conheça nossas soluções</a>
                                     </div>
                                 </div>
                             </div>
@@ -163,7 +183,7 @@
     <!-- start startup banner swiper main wrapper end -->
 
     <!-- Tpm About Area Start  -->
-    <div class="about-area tmp-section-gap about-style-one">
+    <div class="about-area tmp-section-gap about-style-one" id="section_2">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6">
@@ -226,7 +246,7 @@
 
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6" >
                     <div class="about-inner">
                         <div class="section-head text-align-left section-head-one-side">
                             <div class="section-sub-title">
@@ -262,7 +282,7 @@
                                 <div class="progress-bar wow fadeInLeft bg--primary" role="progressbar" style="width: 86%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
-                        <div class="single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
+                        {{-- <div class="single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
                             <div class="progress-top">
                                 <p class="name">TKX Guincho</p>
                                 <span class="parcent">
@@ -272,7 +292,7 @@
                             <div class="progress">
                                 <div class="progress-bar wow fadeInLeft bg--primary" role="progressbar" style="width: 66%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
-                        </div>
+                        </div> --}}
                         <!-- Prograss bar End  -->
                         <div class="thumbnail-with-title" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
                             <div class="thumbnail">
@@ -290,7 +310,7 @@
     </div>
     <!--Tpm About Area End  -->
 
-    <div class="service-area tmp-section-gapBottom">
+    <div class="service-area tmp-section-gapBottom" id="section_3">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
@@ -303,7 +323,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-5">
+            <div class="row g-5 mx-auto d-flex justify-content-center">
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                     <div class="service-inner financial-service-inner agency-service">
                         <div class="icon">
@@ -320,7 +340,7 @@
                                 <div class="dot dot-two"></div>
                             </div>
                         </div>
-                        <a href="{{ route('service-details') }}" class="over_link"></a>
+                        <a href="{{ url('/') }}#section_4" class="over_link click-scroll"></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
@@ -340,26 +360,7 @@
                                 <div class="dot dot-two"></div>
                             </div>
                         </div>
-                        <a href="{{ route('service-details') }}" class="over_link"></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
-                    <div class="service-inner financial-service-inner agency-service">
-                        <div class="icon">
-                            <img src="{{ asset('assets/images/services/agency-7.svg') }}" alt="corporate_Business_Services_agency" style="filter: grayscale(100%) brightness(0%);">
-                        </div>
-                        <div class="content">
-                            <h2 class="title">TKX Guincho</h2>
-                            <p class="description">
-                                Com o TKX Guincho, seguradoras podem encontrar rapidamente os guincheiros mais próximos para atender às necessidades dos clientes com eficiência e rapidez.
-                            </p>
-                            <div class="three--dot">
-                                <div class="dot dot-one"></div>
-                                <div class="dot dot-two"></div>
-                                <div class="dot dot-two"></div>
-                            </div>
-                        </div>
-                        <a href="{{ route('service-details') }}" class="over_link"></a>
+                        <a href="{{ url('/') }}#section_5" class="over_link click-scroll"></a>
                     </div>
                 </div>
             </div>
@@ -367,131 +368,60 @@
     </div>
 
     <!-- tmp product area start -->
-    <div class="tmp-product-area">
+    <div class="tmp-product-area" id="section_4">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-head">
                         <div class="section-sub-title center-title">
                             <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service" style="filter: grayscale(100%) brightness(0%);">
-                            <span class="subtitle">NOSSOS CASES</span>
+                            <span class="subtitle">TKX Mobilidade Inteligente</span>
                         </div>
                         <h2 class="title split-collab">Veja nossos melhores exemplos </h2>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="container-full">
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- product swiper area start -->
-                    <div class="product-swiper-area-one">
-
-                        <div class="swiper mySwiper-portfolio-1">
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <!-- single product area start -->
-                                    <div class="signle-product-start" data-tmp-cursor="lg text-secondary transparent fw-bold" data-tmp-cursor-icon="fa-solid fa-arrow-up-right">
-                                        <a href="{{ route('projects-details') }}" class="thumbnail">
-                                            <img src="{{ asset('assets/images/portfolio/portfolio-7.png') }}" alt="corporate_business">
-                                        </a>
-                                        <div class="inner-content">
-                                            <a href="{{ route('projects-details') }}">
-                                                <h5 class="title">Aumento de Frotas</h5>
-                                            </a>
-                                            <span class="designation">TKX Mobilidade inteligente</span>
-                                            <div class="tag"></div>
-                                        </div>
-                                    </div>
-                                    <!-- single product area end -->
-                                </div>
-                                <div class="swiper-slide">
-                                    <!-- single product area start -->
-                                    <div class="signle-product-start" data-tmp-cursor="lg text-secondary transparent fw-bold" data-tmp-cursor-icon="fa-solid fa-arrow-up-right">
-                                        <a href="{{ route('projects-details') }}" class="thumbnail">
-                                            <img src="{{ asset('assets/images/portfolio/portfolio-7.png') }}" alt="corporate_business">
-                                        </a>
-                                        <div class="inner-content">
-                                            <a href="{{ route('projects-details') }}">
-                                                <h5 class="title">Redesenho de Aplicativo</h5>
-                                            </a>
-                                            <span class="designation">TKX Truck</span>
-                                            <div class="tag"></div>
-                                        </div>
-                                    </div>
-                                    <!-- single product area end -->
-                                </div>
-                                <div class="swiper-slide">
-                                    <!-- single product area start -->
-                                    <div class="signle-product-start" data-tmp-cursor="lg text-secondary transparent fw-bold" data-tmp-cursor-icon="fa-solid fa-arrow-up-right">
-                                        <a href="{{ route('projects-details') }}" class="thumbnail">
-                                            <img src="{{ asset('assets/images/portfolio/portfolio-7.png') }}" alt="corporate_business">
-                                        </a>
-                                        <div class="inner-content">
-                                            <a href="{{ route('projects-details') }}">
-                                                <h5 class="title">Criação de Tracking</h5>
-                                            </a>
-                                            <span class="designation">TKX truck</span>
-                                            <div class="tag"></div>
-                                        </div>
-                                    </div>
-                                    <!-- single product area end -->
-                                </div>
-                                <div class="swiper-slide">
-                                    <!-- single product area start -->
-                                    <div class="signle-product-start" data-tmp-cursor="lg text-secondary transparent fw-bold" data-tmp-cursor-icon="fa-solid fa-arrow-up-right">
-                                        <a href="{{ route('projects-details') }}" class="thumbnail">
-                                            <img src="{{ asset('assets/images/portfolio/portfolio-7.png') }}" alt="corporate_business">
-                                        </a>
-                                        <div class="inner-content">
-                                            <a href="{{ route('projects-details') }}">
-                                                <h5 class="title">Guinchos 24hrs</h5>
-                                            </a>
-                                            <span class="designation">TKX Guincho</span>
-                                            <div class="tag"></div>
-                                        </div>
-                                    </div>
-                                    <!-- single product area end -->
-                                </div>
-                                <div class="swiper-slide">
-                                    <!-- single product area start -->
-                                    <div class="signle-product-start" data-tmp-cursor="lg text-secondary transparent fw-bold" data-tmp-cursor-icon="fa-solid fa-arrow-up-right">
-                                        <a href="{{ route('projects-details') }}" class="thumbnail">
-                                            <img src="{{ asset('assets/images/portfolio/portfolio-7.png') }}" alt="corporate_business">
-                                        </a>
-                                        <div class="inner-content">
-                                            <a href="{{ route('projects-details') }}">
-                                                <h5 class="title">TKX Truck</h5>
-                                            </a>
-                                            <span class="designation">Tracking & Rastreio</span>
-                                            <div class="tag"></div>
-                                        </div>
-                                    </div>
-                                    <!-- single product area end -->
-                                </div>
-                                <div class="swiper-slide">
-                                    <!-- single product area start -->
-                                    <div class="signle-product-start" data-tmp-cursor="lg text-secondary transparent fw-bold" data-tmp-cursor-icon="fa-solid fa-arrow-up-right">
-                                        <a href="{{ route('projects-details') }}" class="thumbnail">
-                                            <img src="{{ asset('assets/images/portfolio/portfolio-7.png') }}" alt="corporate_business">
-                                        </a>
-                                        <div class="inner-content">
-                                            <a href="{{ route('projects-details') }}">
-                                                <h5 class="title">Torre de controle</h5>
-                                            </a>
-                                            <span class="designation">Gerenciamento de Frota</span>
-                                            <div class="tag"></div>
-                                        </div>
-                                    </div>
-                                    <!-- single product area end -->
-                                </div>
+        <div class="container">
+            <div class="row g-5 mx-auto d-flex justify-content-center">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                    <div class="service-inner financial-service-inner agency-service">
+                        <div class="thumbnail icon">
+                                <img src="{{ asset('assets/images/services/services-icon-3.png') }}" alt="Business consulting services">
                             </div>
-                            <div class="swiper-pagination"></div>
-                            <div class="swiper-button-next" data-tmp-cursor="md transparent fw-bold" data-tmp-cursor-text="Próximo"></div>
-                            <div class="swiper-button-prev" data-tmp-cursor="md transparent fw-bold" data-tmp-cursor-text="Anterior"></div>
+                        <div class="content">
+                            <h2 class="title">Conexão Instantânea</h2>
+                            <p class="description">
+                                Encontre um motorista próximo com apenas alguns toques na tela. Desfrute de uma experiência rápida e eficiente.
+                            </p>
                         </div>
                     </div>
-                    <!-- product swiper area end -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
+                    <div class="service-inner financial-service-inner agency-service">
+                           <div class="thumbnail icon">
+                                <img src="{{ asset('assets/images/services/services-icon-1.png') }}" alt="Business consulting services">
+                            </div>
+                        <div class="content">
+                            <h2 class="title">Pagamentos Simples</h2>
+                            <p class="description">
+                                Pague sua corrida com segurança e praticidade através do aplicativo. Escolha entre diversas opções de pagamento.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
+                    <div class="service-inner financial-service-inner agency-service">
+                        <div class="icon">
+                            <img src="{{ asset('assets/images/services/service-icon-1.png') }}" alt="corporate_Business_Services_agency" style="filter: grayscale(100%) brightness(0%);">
+                        </div>
+                        <div class="content">
+                            <h2 class="title">Segurança e Confiança</h2>
+                            <p class="description">
+                                Avalie seus motoristas e veja as avaliações de outros usuários. Garante uma experiência confiável e segura.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -499,289 +429,162 @@
     <!-- tmp product area end -->
 
     <!-- Tmp Servisec Processs Area Two Start -->
-    <div class="tpm-services-process-area tmp-section-gap">
+    <div class="tpm-services-process-area tmp-section-gap" id="section_5">
         <div class="container">
             <div class="row" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
                 <div class="col-lg-12">
                     <div class="section-head">
                         <div class="section-sub-title center-title">
                             <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service" style="filter: grayscale(100%) brightness(0%);">
-                            <span class="subtitle">NOSSO processo de trabalho</span>
+                            <span class="subtitle">TKX Truck</span>
                         </div>
-                        <h2 class="title split-collab">Todo o nosso processo de trabalho</h2>
+                        <h2 class="title split-collab">Sua Logística Rodoviária Inteligente</h2>
                     </div>
                 </div>
             </div>
 
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <div class="single-services">
-                        <div class="services-inner">
-                            <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services" ></a>
-                                <div class="number-bg-round">
-                                    <span>01</span>
-                                </div>
-                            </div>
-                            <div class="services-content services-content-style-1 text-center">
-                                <h5 class="title">Conhecer nossos clientes</h5>
-                                <p class="description">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur ut minima impedit ducimus vero nulla .
-                                </p>
-                            </div>
+            <div class="row d-flex justify-content-center mx-auto">
+                <div class="timeline">
+                    <div class="checkpoint">
+                        <div>
+                            <h2>Conexão Direta</h2>
+                            <p>Conecte-se diretamente a motoristas e transportadoras para otimizar a alocação de cargas e veículos.</p>
                         </div>
                     </div>
-
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
-                    <div class="single-services">
-                        <div class="services-inner">
-                            <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services"></a>
-                                <div class="number-bg-round">
-                                    <span>02</span>
-                                </div>
-                            </div>
-                            <div class="services-content services-content-style-1 text-center">
-                                <h5 class="title">Estratégia No atendimento</h5>
-                                <p class="description">
-                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit repellat nam, fugit, porro eum eligendi consectetur aperiam non aut necessitatibus repellendus.
-                                </p>
-                            </div>
+                     <div class="checkpoint">
+                        <div>
+                            <h2>Acompanhamento em Tempo Real</h2>
+                            <p>Conecte-se diretamente a motoristas e transportadoras para otimizar a alocação de cargas e veículos.</p>
                         </div>
                     </div>
-
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
-                    <div class="single-services">
-                        <div class="services-inner">
-                            <div class="thumbnail thumbnail-rounded border-top-left hover-animation">
-                                <a href="#"><img src="{{ asset('assets/images/services/service-round-1.png') }}" alt="Business consulting services"></a>
-                                <div class="number-bg-round">
-                                    <span>03</span>
-                                </div>
-                            </div>
-                            <div class="services-content services-content-style-1 text-center">
-                                <h5 class="title">Inicio dos gerenciamentos</h5>
-                                <p class="description">
-                                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo, accusamus nulla deleniti accusantium neque sit eveniet soluta assumenda.
-                                </p>
-                            </div>
+                     <div class="checkpoint">
+                        <div>
+                            <h2>Gestão de Rotas Otimizadas</h2>
+                            <p>Utilize ferramentas de otimização de rotas para reduzir custos e melhorar a eficiência do transporte.</p>
                         </div>
                     </div>
-
+                     <div class="checkpoint">
+                        <div>
+                            <h2>Relatórios Detalhados</h2>
+                            <p>Acesse relatórios e análises sobre o desempenho da logística, ajudando a tomar decisões baseadas em dados.</p>
+                        </div>
+                    </div>
                 </div>
-
             </div>
         </div>
     </div>
     <!-- Tmp Servisec Processs Area Two End -->
 
-    <!-- Start Testimonial with brand  -->
-    <div class="testimonial-with-brand bg-1">
-        <!-- Start Testimonial Area  -->
-        <div class="testimonial-brand-area tmp-section-gapTop">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="testimonials-button-area">
-                            <div class="section-head text-align-left">
-                                <div class="section-sub-title">
-                                    <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service" style="filter: grayscale(100%) brightness(0%);">
-                                    <span class="subtitle">Feedback dos Clientes</span>
-                                </div>
-                                <h2 class="title split-collab">O que nossos clientes dizem <br> Sobre Nós</h2>
-                            </div>
-
-                            <div class="button-next-prev">
-                                <div class="swiper-button-prev"></div>
-                                <div class="swiper-button-next"></div>
-                            </div>
+    <!-- Start More about TKX  -->
+    <div class="about-area-2 tmp-section-gap about-style-one-2" id="section_6">
+        <div class="container">
+                <div class="section-head">
+                    <div class="section-sub-title center-title">
+                        <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service" style="filter: grayscale(100%) brightness(0%);">
+                        <span class="subtitle">MAIS SOBRE A TKX</span>
+                    </div>
+                    <h2 class="title split-collab">Beneficios da TKX Conexão Logística</h2>
+                </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-thumbnails-2">
+                        <div class="thumbnail-2">
+                            <img src="{{ asset('assets/images/about/8.png') }}" alt="corporate_business">
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-6" id="section_2">
+                    <div class="about-inner">
 
-                <div class="row">
-                    <div class="col-lg-12">
-                        <!-- Slider main container -->
-                        <div class="swiper-style-one tmp-section-gapBottom">
-                            <div class="swiper-container-style-two">
-                                <!-- Additional required wrapper -->
-                                <div class="swiper-wrapper">
 
-                                    <div class="swiper-slide">
-                                        <div class="single-card card-horizontal">
-                                            <div class="card-inner">
-                                                <div class="content">
-                                                    <div class="rating rating-style-three">
-                                                        <div class="stars-group">
-                                                            <div class="star">
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star-half-stroke"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat at assumenda quibusdam ipsum totam nihil id est maiores suscipit officia facilis unde ab iusto distinctio magni, fugiat quidem recusandae placeat!</p>
-                                                    <div class="content content-without-bg">
-                                                        <div class="name">Clade Owen</div>
-                                                        <div class="designation">CEO &amp; Founder</div>
-                                                    </div>
-                                                </div>
-                                                <div class="thumbnail">
-                                                    <img src="{{ asset('assets/images/testimonial/testimonial-1.jpg') }}" alt="testimonial">
-                                                    <div class="icon icon-quote">
-                                                        <i class="fa-duotone fa-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="single-card card-horizontal">
-                                            <div class="card-inner">
-                                                <div class="content">
-                                                    <div class="rating rating-style-three">
-                                                        <div class="stars-group">
-                                                            <div class="star">
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star-half-stroke"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore in eligendi culpa quae tenetur, quaerat, harum modi error natus sequi aliquid reprehenderit</p>
-
-                                                    <div class="content content-without-bg">
-                                                        <div class="name">Gustavo Bozelli</div>
-                                                        <div class="designation">Gerente de Operações</div>
-                                                    </div>
-                                                </div>
-                                                <div class="thumbnail">
-                                                    <img src="{{ asset('assets/images/testimonial/testimonial-2.jpg') }}" alt="testimonial">
-                                                    <div class="icon icon-quote">
-                                                        <i class="fa-duotone fa-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="single-card card-horizontal">
-                                            <div class="card-inner">
-                                                <div class="content">
-                                                    <div class="rating rating-style-three">
-                                                        <div class="stars-group">
-                                                            <div class="star">
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star-half-stroke"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel modi id quasi magni, earum tempora quam et vero rem obcaecati sit, iusto cum dolores unde tempore, veritatis amet voluptas odit.</p>
-                                                    <div class="content content-without-bg">
-                                                        <div class="name">Reginaldo</div>
-                                                        <div class="designation">CEO e Fundador</div>
-                                                    </div>
-                                                </div>
-                                                <div class="thumbnail">
-                                                    <img src="{{ asset('assets/images/testimonial/testimonial-1.jpg') }}" alt="testimonial">
-                                                    <div class="icon icon-quote">
-                                                        <i class="fa-duotone fa-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <div class="single-card card-horizontal">
-                                            <div class="card-inner">
-                                                <div class="content">
-                                                    <div class="rating rating-style-three">
-                                                        <div class="stars-group">
-                                                            <div class="star">
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star"></i>
-                                                                <i class="fa-solid fa-star-half-stroke"></i>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur culpa doloremque dolorum fuga, recusandae nostrum dolore sed nihil quod, aliquam quibusdam iste facilis impedit molestiae dignissimos accusantium voluptate excepturi deleniti?</p>
-                                                    <div class="content content-without-bg">
-                                                        <div class="name">Saulo Diniz</div>
-                                                        <div class="designation">CEO e Fundador</div>
-                                                    </div>
-                                                </div>
-                                                <div class="thumbnail">
-                                                    <img src="{{ asset('assets/images/testimonial/testimonial-2.jpg') }}" alt="testimonial">
-                                                    <div class="icon icon-quote">
-                                                        <i class="fa-duotone fa-quote-left"></i>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                                <!-- If we need navigation buttons -->
+                        <p class="description" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condimentum diam sed, consequat tellus. Quisque ac odio eget ligula gravida efficitur. Nunc facilisis sagittis magna, non venenatis mauris luctus quis.
+                        </p>
+                        <!-- Prograss bar Start  -->
+                        <div class="single-progress-area progress-stye-one" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
+                            <div>
+                                <h2>Tecnologia Avançada</h2>
                             </div>
-
+                            <div >
+                               <span>Utilizamos tecnologias de ponta para oferecer soluções eficientes e inovadoras.</span>
+                            </div>
                         </div>
+                        <div class="single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
+                            <div>
+                                <h2>Conexões Rápidas e Eficientes</h2>
+                            </div>
+                            <div>
+                               <span>Conecte-se com rapidez e facilidade aos serviços e informações que você precisa.</span>
+                            </div>
+                        </div>
+                        <div class="single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
+                            <div>
+                                <h2>Suporte Dedicado</h2>
+                            </div>
+                            <div>
+                               <span>Conecte-se com nossa equipe de suporte dedicada para solucionar suas dúvidas e necessidades..</span>
+                            </div>
+                        </div>
+                        <!-- Prograss bar End  -->
+
                     </div>
                 </div>
             </div>
         </div>
-        <!-- End Testimonial Area  -->
-
-        <!-- Start Brand Area  -->
-        <div class="brand-area tmp-section-gapBottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="brand-inner tmp-section-gapTop">
-                            <ul class="brand-list brand-style-1 justify-content-center justify-content-lg-between">
-                                <li data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                                    <a href="#"><img src="{{ asset('assets/images/brand/brand-1.png') }}" alt="Brand Image"></a>
-                                </li>
-
-                                <li data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
-                                    <a href="#"><img src="{{ asset('assets/images/brand/brand-2.png') }}" alt="Brand Image"></a>
-                                </li>
-
-                                <li data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
-                                    <a href="#"><img src="{{ asset('assets/images/brand/brand-3.png') }}" alt="Brand Image"></a>
-                                </li>
-
-                                <li data-sal-delay="450" data-sal="slide-up" data-sal-duration="800">
-                                    <a href="#"><img src="{{ asset('assets/images/brand/brand-4.png') }}" alt="Brand Image"></a>
-                                </li>
-                                <li data-sal-delay="550" data-sal="slide-up" data-sal-duration="800">
-                                    <a href="#"><img src="{{ asset('assets/images/brand/brand-5.png') }}" alt="Brand Image"></a>
-                                </li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- End Brand Area  -->
     </div>
-    <!-- End Testimonial with brand  -->
+    <!-- End More about TKX -->
+
+    <!-- Start QRCODE Area  -->
+    <div class="tmp-section-gap tmpfaqs-area" style="background-color: rgb(240, 240, 240);" id="section_7">
+        <div class="container">
+            <div class="row">
+                <div class="container download-app-section">
+                    <div class="section-head">
+                        <div class="section-sub-title center-title">
+                            <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service" style="filter: grayscale(100%) brightness(0%);">
+                            <span class="subtitle">COMO USAR NOSSOS SERVIÇOS</span>
+                        </div>
+                        <h2 class="title split-collab">Baixe nossos aplicativos</h2>
+                    </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 col-sm-12 download-card">
+                        <a href="https://play.google.com/store/apps/details?id=br.com.tkx.passenger.drivermachine" target="_blank" class="over_link">
+                            <div class="download-card-content">
+                                <img src="{{ asset('assets/images/qrcode/tkx-mobilidade.png ') }}" alt="QR code Uber" class="qr-code">
+                                <div class="download-info">
+                                    <h2>TKX mobilidade</h2>
+                                    <span>Escaneie para baixar</span>
+                                </div>
+                                <div class="download-arrow">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 download-card">
+                        <a href="https://play.google.com/store/apps/details?id=com.tkx.driver&hl=pt_BR" target="_blank" class="over_link">
+                            <div class="download-card-content">
+                                <img src="{{ asset('assets/images/qrcode/tkx-truck-qrcode.png ') }}" alt="QR code Parceiro" class="qr-code">
+                                <div class="download-info">
+                                    <h2>TKX Truck</h2>
+                                    <span>Escaneie para baixar</span>
+                                </div>
+                                <div class="download-arrow">
+                                    <i class="fa fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End QRCODE Area  -->
 
     <!-- Start Contact Area  -->
-    <div class="contact-area-three tmp-section-gapTop">
+    <div class="contact-area-three tmp-section-gapTop" id="section_8">
         <div class="bg-shape">
             <img src="{{ asset('assets/images/cta/02.png') }}" alt="bussiness-contact">
         </div>
@@ -1000,7 +803,7 @@
 
 
     <!-- Tmp Blog Area Start  -->
-    <div class="tmp-blog-area tmp-section-gapBottom">
+    <div class="tmp-blog-area tmp-section-gapBottom" id="section_10">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

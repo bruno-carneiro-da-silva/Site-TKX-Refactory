@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="header-top-inner">
-                            <div class="left-information-area">
+                            {{-- <div class="left-information-area">
                                 <p class="left-top"><a href="tel:+553599974660"><i class="fa-regular fa-phone"></i> +55 (35) 99974660</a></p>
                                 <div class="location-area">
                                     <i class="fa-light fa-location-dot"></i>
@@ -24,7 +24,7 @@
                                     <i class="fa-light fa-clock"></i>
                                     <p>Horários: 9:00 AM – 8:00 PM</p>
                                 </div>
-                            </div>
+                            </div> --}}
                             <div class="right-header-top">
                                 <div class="social-area-transparent">
                                     <span>Rede Sociais</span>
@@ -46,30 +46,10 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="header-mida-area style-two ">
-                        <div class="logo-area-start">
-                            <a href="{{ route('index') }}">
-                                <img src="{{ asset('assets/images/logo/logo.png') }}" alt="logo" style="width: 108px; height: 61px;">
-                            </a>
-                        </div>
-
                         <div class="header-nav main-nav-one">
                             <x-menuList/>
                         </div>
-                        <!-- <a href="#" class="tmp-btn btn-primary">Consultoria</a> -->
-                        <div class="actions-area">
 
-                            <a href="#" class="tmp-btn btn-primary">Começe agora</a>
-                            <!-- <div class="menu-button" id="search">
-                        <i class="fa-light fa-grid-2"></i>
-                        </div> -->
-                            <div class="tmp-side-collups-area" id="side-collups">
-                                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect y="14" width="20" height="2" fill="#fff"></rect>
-                                    <rect y="7" width="20" height="2" fill="#fff"></rect>
-                                    <rect width="20" height="2" fill="#fff"></rect>
-                                </svg>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
