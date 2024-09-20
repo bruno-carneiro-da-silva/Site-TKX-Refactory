@@ -41,6 +41,10 @@ $(document).ready(function () {
                 300
             );
         }
+
+        // Fechar a sidebar ao clicar no link de navegação
+        $("#side-hide").removeClass("show");
+        $("#overlay_every-where").removeClass("bgshow");
     });
 
     // Ativar o link de navegação correto ao carregar a página

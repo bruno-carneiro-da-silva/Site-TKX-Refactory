@@ -63,85 +63,49 @@
             <nav class="nav-main mainmenu-nav mt--30">
                 <ul class="mainmenu metismenu" id="mobile-menu-active">
                     <li>
-                        <a href="{{ url('/') }}" class="main">PÁGINA INICIAL</a>
-                        <ul class="submenu mm-collapse">
-                            {{-- <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Multipages</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="{{ route('index') }}"></a>Corporate Demo</li>
-                                    <li><a href="{{ route('index-two') }}"></a>Financial Demo</li>
-                                    <li><a href="{{ route('index-three') }}"></a>Marketing Demo</li>
-                                    <li><a href="{{ route('index-four') }}"></a>Agency Demo</li>
-                                    <li><a href="{{ route('index-five') }}"></a>Startup Demo</li>
-                                    <li><a href="{{ route('index-six') }}"></a>Construction Demo</li>
-                                    <li><a href="{{ route('index-seven') }}"></a>Construction 2 Demo</li>
-                                    <li><a href="{{ route('index-eight') }}"></a>Company Demo</li>
-                                </ul>
-                            </li> --}}
-                            {{-- <li class="has-droupdown third-lvl">
-                                <a class="main" href="#">Onepages</a>
-                                <ul class="submenu-third-lvl mm-collapse">
-                                    <li><a href="{{ route('onepage-one') }}"></a>One Page Corporate</li>
-                                    <li><a href="{{ route('onepage-two') }}"></a>One Page Financial</li>
-                                    <li><a href="{{ route('onepage-three') }}"></a>One Page Marketing</li>
-                                    <li><a href="{{ route('onepage-four') }}"></a>One Page Agency</li>
-                                    <li><a href="{{ route('onepage-five') }}"></a>One Page Startup</li>
-                                    <li><a href="{{ route('onepage-six') }}"></a>One Page Construction</li>
-                                    <li><a href="{{ route('onepage-seven') }}"></a>One Page Construction 2</li>
-                                    <li><a href="{{ route('onepage-eight') }}"></a>One Page Company</li>
-                                </ul>
-                            </li> --}}
-                        </ul>
+                        <a href="{{ url('/') }}" class="main" id="close-slide_main">PÁGINA INICIAL</a>
                     </li>
                     <li>
-                        <a href="{{ route('about') }}" class="main">SOBRE NÓS</a>
+                        <a class="main click-scroll" href="{{ url('/') }}#section_2">SOBRE NÓS</a>
+                    </li>
+                    <li>
+                         <a class="main click-scroll" href="{{ url('/') }}#section_3">
+                        <span class="rolling-text">NOSSAS SOLUÇÕES</span>
+                    </a>
+                    </li>
+                    <li>
+                        <a class="main click-scroll" href="{{ url('/') }}#section_10">
+                            <span class="rolling-text">BLOG</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main click-scroll" href="{{ url('/') }}#section_8">
+                            <span class="rolling-text">CONTATO</span>
+                        </a>
                     </li>
                     <li class="has-droupdown">
-                        <a href="#" class="main">Serviços</a>
-                        <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="{{ route('service') }}">Service</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('service-details') }}">Service Details</a></li>
+                        <a class="main" href="#">
+                            <span class="rolling-text">ÁREA DO CLIENTE</span>
+                        </a>
+                        <ul class="submenu">
+                            <li><a href="{{ route('appoinment') }}">Serviço Personalizado</a></li>
+                            <li><a href="{{ route('projects-details-2') }}">Projetos Realizados</a></li>
+                            <li><a href="{{ route('team-details') }}">Detalhes da Equipe</a></li>
+                            {{-- <li><a href="{{ route('pricing') }}">Preços</a></li> --}}
+                            <li><a href="{{ route('faq') }}">FAQ</a></li>
                         </ul>
                     </li>
-                    <li class="has-droupdown">
-                        <a href="#" class="main">BLOG</a>
-                        <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="{{ route('blog') }}">Blog</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('blog-col-1') }}">Blog Col 1</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('blog-col-2') }}">Blog Col 2</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('blog-details') }}">Blog Details</a></li>
-                        </ul>
-                    </li>
-                    <li class="has-droupdown">
-                        <a href="#" class="main">ÁREA DO CLIENTE</a>
-                        <ul class="submenu mm-collapse">
-                            <li><a class="mobile-menu-link" href="{{ route('appoinment') }}">Serviço Personalizado</a></li>
-                            {{-- <li><a class="mobile-menu-link" href="{{ route('project-details') }}">Project</a></li> --}}
-                            <li><a class="mobile-menu-link" href="{{ route('projects-details-2') }}">Projetos Realizados</a></li>
-                            {{-- <li><a class="mobile-menu-link" href="{{ route('team') }}">Team</a></li> --}}
-                            <li><a class="mobile-menu-link" href="{{ route('team-details') }}">Detalhes da Equipe</a></li>
-                            {{-- <li><a class="mobile-menu-link" href="{{ route('pricing') }}">Pricing</a></li> --}}
-                            <li><a class="mobile-menu-link" href="{{ route('contact') }}">Contato</a></li>
-                            <li><a class="mobile-menu-link" href="{{ route('faq') }}">FAQ</a></li>
-                            {{-- <li><a class="mobile-menu-link" href="{{ route('notFound') }}">404 Page</a></li> --}}
-
-                            <!-- <li class="has-droupdown third-lvl">
-                            <a class="main" href="#">Team</a>
-                            <ul class="submenu-third-lvl mm-collapse">
-                                <li><a href="{{ route('team-1') }}"></a>Team One</li>
-                                <li><a href="{{ route('team-2') }}"></a>Team Two</li>
-                                <li><a href="{{ route('team-details') }}"></a>Team Details</li>
-                            </ul>
-                        </li> -->
-                        </ul>
-                    </li>
+                <li>
+                    <a class="main click-scroll" href="{{ url('/') }}#section_7">
+                        <span class="rolling-text">LOGIN</span>
+                    </a>
+                </li>
                     {{-- <li>
                         <a href="{{ route('contact') }}" class="main">Contact Us</a>
                     </li> --}}
                 </ul>
             </nav>
-
         </div>
         <!-- mobile menu area end -->
-    </div>
+</div>
     <!-- tpm-header-area end -->

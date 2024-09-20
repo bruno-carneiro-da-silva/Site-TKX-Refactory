@@ -49,25 +49,17 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="header-mida-area style-two ">
-
-
                         <div class="header-nav main-nav-one">
                             <x-menuList/>
                         </div>
-                        <!-- <a href="#" class="tmp-btn btn-primary">Consultoria</a> -->
-                        {{-- <div class="actions-area"> --}}
-
-                            {{-- <a href="{{ route('service') }}" class="tmp-btn btn-primary">Comece agora</a> --}}
-                            <!-- <div class="menu-button" id="search">
-                        <i class="fa-light fa-grid-2"></i>
-                        </div> -->
-                            {{-- <div class="tmp-side-collups-area" id="side-collups">
+                        <div class="actions-area">
+                            <div class="tmp-side-collups-area" id="side-collups">
                                 <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <rect y="14" width="20" height="2" fill="#fff"></rect>
                                     <rect y="7" width="20" height="2" fill="#fff"></rect>
                                     <rect width="20" height="2" fill="#fff"></rect>
                                 </svg>
-                            </div> --}}
+                            </div>
                         </div>
                     </div>
                 </div>

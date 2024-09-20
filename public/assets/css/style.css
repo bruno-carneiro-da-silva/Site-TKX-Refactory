@@ -11105,6 +11105,8 @@ header.header-three .header-mida-area.style-two .mainmenu-nav .mainmenu > li > a
 @media only screen and (max-width: 767px) {
   .tmp-header-area-start.header-two.header-four {
     padding: 15px;
+    display: grid;
+    justify-content: end;
   }
 }
 .tmp-header-area-start.header-two.header-four .actions-area {
@@ -11977,7 +11979,7 @@ nav ul li.has-dropdown .submenu li::after {
 }
 #side-hide .top-area {
   padding: 30px 20px;
-  background: #1d1e33;
+  background: var(--color-primary);
   display: flex;
   align-items: center;
   justify-content: space-between;

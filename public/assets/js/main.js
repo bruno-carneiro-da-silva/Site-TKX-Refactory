@@ -427,20 +427,30 @@
             });
         },
 
-        tmpSidecollups: function () {
+      tmpSidecollups: function () {
             $("#mobile-menu-active").metisMenu();
+
             $(document).on("click", "#side-collups", function () {
                 $("#side-hide").addClass("show");
                 $("#overlay_every-where").addClass("bgshow");
             });
+
             $(document).on("click", "#close-slide__main", function () {
                 $("#side-hide").removeClass("show");
                 $("#overlay_every-where").removeClass("bgshow");
             });
+
             $(document).on("click", "#overlay_every-where", function () {
                 $("#side-hide").removeClass("show");
                 $("#overlay_every-where").removeClass("bgshow");
             });
+
+            // Fechar a sidebar ao clicar nos links de navegação
+            $(document).on("click", ".click-scroll", function () {
+                $("#side-hide").removeClass("show");
+                $("#overlay_every-where").removeClass("bgshow");
+            });
+
             // for onepage mobile menu item
             $(document).on("click", ".onepage .mainmenu li a", function () {
                 $("#side-hide").removeClass("show");
