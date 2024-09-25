@@ -3,7 +3,7 @@
  <div id="side-hide">
         <div class="top-area">
             <a href="{{ route('index') }}" class="logo-area">
-                <img src="{{ asset('assets/images/logo/logo.png') }}" alt="logo" style="width: 108px; height: 55px;" >
+                <img src="{{ asset('assets/images/logo/logo.png') }}" alt="logo" class="sidebar-logo">
             </a>
             <div class="close-icon-area">
                 <div id="close-slide__main">
