@@ -87,7 +87,7 @@
                                        <div class="flex-row">
                                             <div class="logo-area-start">
                                                 <a href="{{ route('index') }}">
-                                                    <img style="width: 208px; height: 105px;" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
+                                                    <img src="{{ asset('assets/images/logo/logo.png') }}" alt="logo" class="logo-on-description">
                                                 </a>
                                             </div>
                                                 <h1 class="title"> Conexão Logistica: <br> </h1>
@@ -116,10 +116,10 @@
                                          <div class="flex-row">
                                             <div class="logo-area-start">
                                                 <a href="{{ route('index') }}">
-                                                    <img style="width: 208px; height: 105px;" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
+                                                    <img class="logo-on-description" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
                                                 </a>
                                             </div>
-                                                <h1 class="title">Rastreamento em tempo real</h1>
+                                                <h1 class="title">Rastreio das cargas em tempo real</h1>
 
                                         </div>
                                         <p class="disc">
@@ -146,7 +146,7 @@
                                            <div class="flex-row">
                                             <div class="logo-area-start">
                                                 <a href="{{ route('index') }}">
-                                                    <img style="width: 208px; height: 105px;" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
+                                                    <img class="logo-on-description" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
                                                 </a>
                                             </div>
                                         <h1 class="title">Interface Intuitiva</h1>
@@ -533,36 +533,36 @@
                         </div>
                         <h2 class="title split-collab">Baixe nossos aplicativos</h2>
                     </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-4 col-md-6 col-sm-12 download-card">
-                        <a href="https://play.google.com/store/apps/details?id=br.com.tkx.passenger.drivermachine" target="_blank" class="over_link">
-                            <div class="download-card-content">
-                                <img src="{{ asset('assets/images/qrcode/tkx-mobilidade.png ') }}" alt="QR code Uber" class="qr-code">
-                                <div class="download-info">
-                                    <h2>TKX mobilidade</h2>
-                                    <span>Escaneie para baixar</span>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-12 download-card">
+                            <a href="https://play.google.com/store/apps/details?id=br.com.tkx.passenger.drivermachine" target="_blank" class="over_link">
+                                <div class="download-card-content">
+                                    <img src="{{ asset('assets/images/qrcode/tkx-mobilidade.png ') }}" alt="QR code Uber" class="qr-code">
+                                    <div class="download-info">
+                                        <h2>TKX mobilidade</h2>
+                                        <span>Escaneie para baixar</span>
+                                    </div>
+                                    <div class="download-arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
                                 </div>
-                                <div class="download-arrow">
-                                    <i class="fa fa-arrow-right"></i>
+                            </a>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 download-card">
+                            <a href="https://play.google.com/store/apps/details?id=com.tkx.driver&hl=pt_BR" target="_blank" class="over_link">
+                                <div class="download-card-content">
+                                    <img src="{{ asset('assets/images/qrcode/tkx-truck-qrcode.png ') }}" alt="QR code Parceiro" class="qr-code">
+                                    <div class="download-info">
+                                        <h2>TKX Truck</h2>
+                                        <span>Escaneie para baixar</span>
+                                    </div>
+                                    <div class="download-arrow">
+                                        <i class="fa fa-arrow-right"></i>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 download-card">
-                        <a href="https://play.google.com/store/apps/details?id=com.tkx.driver&hl=pt_BR" target="_blank" class="over_link">
-                            <div class="download-card-content">
-                                <img src="{{ asset('assets/images/qrcode/tkx-truck-qrcode.png ') }}" alt="QR code Parceiro" class="qr-code">
-                                <div class="download-info">
-                                    <h2>TKX Truck</h2>
-                                    <span>Escaneie para baixar</span>
-                                </div>
-                                <div class="download-arrow">
-                                    <i class="fa fa-arrow-right"></i>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
                 </div>
             </div>
         </div>
