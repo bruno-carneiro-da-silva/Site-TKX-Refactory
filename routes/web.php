@@ -5,6 +5,7 @@ use App\Http\Controllers\PagesController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\MultipagesController;
 use App\Http\Controllers\OnePageController;
+use App\Http\Controllers\ChoiceController;
 
 
 Route::get('/', [HomeController::class, 'index'])->name('index');
@@ -12,6 +13,7 @@ Route::get('/about', [HomeController::class, 'about'])->name('about');
 Route::get('/service', [HomeController::class, 'service'])->name('service');
 Route::get('/service-details', [HomeController::class, 'service_details'])->name('service-details');
 Route::get('/blog', [HomeController::class, 'blog'])->name('blog');
+Route::resource('blogs', BlogController::class);
 Route::get('/blog-col-1', [HomeController::class, 'blog_col_1'])->name('blog-col-1');
 Route::get('/blog-col-2', [HomeController::class, 'blog_col_2'])->name('blog-col-2');
 Route::get('/blog-details', [HomeController::class, 'blog_details'])->name('blog-details');
@@ -20,6 +22,7 @@ Route::get('/team-1', [HomeController::class, 'team_1'])->name('team-1');
 Route::get('/team-2', [HomeController::class, 'team_2'])->name('team-2');
 Route::get('/team-details', [HomeController::class, 'team_details'])->name('team-details');
 Route::get('/contact', [HomeController::class, 'contact'])->name('contact');
+Route::post('/save-choices', [ChoiceController::class, 'store']);
 
 
 // Pages

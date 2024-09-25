@@ -5,11 +5,12 @@ services:
             dockerfile: Dockerfile
             args:
                 WWWGROUP: "${WWWGROUP}"
+                INSTALL_INTL: true
         image: "sail-8.3/app"
         extra_hosts:
             - "host.docker.internal:host-gateway"
         ports:
-            - "8080:80"  # Alterado de 80 para 8080
+            - "8080:80" # Alterado de 80 para 8080
             - "${VITE_PORT:-5173}:${VITE_PORT:-5173}"
         environment:
             WWWUSER: "${WWWUSER}"

@@ -1,0 +1,30 @@
+# Use a imagem base do Laravel Sail
+FROM laravelsail/php82-composer:latest
+
+# Argumentos de build
+ARG WWWGROUP
+ARG INSTALL_INTL=false
+
+# Instalar dependências do sistema e extensões PHP
+RUN apt-get update && apt-get install -y \
+    libicu-dev \
+    && docker-php-ext-configure intl \
+    && docker-php-ext-install intl
+
+# Definir o grupo do usuário
+RUN groupadd -g $WWWGROUP sail && usermod -g $WWWGROUP -aG sudo sail
+
+# Definir o diretório de trabalho
+WORKDIR /var/www/html
+
+# Copiar arquivos do projeto
+COPY . .
+
+# Instalar dependências do Composer
+RUN composer install
+
+# Expor a porta 9000
+EXPOSE 9000
+
+# Comando para iniciar o servidor
+CMD ["php-fpm"]

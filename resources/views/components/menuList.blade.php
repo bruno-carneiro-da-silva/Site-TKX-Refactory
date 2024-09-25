@@ -1,7 +1,8 @@
 <nav class="main-nav">
     <ul class="parent-nav">
         <li>
-            <a class="nav-link " href="{{ url('/') }}">
+            <a class="nav-link" href="{{ url('/') }}">
+                <img src="{{ asset('assets/images/logo/logotkx-black.png') }}" alt="logo" class="me-5 hidden-logo">
                 <span class="rolling-text">PÁGINA INICIAL</span>
             </a>
         </li>
@@ -37,7 +38,7 @@
                 <li><a href="{{ route('faq') }}">FAQ</a></li>
             </ul>
         </li>
-          <li>
+        <li>
             <a class="nav-link click-scroll" href="{{ url('/') }}#section_7">
                 <span class="rolling-text">LOGIN</span>
             </a>

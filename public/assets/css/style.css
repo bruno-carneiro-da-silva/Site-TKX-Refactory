@@ -60,7 +60,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700;800&family=Roboto:wght@100;300;400;500;700;900&display=swap");
 :root {
-  --color-primary: #fea100;
+  --color-primary: #fcc922;
   --color-secondary: #1273EB;
   --color-secondary-alt: #1274eb7f;
   --color-purple:#4A11EB;
@@ -73,7 +73,7 @@
   --background-color-4: #242435;
   --background-color-5: #EDF5FF;
   --gradient-one: linear-gradient(to right bottom, #E42032, #1273EB);
-  --gradient-two: linear-gradient(to right, #fea100, #18161d);
+  --gradient-two: linear-gradient(to right, #facd33, #18161d);
   --gradient-three: linear-gradient(to right, #03041c, #0612b3);
   --text-gradient-one:linear-gradient(to right, #E42032, #4A11EB);
   --color-heading:#03041C;
@@ -10997,7 +10997,20 @@ header.header-three .header-mida-area.style-two .mainmenu-nav .mainmenu > li > a
   position: relative;
 }
 
-.header--sticky.sticky {
+.hidden-logo {
+    display: none;
+    filter: grayscale(100%) brightness(0%);
+    width: 80px;
+    height: 40px;
+    vertical-align: middle;
+    align-items:center;
+}
+
+.header--sticky.sticky .hidden-logo{
+    display: inline;
+}
+
+.header--sticky.sticky  {
   position: fixed !important;
   top: 0;
   display: block;
@@ -11061,9 +11074,14 @@ header.header-three .header-mida-area.style-two .mainmenu-nav .mainmenu > li > a
 
 .header-four.header--sticky.sticky {
   background: var(--color-primary);
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
   transform: none;
+  width: 90%;
   left: 0;
+  right: 0;
   transform: none;
   backdrop-filter: blur(10px);
   background-blend-mode: multiply;
@@ -12913,7 +12931,7 @@ nav ul li.has-dropdown .submenu li::after {
 }
 .banner-startup-main-content-wrapper .title {
   color: #fff;
-  font-size: 75px;
+  font-size: 60px !important;
   line-height: 1.3;
 }
 .banner-startup-main-content-wrapper p.disc {
@@ -13170,11 +13188,11 @@ nav ul li.has-dropdown .submenu li::after {
   }
 }
 .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction {
-  background-image: url(../images/banner/truck.png);
+  background-image: url(../images/banner/banner-final.webp);
   background-repeat: no-repeat;
 }
 .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-two {
-  background-image: url(../images/banner/trucks-01.jpeg);
+  background-image: url(../images/banner/rastreamento.jpeg);
   background-repeat: no-repeat;
 }
 .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-three {

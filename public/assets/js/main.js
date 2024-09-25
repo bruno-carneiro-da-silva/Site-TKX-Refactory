@@ -427,7 +427,7 @@
             });
         },
 
-      tmpSidecollups: function () {
+        tmpSidecollups: function () {
             $("#mobile-menu-active").metisMenu();
 
             $(document).on("click", "#side-collups", function () {
@@ -1355,6 +1355,7 @@
         supportChat: function () {
             let userChoices = [];
             let currentStep = 0;
+            let isChatWindowVisible = false;
 
             const steps = [
                 {
@@ -1527,32 +1528,32 @@
             function renderStep(step) {
                 const chatbotMessages = $("#chatbot-messages");
                 chatbotMessages.html(`
-        <div class="chatbot-content">
-            ${
-                currentStep > 0
-                    ? `
-            <button class="go-back-btn rounded-circle p-2 cursor-pointer border-0">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left"><path d="M6 8L2 12L6 16"/><path d="M2 12H22"/></svg>
-            </button>
-            `
-                    : ""
-            }
-            <p class="justify-content-center align-items-center d-flex text-center mt-5">${
-                step.question
-            }</p>
-            <div class="d-flex flex-column gap-3">
-                ${step.options
-                    .map(
-                        (option) => `
-                    <button class="btn border company-btn rounded-full send-message-btn" data-value="${option.value}">
-                        ${option.text}
-                    </button>
+            <div class="chatbot-content">
+                ${
+                    currentStep > 0
+                        ? `
+                <button class="go-back-btn rounded-circle p-2 cursor-pointer border-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left"><path d="M6 8L2 12L6 16"/><path d="M2 12H22"/></svg>
+                </button>
                 `
-                    )
-                    .join("")}
+                        : ""
+                }
+                <p class="justify-content-center align-items-center d-flex text-center mt-5">${
+                    step.question
+                }</p>
+                <div class="d-flex flex-column gap-3">
+                    ${step.options
+                        .map(
+                            (option) => `
+                        <button class="btn border company-btn rounded-full send-message-btn" data-value="${option.value}">
+                            ${option.text}
+                        </button>
+                    `
+                        )
+                        .join("")}
+                </div>
             </div>
-        </div>
-    `);
+        `);
 
                 $("body")
                     .off("click", ".go-back-btn")
@@ -1571,36 +1572,36 @@
             function renderForm() {
                 const chatbotMessages = $("#chatbot-messages");
                 chatbotMessages.html(`
-        <div class="chatbot-content bg-white">
-            ${
-                currentStep > 0
-                    ? `
-            <button class="go-back-btn rounded-circle p-2 cursor-pointer border-0">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left"><path d="M6 8L2 12L6 16"/><path d="M2 12H22"/></svg>
-            </button>
-            `
-                    : ""
-            }
-            <p class="justify-content-center d-flex text-center mt-5">Por favor, preencha o formulário abaixo:</p>
-            <form id="registrationForm" onsubmit="submitForm(event)">
-                <div class="mb-3">
-                    <input type="text" class="input-field" placeholder="Seu nome" id="name" required>
-                </div>
-                <div class="mb-3">
-                    <input type="email" class="input-field" placeholder="Seu email" id="email" required>
-                </div>
-                <div class="mb-3 d-flex gap-2">
-                    <div class="input-group">
-                        <input type="tel" class="input-field" placeholder="Seu telefone" id="phone" required>
+            <div class="chatbot-content bg-white">
+                ${
+                    currentStep > 0
+                        ? `
+                <button class="go-back-btn rounded-circle p-2 cursor-pointer border-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-move-left"><path d="M6 8L2 12L6 16"/><path d="M2 12H22"/></svg>
+                </button>
+                `
+                        : ""
+                }
+                <p class="justify-content-center d-flex text-center mt-5">Por favor, preencha o formulário abaixo:</p>
+                <form id="registrationForm">
+                    <div class="mb-3">
+                        <input type="text" class="input-field" placeholder="Seu nome" name="name" required>
                     </div>
-                    <div class="input-group">
-                        <input type="text" class="input-field" placeholder="00.000.000/0000-00" id="cnpj" required>
+                    <div class="mb-3">
+                        <input type="email" class="input-field" placeholder="Seu email" name="email" required>
                     </div>
-                </div>
-                <button type="submit" class="btn submit-btn btn-primary">Enviar</button>
-            </form>
-        </div>
-    `);
+                    <div class="mb-3 d-flex gap-2">
+                        <div class="input-group">
+                            <input type="tel" class="input-field" placeholder="Seu telefone" name="phone" required>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" class="input-field" placeholder="00.000.000/0000-00" name="cnpj" required>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn submit-btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        `);
 
                 $("body")
                     .off("click", ".go-back-btn")
@@ -1623,6 +1624,8 @@
                         this.setCustomValidity("");
                     });
                 });
+
+                $("#registrationForm").on("submit", submitForm);
             }
 
             function validateEmail(event) {
@@ -1664,15 +1667,31 @@
                 event.preventDefault();
                 const form = $("#registrationForm");
                 const formData = form.serializeArray();
+
+                const nameField = formData.find((item) => item.name === "name");
+                const emailField = formData.find(
+                    (item) => item.name === "email"
+                );
+                const phoneField = formData.find(
+                    (item) => item.name === "phone"
+                );
+                const cnpjField = formData.find((item) => item.name === "cnpj");
+
+                if (!nameField || !emailField || !phoneField || !cnpjField) {
+                    console.error("Campos do formulário não encontrados.");
+                    return;
+                }
+
                 const data = {
-                    name: formData.find((item) => item.name === "name").value,
-                    email: formData.find((item) => item.name === "email").value,
-                    phone: formData.find((item) => item.name === "phone").value,
+                    name: nameField.value,
+                    email: emailField.value,
+                    phone: phoneField.value,
+                    cnpj: cnpjField.value,
                     choices: userChoices,
                 };
 
                 $.ajax({
-                    url: "/api/save-choices",
+                    url: "/save-choices",
                     method: "POST",
                     contentType: "application/json",
                     headers: {
@@ -1682,23 +1701,30 @@
                     },
                     data: JSON.stringify(data),
                     success: function () {
+                        toggleChatbot();
                         showModal();
                     },
                     error: function (error) {
-                        console.error("Error:", error);
+                        if (error.status === 409) {
+                            alert("Você já realizou o cadastro.");
+                        } else {
+                            console.error("Error:", error);
+                        }
                     },
                 });
             }
 
             function toggleChatbot() {
                 var chatbotWindow = $("#chatbot-window");
-                if (chatbotWindow.hasClass("show")) {
+                if (chatbotWindow.hasClass("show") && isChatWindowVisible) {
                     chatbotWindow.removeClass("show");
+                    isChatWindowVisible = false;
                 } else {
                     setTimeout(() => {
                         chatbotWindow.addClass("show");
                         renderStep(steps[0]);
                     }, 180);
+                    isChatWindowVisible = true;
                 }
             }
 
@@ -1706,7 +1732,6 @@
                 $("#successModal").css("display", "flex");
                 $("#confirmButton").on("click", function () {
                     closeModal();
-                    toggleChatbot();
                 });
             }
 
@@ -1714,7 +1739,9 @@
                 $("#successModal").css("display", "none");
             }
 
-            $("#supportBtn").on("click", toggleChatbot);
+            $("#supportBtn").on("click", function () {
+                toggleChatbot();
+            });
             $("body").on("click", ".close-button", function () {
                 toggleChatbot();
             });

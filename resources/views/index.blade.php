@@ -91,7 +91,6 @@
                                                 </a>
                                             </div>
                                                 <h1 class="title"> Conexão Logistica: <br> </h1>
-                                                <h2 class="text-white">Conectando o Futuro da Mobilidade e Logística</h2>
                                         </div>
                                             <p class="disc">
                                                 A TKX Conexão Logística é uma empresa inovadora que transforma o setor de logística e mobilidade com soluções tecnológicas inteligentes e intuitivas.
@@ -120,11 +119,11 @@
                                                     <img style="width: 208px; height: 105px;" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
                                                 </a>
                                             </div>
-                                                <h1 class="title">Desenvolvendo seu <br> Ambiente ideal</h1>
+                                                <h1 class="title">Rastreamento em tempo real</h1>
 
                                         </div>
                                         <p class="disc">
-                                            Conectando Soluções Logísticas com Tecnologia de Ponta. Conheça nossas soluções inovadoras para mobilidade urbana, transporte rodoviário e serviços de guincho.
+                                           Oferece segurança e transparência, permitindo que usuários acompanhem viagens e cargas em tempo real.
                                         </p>
                                           <a href="{{ url('/') }}#section_3" class="click-scroll tmp-btn btn-primary">Conheça nossas soluções</a>
                                     </div>
@@ -150,10 +149,10 @@
                                                     <img style="width: 208px; height: 105px;" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
                                                 </a>
                                             </div>
-                                        <h1 class="title">Destacando seu <br>  negócio</h1>
+                                        <h1 class="title">Interface Intuitiva</h1>
                                         </div>
                                         <p class="disc">
-                                            Conectando Soluções Logísticas com Tecnologia de Ponta. Conheça nossas soluções inovadoras para mobilidade urbana, transporte rodoviário e serviços de guincho.
+                                            Proporciona uma experiência de usuário fácil e acessível, independentemente do nível de familiaridade com tecnologia.
                                         </p>
                                          <a href="{{ url('/') }}#section_3" class="click-scroll tmp-btn btn-primary">Conheça nossas soluções</a>
                                     </div>
@@ -245,33 +244,29 @@
                                 <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service" style="filter: grayscale(100%) brightness(0%);">
                                 <span class="subtitle">SOBRE NÓS</span>
                             </div>
-                            <h2 class="title split-collab">Saiba mais sobre nossos <br> serviços</h2>
+                            <h2 class="title split-collab">Saiba mais sobre quem <br> somos nós</h2>
                         </div>
 
                         <p class="description" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condimentum diam sed, consequat tellus. Quisque ac odio eget ligula gravida efficitur. Nunc facilisis sagittis magna, non venenatis mauris luctus quis.
+                            A TKX Conexão Logística é uma empresa inovadora dedicada a transformar o setor de logística e mobilidade com soluções tecnológicas avançadas. Fundada com a missão de conectar motoristas e passageiros, cargas e transportadoras, e seguradoras e guincheiros, nossa empresa é pioneira em criar soluções que otimizam e facilitam o dia a dia dos nossos clientes.
                         </p>
                         <!-- Prograss bar Start  -->
                         <div class="single-progress-area progress-stye-one" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
                             <div class="progress-top">
-                                <p class="name">TKX Mobilidade Inteligente</p>
-                                <span class="parcent">
-                                    85%
-                                </span>
+                            <h2 class="title split-collab">Visão e Missão</h2>
+
                             </div>
-                            <div class="progress">
-                                <div class="progress-bar wow fadeInLeft bg--primary" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            <div>
+                                <span>
+                                    <b>Visão: </b> Ser a principal referência em soluções logísticas e de mobilidade no Brasil.
+                                </span>
                             </div>
                         </div>
                         <div class="single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
-                            <div class="progress-top">
-                                <p class="name">TKX Truck</p>
-                                <span class="parcent">
-                                    86%
+                            <div>
+                                <span>
+                                    <b>Missão: </b> Oferecer tecnologia de ponta para conectar e otimizar o transporte e os serviços relacionados, melhorando a eficiência e a experiência dos nossos usuários.
                                 </span>
-                            </div>
-                            <div class="progress">
-                                <div class="progress-bar wow fadeInLeft bg--primary" role="progressbar" style="width: 86%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
                             </div>
                         </div>
                         {{-- <div class="single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
@@ -701,7 +696,7 @@
     <!-- End Contact Area  -->
 
     <!-- Start team area  -->
-    <div class="team-area tmp-section-gap bg-white">
+    {{-- <div class="team-area tmp-section-gap bg-white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -790,12 +785,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- End team area  -->
 
 
     <!-- Tmp Blog Area Start  -->
-    <div class="tmp-blog-area tmp-section-gapBottom" id="section_10">
+    <div class="tmp-blog-area team-area tmp-section-gap bg-white tmp-section-gapBottom" id="section_10">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">

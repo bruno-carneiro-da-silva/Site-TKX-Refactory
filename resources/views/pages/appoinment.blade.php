@@ -21,7 +21,7 @@
                             </p>
                         </div>
 
-                        <ul class="ft-link ft-link-style-two">
+                        <ul class="ft-link ft-link-style-three" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
 
 
                             <li>
@@ -122,13 +122,9 @@
                                             <input class="check-box" type="checkbox" id="terms" name="terms">
                                             <label class="condition" for="terms">Eu concorco com oso <span>terms</span> e <span>condições</span></label>
                                         </p>
-                                        <button name="submit" class="tmp-btn btn-secondary" type="submit" id="submit">
-                                            <span class="submit-wrapper">
-                                                <span class="btn-text">Enviar</span>
-                                            <span class="btn-icon"><i class="fa-sharp fa-light fa-arrow-right"></i></span>
-                                            </span>
-
-                                        </button>
+                                          <button name="submit" class="tmp-btn btn-primary" type="submit" id="submit">
+                                                Enviar
+                                            </button>
                                     </div>
                                 </div>
                             </div>
