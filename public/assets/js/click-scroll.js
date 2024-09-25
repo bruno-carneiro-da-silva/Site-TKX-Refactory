@@ -32,14 +32,19 @@ $(document).ready(function () {
         var href = $(this).attr("href");
         var target = href.includes("#") ? href.split("#")[1] : href;
         var section = $("#" + target);
-        if (section.length) {
-            var offsetClick = section.offset().top - 94;
-            $("html, body").animate(
-                {
-                    scrollTop: offsetClick,
-                },
-                300
-            );
+
+        if (window.location.pathname !== "/") {
+            window.location.href = href;
+        } else {
+            if (section.length) {
+                var offsetClick = section.offset().top - 94;
+                $("html, body").animate(
+                    {
+                        scrollTop: offsetClick,
+                    },
+                    300
+                );
+            }
         }
 
         // Fechar a sidebar ao clicar no link de navegação
