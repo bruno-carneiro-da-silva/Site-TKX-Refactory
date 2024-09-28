@@ -80,31 +80,20 @@
                         <div class="single-footer-wrapper pr--15">
                             <h5 class="ft-title">Post recentes</h5>
 
-                            <div class="single-post">
-                                <div class="thumbnail">
-                                    <img src="{{ asset('assets/images/footer/small-post.jpg') }}" alt="Business_Corporate">
-                                </div>
-                                <div class="content">
-                                    <div class="date"><i class="fa-light fa-calendar-days"></i><span>12 Fev, 2024</span></div>
+                            @foreach($recentPosts as $post)
+                                <div class="single-post">
+                                    <div class="thumbnail">
+                                        <img src="{{ asset('assets/images/footer/' . $post['image']) }}" alt="{{ $post['title'] }}">
+                                    </div>
+                                    <div class="content">
+                                        <div class="date"><i class="fa-light fa-calendar-days"></i><span>{{ \Carbon\Carbon::parse($post['date'])->format('d M, Y') }}</span></div>
 
-                                    <a href="{{ route('blog-details') }}">
-                                        <h6 class="title">Lorem ipsum, dolor sit amet</h6>
-                                    </a>
+                                        <a href="{{ $post['route'] }}">
+                                            <h6 class="title">{{ $post['title'] }}</h6>
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="single-post">
-                                <div class="thumbnail">
-                                    <img src="{{ asset('assets/images/footer/small-post-2.jpg') }}" alt="empresas">
-                                </div>
-                                <div class="content">
-                                    <div class="date"><i class="fa-light fa-calendar-days"></i><span>12 Fev, 2024</span></div>
-
-                                    <a href="{{ route('blog-details') }}">
-                                        <h6 class="title">Ajudando equipes a ter sucesso nos negócios</h6>
-                                    </a>
-                                </div>
-                            </div>
+                            @endforeach
 
                         </div>
                     </div>

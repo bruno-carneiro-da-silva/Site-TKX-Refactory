@@ -44,28 +44,28 @@
             </div>
         </div>
         <!-- header-top end -->
-        <!-- header mid area start -->
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="header-mida-area style-two ">
-                        <div class="header-nav main-nav-one">
-                            <x-menuList/>
-                        </div>
-                        <div class="actions-area">
-                            <div class="tmp-side-collups-area" id="side-collups">
-                                <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <rect y="14" width="20" height="2" fill="#fff"></rect>
-                                    <rect y="7" width="20" height="2" fill="#fff"></rect>
-                                    <rect width="20" height="2" fill="#fff"></rect>
-                                </svg>
-                            </div>
+    <!-- header mid area start -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="header-mida-area style-two ">
+                    <div class="header-nav main-nav-one">
+                        <x-menuList/>
+                    </div>
+                    <div class="actions-area">
+                        <div class="tmp-side-collups-area" id="side-collups">
+                            <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="14" width="20" height="2" fill="#fff"></rect>
+                                <rect y="7" width="20" height="2" fill="#fff"></rect>
+                                <rect width="20" height="2" fill="#fff"></rect>
+                            </svg>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- header mid area end -->
+    </div>
+    <!-- header mid area end -->
 
     </header>
     <!-- tpm-header-area end -->
@@ -90,7 +90,7 @@
                                                     <img src="{{ asset('assets/images/logo/logo.png') }}" alt="logo" class="logo-on-description">
                                                 </a>
                                             </div>
-                                                <h1 class="title"> Conexão Logistica: <br> </h1>
+                                                <h1 class="text-white"> Conexão Logistica </h1>
                                         </div>
                                             <p class="disc">
                                                 A TKX Conexão Logística é uma empresa inovadora que transforma o setor de logística e mobilidade com soluções tecnológicas inteligentes e intuitivas.
@@ -119,7 +119,7 @@
                                                     <img class="logo-on-description" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
                                                 </a>
                                             </div>
-                                                <h1 class="title">Rastreio das cargas em tempo real</h1>
+                                                <h1 class="text-white">Rastreio das cargas em tempo real</h1>
 
                                         </div>
                                         <p class="disc">
@@ -149,7 +149,7 @@
                                                     <img class="logo-on-description" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
                                                 </a>
                                             </div>
-                                        <h1 class="title">Interface Intuitiva</h1>
+                                        <h1 class="text-white">Interface Intuitiva</h1>
                                         </div>
                                         <p class="disc">
                                             Proporciona uma experiência de usuário fácil e acessível, independentemente do nível de familiaridade com tecnologia.
@@ -297,62 +297,103 @@
     </div>
     <!--Tpm About Area End  -->
 
-    <div class="service-area tmp-section-gapBottom" id="section_3">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <div class="section-head">
-                        <div class="section-sub-title center-title">
-                            <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Business_Consulting_services" style="filter: grayscale(100%) brightness(0%);">
-                            <span>NOSSOS SERVIÇOS</span>
-                        </div>
-                        <h2 class="title split-collab">Nossas Soluções Inovadoras</h2>
-                    </div>
-                </div>
-            </div>
-            <div class="row g-5 mx-auto d-flex justify-content-center">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <div class="service-inner financial-service-inner agency-service">
-                        <div class="icon">
-                            <img src="{{ asset('assets/images/services/agency-6.svg') }}" alt="corporate_Business_Services_agency" style="filter: grayscale(100%) brightness(0%);">
-                        </div>
-                        <div class="content">
-                            <h2 class="title">TKX Mobilidade Inteligente:</h2>
-                            <p class="description">
-                                Nosso aplicativo de mobilidade urbana oferece uma maneira rápida e segura para motoristas e passageiros se conectarem. Com uma interface intuitiva e recursos avançados, garantimos uma experiência de viagem eficiente e confiável.
-                            </p>
-                            <div class="three--dot">
-                                <div class="dot dot-one"></div>
-                                <div class="dot dot-two"></div>
-                                <div class="dot dot-two"></div>
-                            </div>
-                        </div>
-                        <a href="{{ url('/') }}#section_4" class="over_link click-scroll"></a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
-                    <div class="service-inner financial-service-inner agency-service">
-                        <div class="icon">
-                            <img src="{{ asset('assets/images/services/agency-1.svg') }}" alt="corporate_Business_Services_agency" >
 
-                        </div>
-                        <div class="content">
-                            <h2 class="title">TKX Truck</h2>
-                            <p class="description">
-                                A TKX Truck é a solução definitiva para a logística rodoviária. Nossa plataforma conecta empresas que precisam de transporte com motoristas e transportadoras, proporcionando um acompanhamento completo e otimização de rotas..
-                            </p>
-                            <div class="three--dot">
-                                <div class="dot dot-one"></div>
-                                <div class="dot dot-two"></div>
-                                <div class="dot dot-two"></div>
+            <div class="service-area tmp-section-gapBottom" id="section_3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                            <div class="section-head">
+                                <div class="section-sub-title center-title">
+                                    <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Business_Consulting_services" style="filter: grayscale(100%) brightness(0%);">
+                                    <span>NOSSOS SERVIÇOS</span>
+                                </div>
+                                <h2 class="title split-collab">Nossas Soluções Inovadoras</h2>
                             </div>
                         </div>
-                        <a href="{{ url('/') }}#section_5" class="over_link click-scroll"></a>
+                    </div>
+                    <div class="row g-5 mx-auto d-flex justify-content-center">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                            <div class="service-inner financial-service-inner agency-service">
+                                <div class="icon">
+                                    <img src="{{ asset('assets/images/services/agency-6.svg') }}" alt="corporate_Business_Services_agency" >
+                                </div>
+                                <div class="content">
+                                    <h2 class="title">TKX Mobilidade Inteligente:</h2>
+                                    <p class="description">
+                                        Nosso aplicativo de mobilidade urbana oferece uma maneira rápida e segura para motoristas e passageiros se conectarem. Com uma interface intuitiva e recursos avançados, garantimos uma experiência de viagem eficiente e confiável.
+                                    </p>
+                                    <div class="three--dot">
+                                        <div class="dot dot-one"></div>
+                                        <div class="dot dot-two"></div>
+                                        <div class="dot dot-two"></div>
+                                    </div>
+                                </div>
+                                <a href="{{ url('/') }}#section_4" class="over_link click-scroll"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
+                            <div class="service-inner financial-service-inner agency-service">
+                                <div class="icon">
+                                    <img src="{{ asset('assets/images/services/truck.svg') }}" alt="corporate_Business_Services_agency" >
+
+                                </div>
+                                <div class="content">
+                                    <h2 class="title">TKX Truck</h2>
+                                    <p class="description">
+                                        A TKX Truck é a solução definitiva para a logística rodoviária. Nossa plataforma conecta empresas que precisam de transporte com motoristas e transportadoras, proporcionando um acompanhamento completo e otimização de rotas..
+                                    </p>
+                                    <div class="three--dot">
+                                        <div class="dot dot-one"></div>
+                                        <div class="dot dot-two"></div>
+                                        <div class="dot dot-two"></div>
+                                    </div>
+                                </div>
+                                <a href="{{ url('/') }}#section_5" class="over_link click-scroll"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
+                            <div class="service-inner financial-service-inner agency-service">
+                                <div class="icon">
+                                    <img src="{{ asset('assets/images/services/agency-7.svg') }}" alt="corporate_Business_Services_agency" style="filter: grayscale(100%) brightness(0%);">
+
+                                </div>
+                                <div class="content">
+                                    <h2 class="title">TKX Guincho</h2>
+                                    <p class="description">
+                                        A TKX Guincho é a solução definitiva para a logística rodoviária. Nossa plataforma conecta empresas que precisam de transporte com motoristas e transportadoras, proporcionando um acompanhamento completo e otimização de rotas..
+                                    </p>
+                                    <div class="three--dot">
+                                        <div class="dot dot-one"></div>
+                                        <div class="dot dot-two"></div>
+                                        <div class="dot dot-two"></div>
+                                    </div>
+                                </div>
+                                <a href="{{ url('/') }}#section_5" class="over_link click-scroll"></a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
+                            <div class="service-inner financial-service-inner agency-service">
+                                <div class="icon">
+                                    <img src="{{ asset('assets/images/services/cegonha.svg') }}" alt="corporate_Business_Services_agency" >
+
+                                </div>
+                                <div class="content">
+                                    <h2 class="title">TKX Cegonha</h2>
+                                    <p class="description">
+                                        A TKX Truck é a solução definitiva para a logística rodoviária. Nossa plataforma conecta empresas que precisam de transporte com motoristas e transportadoras, proporcionando um acompanhamento completo e otimização de rotas..
+                                    </p>
+                                    <div class="three--dot">
+                                        <div class="dot dot-one"></div>
+                                        <div class="dot dot-two"></div>
+                                        <div class="dot dot-two"></div>
+                                    </div>
+                                </div>
+                                <a href="{{ url('/') }}#section_5" class="over_link click-scroll"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 
     <!-- tmp product area start -->
     <div class="tmp-product-area" id="section_4">
@@ -803,34 +844,34 @@
                     </div>
                 </div>
             </div>
-            <div class="row g-5">
-
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+           <div class="row justify-content-center">
+            @foreach($blogs as $index => $blog)
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="{{ 150 + ($index * 100) }}" data-sal="slide-up" data-sal-duration="800">
                     <div class="single-blog">
                         <div class="blog-inner">
                             <div class="thumbnail">
-                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-12.png') }}" alt="Business Consulting Blog"></a>
+                                <a href="{{ $blog['route'] }}"><img src="{{ asset('assets/images/blog/' . $blog['image']) }}" alt="{{ $blog['title'] }}"></a>
                                 <div class="pmt-blog-meta">
                                     <ul class="all-meta">
-                                        <li class="date"><span>20</span></li>
-                                        <li class="month"><span>JAN</span></li>
+                                        <li class="date"><span>{{ \Carbon\Carbon::parse($blog['date'])->format('d') }}</span></li>
+                                        <li class="month"><span>{{ \Carbon\Carbon::parse($blog['date'])->format('M') }}</span></li>
                                     </ul>
                                 </div>
                             </div>
                             <div class="blog-content">
                                 <div class="blog-head">
-                                    <span class="name">Beltrano de tal</span>
-                                    <span class="designation">ANTT News</span>
+                                    <span class="name">{{ $blog['author'] }}</span>
+                                    <span class="designation">{{ $blog['designation'] }}</span>
                                 </div>
                                 <div class="blog-body">
-                                    <a href="{{ route('blog-details') }}" class="title-area">
-                                        <h4 class="title">Lorem ipsum dolor sit amet, consectetur.</h4>
+                                    <a href="{{ $blog['route'] }}" class="title-area">
+                                        <h4 class="title">{{ $blog['title'] }}</h4>
                                     </a>
                                     <p class="description">
-                                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magnaaliqua.
+                                        {{ $blog['description'] }}
                                     </p>
                                 </div>
-                                <a class="btn-read-more" href="{{ route('blog-details') }}">
+                                <a class="btn-read-more" href="{{ $blog['route'] }}">
                                     <span class="read-more-text">Saiba mais</span>
                                     <span class="read-more-icon"><i class="fa-solid fa-arrow-right"></i></span>
                                 </a>
@@ -838,74 +879,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
-                    <div class="single-blog">
-                        <div class="blog-inner">
-                            <div class="thumbnail">
-                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-12.png') }}" alt="Consultoria de negocios"></a>
-                                <div class="pmt-blog-meta">
-                                    <ul class="all-meta">
-                                        <li class="date"><span>20</span></li>
-                                        <li class="month"><span>JAN</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-head">
-                                    <span class="name">Fulano de tal</span>
-                                    <span class="designation">TKX Truck</span>
-                                </div>
-                                <div class="blog-body">
-                                    <a href="{{ route('blog-details') }}" class="title-area">
-                                        <h4 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-                                    </a>
-                                    <p class="description">
-                                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magnaaliqua.
-                                    </p>
-                                </div>
-                                <a class="btn-read-more" href="{{ route('blog-details') }}">
-                                    <span class="read-more-text">Saiba mais</span>
-                                    <span class="read-more-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
-                    <div class="single-blog">
-                        <div class="blog-inner">
-                            <div class="thumbnail">
-                                <a href="{{ route('blog-details') }}"><img src="{{ asset('assets/images/blog/blog-12.png') }}" alt="Business Consulting Blog"></a>
-                                <div class="pmt-blog-meta">
-                                    <ul class="all-meta">
-                                        <li class="date"><span>20</span></li>
-                                        <li class="month"><span>JAN</span></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-head">
-                                    <span class="name">Notícias Truck</span>
-                                    <span class="designation">Consultoria</span>
-                                </div>
-                                <div class="blog-body">
-                                    <a href="{{ route('blog-details') }}" class="title-area">
-                                        <h4 class="title">Lorem ipsum dolor sit amet.</h4>
-                                    </a>
-                                    <p class="description">
-                                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magnaaliqua.
-                                    </p>
-                                </div>
-                                <a class="btn-read-more" href="{{ route('blog-details') }}">
-                                    <span class="read-more-text">Saiba mais</span>
-                                    <span class="read-more-icon"><i class="fa-solid fa-arrow-right"></i></span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            @endforeach
+        </div>
         </div>
     </div>
     <!-- Tmp Blog Area Start  -->
@@ -988,35 +963,24 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-3 col-md-6">
+                   <div class="col-lg-3 col-md-6">
                         <div class="single-footer-wrapper pr--15">
                             <h5 class="ft-title">Post recentes</h5>
 
-                            <div class="single-post">
-                                <div class="thumbnail">
-                                    <img src="{{ asset('assets/images/footer/small-post.jpg') }}" alt="Business_Corporate">
-                                </div>
-                                <div class="content">
-                                    <div class="date"><i class="fa-light fa-calendar-days"></i><span>12 Fev, 2024</span></div>
+                            @foreach($recentPosts as $post)
+                                <div class="single-post">
+                                    <div class="thumbnail">
+                                        <img src="{{ asset('assets/images/footer/' . $post['image']) }}" alt="{{ $post['title'] }}">
+                                    </div>
+                                    <div class="content">
+                                        <div class="date"><i class="fa-light fa-calendar-days"></i><span>{{ \Carbon\Carbon::parse($post['date'])->format('d M, Y') }}</span></div>
 
-                                    <a href="{{ route('blog-details') }}">
-                                        <h6 class="title">Lorem ipsum dolor, sit</h6>
-                                    </a>
+                                        <a href="{{ $post['route'] }}">
+                                            <h6 class="title">{{ $post['title'] }}</h6>
+                                        </a>
+                                    </div>
                                 </div>
-                            </div>
-
-                            <div class="single-post">
-                                <div class="thumbnail">
-                                    <img src="{{ asset('assets/images/footer/small-post-2.jpg') }}" alt="empresas">
-                                </div>
-                                <div class="content">
-                                    <div class="date"><i class="fa-light fa-calendar-days"></i><span>12 Fev, 2024</span></div>
-
-                                    <a href="{{ route('blog-details') }}">
-                                        <h6 class="title">Ajudando equipes a ter sucesso nos negócios</h6>
-                                    </a>
-                                </div>
-                            </div>
+                            @endforeach
 
                         </div>
                     </div>
