@@ -83,6 +83,10 @@
                         crossFade: true,
                     },
                     loop: true,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
                     navigation: {
                         nextEl: ".swiper-button-next",
                         prevEl: ".swiper-button-prev",
@@ -99,11 +103,15 @@
                     fadeEffect: {
                         crossFade: true,
                     },
+                    loop: true,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
                     pagination: {
                         el: ".swiper-pagination",
                         clickable: true,
                     },
-                    loop: true,
                     navigation: {
                         nextEl: ".swiper-button-next",
                         prevEl: ".swiper-button-prev",
@@ -122,6 +130,10 @@
                     slidesPerView: 2,
                     paginationClickable: true,
                     spaceBetween: 20,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
                     breakpoints: {
                         1920: {
                             slidesPerView: 2,
@@ -142,6 +154,7 @@
                     },
                 });
             });
+
             $(document).ready(function () {
                 // Swiper: Slider
                 new Swiper(".mySwiper-recent-product", {
@@ -153,6 +166,10 @@
                     slidesPerView: 3,
                     paginationClickable: true,
                     spaceBetween: 20,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
                     breakpoints: {
                         1920: {
                             slidesPerView: 3,
@@ -185,7 +202,6 @@
                         el: ".swiper-pagination",
                         clickable: true,
                     },
-
                     loop: true,
                     speed: 2000,
                     autoplay: {
@@ -205,7 +221,6 @@
                         delay: 3000,
                         disableOnInteraction: false,
                     },
-                    // loopFillGroupWithBlank: true,
                     pagination: {
                         el: ".swiper-pagination",
                         clickable: true,
@@ -236,6 +251,7 @@
                     },
                 });
             });
+
             $(document).ready(function () {
                 var swiper = new Swiper(".mySwiper-portfolio-2-cons", {
                     slidesPerView: 4,
@@ -247,7 +263,6 @@
                         delay: 3000,
                         disableOnInteraction: false,
                     },
-                    // loopFillGroupWithBlank: true,
                     pagination: {
                         el: ".swiper-pagination",
                         clickable: true,
@@ -278,6 +293,7 @@
                     },
                 });
             });
+
             $(document).ready(function () {
                 var swiper = new Swiper(".swiper-startup-banner", {
                     slidesPerView: 1,
@@ -289,7 +305,6 @@
                         delay: 5000,
                         disableOnInteraction: false,
                     },
-                    // loopFillGroupWithBlank: true,
                     pagination: {
                         el: ".swiper-pagination",
                         clickable: true,
@@ -300,6 +315,7 @@
                     },
                 });
             });
+
             $(document).ready(function () {
                 var swiper = new Swiper(".swiper-startup-banner-construction", {
                     slidesPerView: 1,
@@ -308,11 +324,10 @@
                     centeredSlides: true,
                     speed: 500,
                     effect: "fade",
-                    // autoplay: {
-                    //   delay: 5000,
-                    //   disableOnInteraction: false,
-                    // },
-                    // loopFillGroupWithBlank: true,
+                    autoplay: {
+                        delay: 5000,
+                        disableOnInteraction: false,
+                    },
                     pagination: {
                         el: ".swiper-pagination",
                         clickable: true,
@@ -323,6 +338,7 @@
                     },
                 });
             });
+
             $(document).ready(function () {
                 var swiper = new Swiper(".my-swiper-product-details", {
                     slidesPerView: 1,
@@ -334,7 +350,6 @@
                         delay: 5000,
                         disableOnInteraction: false,
                     },
-                    // loopFillGroupWithBlank: true,
                     pagination: {
                         el: ".swiper-pagination",
                         clickable: true,

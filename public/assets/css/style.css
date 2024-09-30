@@ -13208,6 +13208,14 @@ nav ul li.has-dropdown .submenu li::after {
   background-image: url(../images/banner/truck-04.jpeg);
   background-repeat: no-repeat;
 }
+.tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-four {
+  background-image: url(../images/banner/guincho-01.jpeg);
+  background-repeat: no-repeat;
+}
+.tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-five {
+  background-image: url(../images/banner/cegonha-02.jpeg);
+  background-repeat: no-repeat;
+}
 .tmp-banner-area.banner-style-five.inconstruction .banner-startup-main-content-wrapper {
   text-align: left;
   margin-left: 0;
@@ -16986,7 +16994,7 @@ body.service-details {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo preto com 50% de transparência */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto com 50% de transparência */
     z-index: 1; /* Coloca o fundo transparente acima da imagem */
   }
 

@@ -45,7 +45,7 @@ class BlogController extends Controller
         }
 
         // Retornar a view com os blogs
-        return view('index', compact('blogs'));
+        return view('index', compact('blogs', 'recentsPosts'));
     }
 
     public function show($id)
@@ -149,8 +149,26 @@ class BlogController extends Controller
             return redirect()->route('index')->with('error', 'Blog não encontrado!');
         }
 
-        // Retornar a view com o blog
-        return view('blog-details', compact('blog'));
+         // Mock dos dados dos posts recentes
+        $recentPosts = [
+            [
+                'title' => 'Lorem ipsum dolor, sit',
+                'image' => 'small-post.jpg',
+                'date' => '2024-02-12',
+                'id' => 1,
+                'route' => route('blog-details', ['id' => 1])
+            ],
+            [
+                'title' => 'Ajudando equipes a ter sucesso nos negócios',
+                'image' => 'small-post-2.jpg',
+                'date' => '2024-02-12',
+                'id' => 2,
+                'route' => route('blog-details', ['id' => 2])
+            ]
+        ];
+
+        // Retornar a view com o blog e posts recentes
+        return view('blog-details', compact('blog', 'recentPosts'));
     }
 
     public function create()

@@ -14,90 +14,27 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8">
-                    <!-- single projects- column one -->
-                    <div class="single-projects-one-col-1">
-                        <a href="{{ route('blog-details') }}" class="thumbnail">
-                            <img src="{{ asset('assets/images/blog/blog-07.jpg') }}" alt="">
-                        </a>
-                        <div class="inner-blog-single">
-                            <div class="inner">
-                                <div class="category">
-                                    Sultan Ahmed / Consultoria
+                   @foreach($blogs as $blog)
+                        <div class="single-projects-one-col-1">
+                            <a href="{{ $blog['route'] }}" class="thumbnail">
+                                <img src="{{ asset('assets/images/blog/' . $blog['image']) }}" alt="{{ $blog['title'] }}">
+                            </a>
+                            <div class="inner-blog-single">
+                                <div class="inner">
+                                    <div class="category">
+                                        {{ $blog['author'] }} / {{ $blog['designation'] }}
+                                    </div>
+                                    <a href="{{ $blog['route'] }}">
+                                        <h3 class="title">{{ $blog['title'] }}</h3>
+                                    </a>
+                                    <p class="disc">
+                                        {{ $blog['description'] }}
+                                    </p>
+                                    <a href="{{ $blog['route'] }}" class="read-more-btn">Saiba mais <i class="fa-regular fa-arrow-right"></i></a>
                                 </div>
-                                <a href="{{ route('blog-details') }}">
-                                    <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
-                                </a>
-                                <p class="disc">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed, consequat tellus. Quisque ac odio eget ligula gravida.
-                                </p>
-                                <a href="{{ route('blog-details') }}" class="read-more-btn">Saiba mais <i class="fa-regular fa-arrow-right"></i></a>
                             </div>
                         </div>
-                    </div>
-                    <!-- single projects- column one end -->
-                    <!-- single projects- column one -->
-                    <div class="single-projects-one-col-1">
-                        <a href="{{ route('blog-details') }}" class="thumbnail">
-                            <img src="{{ asset('assets/images/blog/blog-08.jpg') }}" alt="">
-                        </a>
-                        <div class="inner-blog-single">
-                            <div class="inner">
-                                <div class="category">
-                                    Sultan Ahmed / Consultoria
-                                </div>
-                                <a href="{{ route('blog-details') }}">
-                                    <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
-                                </a>
-                                <p class="disc">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed, consequat tellus. Quisque ac odio eget ligula gravida.
-                                </p>
-                                <a href="{{ route('blog-details') }}" class="read-more-btn">Saiba mais <i class="fa-regular fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single projects- column one end -->
-                    <!-- single projects- column one -->
-                    <div class="single-projects-one-col-1">
-                        <a href="{{ route('blog-details') }}" class="thumbnail">
-                            <img src="{{ asset('assets/images/blog/blog-09.jpg') }}" alt="">
-                        </a>
-                        <div class="inner-blog-single">
-                            <div class="inner">
-                                <div class="category">
-                                    Sultan Ahmed / Consultoria
-                                </div>
-                                <a href="{{ route('blog-details') }}">
-                                    <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
-                                </a>
-                                <p class="disc">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed, consequat tellus. Quisque ac odio eget ligula gravida.
-                                </p>
-                                <a href="{{ route('blog-details') }}" class="read-more-btn">Saiba mais <i class="fa-regular fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single projects- column one end -->
-                    <!-- single projects- column one -->
-                    <div class="single-projects-one-col-1">
-                        <a href="{{ route('blog-details') }}" class="thumbnail">
-                            <img src="{{ asset('assets/images/blog/blog-07.jpg') }}" alt="">
-                        </a>
-                        <div class="inner-blog-single">
-                            <div class="inner">
-                                <div class="category">
-                                    Sultan Ahmed / Consultoria
-                                </div>
-                                <a href="{{ route('blog-details') }}">
-                                    <h3 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
-                                </a>
-                                <p class="disc">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condiment diam sed, consequat tellus. Quisque ac odio eget ligula gravida.
-                                </p>
-                                <a href="{{ route('blog-details') }}" class="read-more-btn">Saiba mais <i class="fa-regular fa-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- single projects- column one end -->
+                    @endforeach
 
                     <!-- tmp pagination area start -->
                     <div class="tmp-pagination-area-next-pev">

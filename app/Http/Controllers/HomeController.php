@@ -32,8 +32,44 @@ class HomeController extends Controller
     }
 
     public function blog()
-    {
-        return view('blog-col-1');
+     {
+        $blogs = [
+            [
+                'title' => 'Lorem ipsum dolor sit amet, consectetur.',
+                'author' => 'Beltrano de tal',
+                'designation' => 'ANTT News',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magna aliqua.',
+                'image' => 'blog-07.jpg',
+                'date' => '2023-01-20',
+                'id' => 1
+            ],
+            [
+                'title' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                'author' => 'Fulano de tal',
+                'designation' => 'TKX Truck',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magna aliqua.',
+                'image' => 'blog-08.jpg',
+                'date' => '2023-01-20',
+                'id' => 2
+            ],
+            [
+                'title' => 'Lorem ipsum dolor sit amet.',
+                'author' => 'Notícias Truck',
+                'designation' => 'Consultoria',
+                'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magna aliqua.',
+                'image' => 'blog-09.jpg',
+                'date' => '2023-01-20',
+                'id' => 3
+            ]
+        ];
+
+        // Adicionar a rota para cada blog
+        foreach ($blogs as &$blog) {
+            $blog['route'] = route('blog-details', ['id' => $blog['id']]);
+        }
+
+        // Retornar a view com os blogs
+        return view('blog-col-1', compact('blogs'));
     }
 
     public function contact()
@@ -43,7 +79,6 @@ class HomeController extends Controller
 
     public function index()
     {
-        // Mock dos dados do blog
         $blogs = [
             [
                 'title' => 'Lorem ipsum dolor sit amet, consectetur.',
@@ -80,24 +115,21 @@ class HomeController extends Controller
                 'title' => 'Lorem ipsum dolor, sit',
                 'image' => 'small-post.jpg',
                 'date' => '2024-02-12',
-                'id' => 1
+                'id' => 1,
+                'route' => route('blog-details', ['id' => 1])
             ],
             [
                 'title' => 'Ajudando equipes a ter sucesso nos negócios',
                 'image' => 'small-post-2.jpg',
                 'date' => '2024-02-12',
-                'id' => 2
+                'id' => 2,
+                'route' => route('blog-details', ['id' => 2])
             ]
         ];
 
         // Adicionar a rota para cada blog
         foreach ($blogs as &$blog) {
             $blog['route'] = route('blog-details', ['id' => $blog['id']]);
-        }
-
-        // Adicionar a rota para cada post recente
-        foreach ($recentPosts as &$post) {
-            $post['route'] = route('blog-details', ['id' => $post['id']]);
         }
 
         // Retornar a view com os blogs e posts recentes

@@ -100,9 +100,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="shape-image">
+                        {{-- <div class="shape-image">
                             <img src="{{ asset('assets/images/banner/shape/shape-04.png') }}" alt="shape">
-                        </div>
+                        </div> --}}
                     </div>
                     <!-- tmp banner area end -->
                 </div>
@@ -130,9 +130,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="shape-image">
+                        {{-- <div class="shape-image">
                             <img src="{{ asset('assets/images/banner/shape/shape-04.png') }}" alt="shape">
-                        </div>
+                        </div> --}}
                     </div>
                     <!-- tmp banner area end -->
                 </div>
@@ -159,9 +159,67 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="shape-image">
+                        {{-- <div class="shape-image">
                             <img src="{{ asset('assets/images/banner/shape/shape-04.png') }}" alt="shape">
+                        </div> --}}
+                    </div>
+                    <!-- tmp banner area end -->
+                </div>
+                <div class="swiper-slide">
+                    <!-- tmp banner area start -->
+                    <div class="tmp-banner-area banner-style-five inconstruction tmp-section-gap banner-bg-construction bg-four">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="banner-startup-main-content-wrapper">
+                                           <div class="flex-row">
+                                            <div class="logo-area-start">
+                                                <a href="{{ route('index') }}">
+                                                    <img class="logo-on-description" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
+                                                </a>
+                                            </div>
+                                        <h1 class="text-white">Soluções com Guinchos</h1>
+                                        </div>
+                                        <p class="disc">
+                                            Proporciona uma experiência de usuário fácil e acessível, independentemente do nível de familiaridade com tecnologia.
+                                        </p>
+                                         <a href="{{ url('/') }}#section_3" class="click-scroll tmp-btn btn-primary">Conheça nossas soluções</a>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        {{-- <div class="shape-image">
+                            <img src="{{ asset('assets/images/banner/shape/shape-04.png') }}" alt="shape">
+                        </div> --}}
+                    </div>
+                    <!-- tmp banner area end -->
+                </div>
+                <div class="swiper-slide">
+                    <!-- tmp banner area start -->
+                    <div class="tmp-banner-area banner-style-five inconstruction tmp-section-gap banner-bg-construction bg-five">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="banner-startup-main-content-wrapper">
+                                           <div class="flex-row">
+                                            <div class="logo-area-start">
+                                                <a href="{{ route('index') }}">
+                                                    <img class="logo-on-description" src="{{ asset('assets/images/logo/logo.png') }}" alt="logo">
+                                                </a>
+                                            </div>
+                                        <h1 class="text-white">Serviços de Cegonha</h1>
+                                        </div>
+                                        <p class="disc">
+                                            Proporciona uma experiência de usuário fácil e acessível, independentemente do nível de familiaridade com tecnologia.
+                                        </p>
+                                         <a href="{{ url('/') }}#section_3" class="click-scroll tmp-btn btn-primary">Conheça nossas soluções</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {{-- <div class="shape-image">
+                            <img src="{{ asset('assets/images/banner/shape/shape-04.png') }}" alt="shape">
+                        </div> --}}
                     </div>
                     <!-- tmp banner area end -->
                 </div>
@@ -938,12 +996,12 @@
                         <div class="single-footer-wrapper pl-50 pl_md--0 pl_sm--0">
                             <h5 class="ft-title">Links</h5>
                             <ul class="ft-link">
-                                <li>
+                                {{-- <li>
                                     <a href="{{ route('about') }}">Sobre a empresa</a>
                                 </li>
                                 <li>
                                     <a href="{{ route('team') }}">Conheça nosso time</a>
-                                </li>
+                                </li> --}}
                                 <li>
                                     <a href="{{ route('service') }}">Nosso serviços</a>
                                 </li>
