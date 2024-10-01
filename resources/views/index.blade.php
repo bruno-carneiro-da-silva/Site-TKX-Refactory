@@ -728,7 +728,7 @@
                         </ul>
 
                         <div class="tmp-tag-list tag-list-one" data-sal-delay="350" data-sal="slide-up" data-sal-duration="800">
-                            <a class="tag-list" href="#">Instagram</a>
+                            <a class="tag-list" href="https://www.instagram.com/tkxmobilidadelavras/" target="_blank">Instagram</a>
                             <a class="tag-list" href="#">Linkedin</a>
                         </div>
 

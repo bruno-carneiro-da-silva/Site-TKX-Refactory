@@ -1379,6 +1379,8 @@
                     options: [
                         { text: "Mobilidade", value: "Mobilidade" },
                         { text: "Truck", value: "Truck" },
+                        { text: "Guinchos", value: "TKX_Guincho" },
+                        { text: "Cegonha", value: "TKX_Cegonha" },
                     ],
                 },
                 {
@@ -1409,6 +1411,24 @@
                         { text: "Motorista", value: "Truck_Motorista" },
                     ],
                     parent: "Truck",
+                },
+                {
+                    question: "Você é uma empresa, usuário ou motorista?",
+                    options: [
+                        { text: "Sou empresa", value: "Guincho_Empresa" },
+                        { text: "Sou usuário", value: "Guincho_Usuario" },
+                        { text: "Sou motorista", value: "Guincho_Motorista" },
+                    ],
+                    parent: "TKX_Guincho",
+                },
+                {
+                    question: "Você é uma empresa, usuário ou motorista?",
+                    options: [
+                        { text: "Sou empresa", value: "Cegonha_Empresa" },
+                        { text: "Sou usuário", value: "Cegonha_Usuario" },
+                        { text: "Sou motorista", value: "Cegonha_Motorista" },
+                    ],
+                    parent: "TKX_Cegonha",
                 },
                 {
                     question: "Quer se cadastrar ou já tem um cadastro?",
@@ -1465,6 +1485,54 @@
                         { text: "Sou cadastrado", value: "Sou_cadastrado" },
                     ],
                     parent: "Truck_Motorista",
+                },
+                {
+                    question: "Quer se cadastrar ou já tem um cadastro?",
+                    options: [
+                        { text: "Cadastrar", value: "Cadastrar" },
+                        { text: "Sou cadastrado", value: "Sou_cadastrado" },
+                    ],
+                    parent: "Guincho_Empresa",
+                },
+                {
+                    question: "Quer se cadastrar ou já tem um cadastro?",
+                    options: [
+                        { text: "Cadastrar", value: "Cadastrar" },
+                        { text: "Sou cadastrado", value: "Sou_cadastrado" },
+                    ],
+                    parent: "Guincho_Usuario",
+                },
+                {
+                    question: "Quer se cadastrar ou já tem um cadastro?",
+                    options: [
+                        { text: "Cadastrar", value: "Cadastrar" },
+                        { text: "Sou cadastrado", value: "Sou_cadastrado" },
+                    ],
+                    parent: "Guincho_Motorista",
+                },
+                {
+                    question: "Quer se cadastrar ou já tem um cadastro?",
+                    options: [
+                        { text: "Cadastrar", value: "Cadastrar" },
+                        { text: "Sou cadastrado", value: "Sou_cadastrado" },
+                    ],
+                    parent: "Cegonha_Empresa",
+                },
+                {
+                    question: "Quer se cadastrar ou já tem um cadastro?",
+                    options: [
+                        { text: "Cadastrar", value: "Cadastrar" },
+                        { text: "Sou cadastrado", value: "Sou_cadastrado" },
+                    ],
+                    parent: "Cegonha_Usuario",
+                },
+                {
+                    question: "Quer se cadastrar ou já tem um cadastro?",
+                    options: [
+                        { text: "Cadastrar", value: "Cadastrar" },
+                        { text: "Sou cadastrado", value: "Sou_cadastrado" },
+                    ],
+                    parent: "Cegonha_Motorista",
                 },
                 {
                     question:
