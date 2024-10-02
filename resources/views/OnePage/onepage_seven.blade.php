@@ -1303,7 +1303,8 @@
                                     </div>
                                     <div class="content">
                                         <span>Address</span>
-                                        <a class="contact-here" href="#">25/5 Double Street, Texas Houston USA</a>
+                                                                                <a class="contact-here" href="#">Lavras, Minas Gerais</a>
+
                                     </div>
                                 </div>
                             </li>

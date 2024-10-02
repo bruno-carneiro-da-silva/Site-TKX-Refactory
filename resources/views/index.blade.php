@@ -575,39 +575,37 @@
                 <div class="col-lg-6">
                     <div class="about-thumbnails-2">
                         <div class="thumbnail-2">
-                            <img src="{{ asset('assets/images/about/8.png') }}" alt="corporate_business">
+                            <img class="image-tumbnail" src="{{ asset('assets/images/about/tecnologia-de-ponta.jpeg') }}" alt="corporate_business">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6" id="section_2">
                     <div class="about-inner">
-
-
-                        <p class="description" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
+                        <p class="description p-3" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condimentum diam sed, consequat tellus. Quisque ac odio eget ligula gravida efficitur. Nunc facilisis sagittis magna, non venenatis mauris luctus quis.
                         </p>
                         <!-- Prograss bar Start  -->
                         <div class="single-progress-area progress-stye-one" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
-                            <div>
-                                <h2>Tecnologia Avançada</h2>
+                            <div class="p-2">
+                                <h2 >Tecnologia Avançada</h2>
                             </div>
-                            <div >
-                               <span>Utilizamos tecnologias de ponta para oferecer soluções eficientes e inovadoras.</span>
+                            <div class="p-2">
+                               <span class="p-2">Utilizamos tecnologias de ponta para oferecer soluções eficientes e inovadoras.</span>
                             </div>
                         </div>
-                        <div class="single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
-                            <div>
+                        <div class="p-2 single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
+                            <div class="p-2">
                                 <h2>Conexões Rápidas e Eficientes</h2>
                             </div>
-                            <div>
+                            <div class="p-2">
                                <span>Conecte-se com rapidez e facilidade aos serviços e informações que você precisa.</span>
                             </div>
                         </div>
-                        <div class="single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
-                            <div>
+                        <div class="p-2 single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
+                            <div class="p-2">
                                 <h2>Suporte Dedicado</h2>
                             </div>
-                            <div>
+                            <div class="p-2">
                                <span>Conecte-se com nossa equipe de suporte dedicada para solucionar suas dúvidas e necessidades..</span>
                             </div>
                         </div>
@@ -985,9 +983,9 @@
                             </div>
 
                             <ul class="social-icons solid-social-icons rounded-social-icons">
-                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                {{-- <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li> --}}
                                 <li><a href="https://www.instagram.com/tkxmobilidadelavras/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
                             </ul>
                         </div>
