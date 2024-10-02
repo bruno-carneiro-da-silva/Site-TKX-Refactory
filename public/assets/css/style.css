@@ -13197,7 +13197,7 @@ nav ul li.has-dropdown .submenu li::after {
   }
 }
 .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction {
-  background-image: url(../images/banner/banner-final.webp);
+  background-image: url(../images/banner/truck-manager.jpeg);
   background-repeat: no-repeat;
 }
 .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-two {
@@ -13205,7 +13205,7 @@ nav ul li.has-dropdown .submenu li::after {
   background-repeat: no-repeat;
 }
 .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-three {
-  background-image: url(../images/banner/truck-04.jpeg);
+  background-image: url(../images/banner/truck-05.jpeg);
   background-repeat: no-repeat;
 }
 .tmp-banner-area.banner-style-five.inconstruction.banner-bg-construction.bg-four {
@@ -18342,13 +18342,13 @@ body.service-details {
 }
 .contact-form .contact-form-wrapper .form-group .input-field:focus {
   box-shadow: none !important;
-  border: 1px solid var(--color-secondary);
+  border: 1px solid var(--color-primary);
 }
 .contact-form .contact-form-wrapper .form-group textarea {
   border: 1px solid transparent;
 }
 .contact-form .contact-form-wrapper .form-group textarea:focus {
-  border: 1px solid var(--color-secondary) !important;
+  border: 1px solid var(--color-primary) !important;
 }
 .contact-form .contact-form-wrapper .form-group input:focus {
   box-shadow: none;
@@ -18394,7 +18394,7 @@ body.service-details {
   }
 }
 .contact-form .contact-form-wrapper .form-submit-group .check-condition label.condition span {
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 .contact-form .contact-form-wrapper .single-contact .content span {
   font: 20px;
@@ -20506,6 +20506,12 @@ body.loaded {
 }
 .about-area.about-style-one .about-thumbnails .thumbnail img {
   max-width: max-content;
+}
+
+.image-tumbnail{
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
 }
 @media only screen and (max-width: 767px) {
   .about-area.about-style-one .about-thumbnails .thumbnail img {
