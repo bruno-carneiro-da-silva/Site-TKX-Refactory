@@ -478,7 +478,7 @@
                 e.preventDefault();
                 $(".video-overlay").addClass("open");
                 $(".video-overlay").append(
-                    '<iframe width="560" height="515" src="https://www.youtube.com/embed/8NJWZpC51Tg?si=Wu_uoN3F0HADlEQp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>'
+                    '<iframe width="560" height="315" src="https://www.youtube.com/embed/4HW5gHRkq_k?si=qlFahaTce5LpfDdg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>'
                 );
             });
 
