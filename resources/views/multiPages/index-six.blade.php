@@ -1102,7 +1102,7 @@
                                 </div>
                                 <div class="blog-body">
                                     <a href="{{ route('blog-details') }}" class="title-area">
-                                        <h4 class="title">Lorem ipsum dolor sit amet.</h4>
+                                        <h4 class="title"> Lorem ipsum dolor sit amet, consectetur adipiscing elit,</h4>
                                     </a>
                                     <p class="description">
                                                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magnaaliqua.

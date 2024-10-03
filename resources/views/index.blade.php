@@ -234,25 +234,25 @@
     <!-- Tpm About Area Start  -->
     <div class="about-area tmp-section-gap about-style-one" id="section_2">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
+            <div class="row align-items-center me-auto">
+                <div class="col-lg-5">
                     <div class="about-thumbnails">
                         <div class="thumbnail">
-                            <img src="{{ asset('assets/images/about/8.png') }}" alt="corporate_business">
+                            <img class="tkx-about-img" src="{{ asset('assets/images/about/mobilidade.jpeg') }}" alt="corporate_business">
 
-                            <div class="image-two">
-                                <img src="{{ asset('assets/images/about/03.png') }}" alt="corporate_business">
-                            </div>
+                            {{-- <div class="image-two">
+                                <img style="width: 190px; height: 280px" src="{{ asset('assets/images/about/tkx-sobre.jpeg') }}" alt="corporate_business">
+                            </div> --}}
 
-                            <div class="image-three animated rounded">
-                                <img class="" src="{{ asset('assets/images/about/02.png') }}" alt="corporate_business">
+                            {{-- <div class="image-three animated rounded">
+                                <img src="{{ asset('assets/images/sidebar/01.jpg') }}" alt="corporate_business">
                             </div>
 
                             <div class="square"></div>
 
                             <div class="flower">
                                 <img src="{{ asset('assets/images/about/flower.png') }}" alt="Corporate_Business">
-                            </div>
+                            </div> --}}
 
                             <div class="product-share">
                                 <div class="rating">
@@ -562,51 +562,52 @@
     <!-- Tmp Servisec Processs Area Two End -->
 
     <!-- Start More about TKX  -->
-    <div class="about-area-2 tmp-section-gap about-style-one-2" id="section_6">
+    <div class="work-area work-style-one tmp-section-gap" id="section_6">
         <div class="container">
                 <div class="section-head">
                     <div class="section-sub-title center-title">
-                        <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service" style="filter: grayscale(100%) brightness(0%);">
-                        <span class="subtitle">MAIS SOBRE A TKX</span>
+                        <img src="{{ asset('assets/images/services/section-custom-menubar.png ') }}" alt="Corporate_service">
+                        <span class="subtitle text-white">MAIS SOBRE A TKX</span>
                     </div>
-                    <h2 class="title split-collab">Beneficios da TKX Conexão Logística</h2>
+                    <h2 class="title split-collab text-white">Beneficios da TKX Conexão Logística</h2>
                 </div>
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-thumbnails-2">
                         <div class="thumbnail-2">
-                            <img class="image-tumbnail" src="{{ asset('assets/images/about/tecnologia-de-ponta.jpeg') }}" alt="corporate_business">
+                            <img class="image-tumbnail" src="{{ asset('assets/images/about/Iphone-Mockup.png') }}" alt="corporate_business">
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6" id="section_2">
                     <div class="about-inner">
-                        <p class="description p-3" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
+                        <p class="description p-3 text-white" data-sal-delay="200" data-sal="slide-up" data-sal-duration="800">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, perspiciatis sequi tenetur nulla aspernatur esse ipsam quod hic. Quia excepturi enim suscipit aperiam vitae aut dolores animi, est ipsum fuga?
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget ornare quam. Sed sit amet sem sollicitudin, condimentum diam sed, consequat tellus. Quisque ac odio eget ligula gravida efficitur. Nunc facilisis sagittis magna, non venenatis mauris luctus quis.
                         </p>
                         <!-- Prograss bar Start  -->
                         <div class="single-progress-area progress-stye-one" data-sal-delay="250" data-sal="slide-up" data-sal-duration="800">
                             <div class="p-2">
-                                <h2 >Tecnologia Avançada</h2>
+                                <h2 class="text-white">Tecnologia Avançada</h2>
                             </div>
                             <div class="p-2">
-                               <span class="p-2">Utilizamos tecnologias de ponta para oferecer soluções eficientes e inovadoras.</span>
-                            </div>
-                        </div>
-                        <div class="p-2 single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
-                            <div class="p-2">
-                                <h2>Conexões Rápidas e Eficientes</h2>
-                            </div>
-                            <div class="p-2">
-                               <span>Conecte-se com rapidez e facilidade aos serviços e informações que você precisa.</span>
+                               <span class="p-2 text-white">Utilizamos tecnologias de ponta para oferecer soluções eficientes e inovadoras.</span>
                             </div>
                         </div>
                         <div class="p-2 single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
                             <div class="p-2">
-                                <h2>Suporte Dedicado</h2>
+                                <h2 class="text-white">Conexões Rápidas e Eficientes</h2>
                             </div>
                             <div class="p-2">
-                               <span>Conecte-se com nossa equipe de suporte dedicada para solucionar suas dúvidas e necessidades..</span>
+                               <span class="text-white">Conecte-se com rapidez e facilidade aos serviços e informações que você precisa.</span>
+                            </div>
+                        </div>
+                        <div class="p-2 single-progress-area progress-stye-one" data-sal-delay="300" data-sal="slide-up" data-sal-duration="800">
+                            <div class="p-2">
+                                <h2 class="text-white">Suporte Dedicado</h2>
+                            </div>
+                            <div class="p-2">
+                               <span class="text-white">Conecte-se com nossa equipe de suporte dedicada para solucionar suas dúvidas e necessidades..</span>
                             </div>
                         </div>
                         <!-- Prograss bar End  -->
@@ -1000,9 +1001,9 @@
                                 <li>
                                     <a href="{{ route('team') }}">Conheça nosso time</a>
                                 </li> --}}
-                                <li>
+                                <!-- <li>
                                     <a href="{{ route('service') }}">Nosso serviços</a>
-                                </li>
+                                </li> -->
                                 <li>
                                     <a href="{{ route('blog') }}">Notícias & Media</a>
                                 </li>

@@ -20503,19 +20503,30 @@ body.loaded {
     min-width: 100%;
     max-width: 100%;
   }
+
 }
 .about-area.about-style-one .about-thumbnails .thumbnail img {
   max-width: max-content;
 }
 
+.tkx-about-img{
+    width: 100%;
+     border-radius: 30px;
+      height: 700px;
+}
+
 .image-tumbnail{
     border-radius: 30px;
-    width: 100%;
+    width: 80%;
     height: 100%;
 }
+
 @media only screen and (max-width: 767px) {
   .about-area.about-style-one .about-thumbnails .thumbnail img {
     max-width: 100%;
+  }
+  .image-tumbnail{
+    width: 100%;
   }
 }
 .about-area.about-style-one .about-thumbnails .thumbnail .image-two {

@@ -29,7 +29,7 @@ class BlogController extends Controller
                 'id' => 2
             ],
             [
-                'title' => 'Lorem ipsum dolor sit amet.',
+                'title' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                 'author' => 'Notícias Truck',
                 'designation' => 'Consultoria',
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magna aliqua.',
@@ -111,7 +111,7 @@ class BlogController extends Controller
                 ]
             ],
             3 => [
-                'title' => 'Lorem ipsum dolor sit amet.',
+                'title' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
                 'author' => 'Notícias Truck',
                 'designation' => 'Consultoria',
                 'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolor magna aliqua.',
